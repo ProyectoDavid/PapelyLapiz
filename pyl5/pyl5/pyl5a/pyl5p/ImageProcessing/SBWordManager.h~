@@ -1,0 +1,18 @@
+#pragma once
+#include "SBWord.h"
+
+using namespace std;
+class SBWordManager
+{
+	vector<SBWord*> words;
+public:
+	SBWordManager(void);
+	~SBWordManager(void);
+
+	SBWord* GetWord(int containerLabel);
+	void AddWord(SBWord* sbWord);
+
+	vector<SBWord*> GetWords();
+	
+};
+

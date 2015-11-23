@@ -1,0 +1,72 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.0305817" z="0.499706" />
+            </actor>
+            <actor asset="elvenHouse.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.706159" z="0.11" />
+            </actor>
+            <actor asset="desertTruck.mesh" animation="" facing="front" scaleOffset="0.2">
+                <position x="0.560522" z="0.113824" />
+            </actor>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.41574" z="0.119412" />
+            </actor>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.172797" z="0.120588" />
+            </actor>
+            <actor asset="elvenHouse.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.291061" z="0.124118" />
+            </actor>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.54213" z="0.508824" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="0.582763" z="0.251176" />
+            </actor>
+            <actor asset="elvenHouse.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.345167" z="0.273235" />
+            </actor>
+            <actor asset="desertTruck.mesh" animation="" facing="front" scaleOffset="0.2">
+                <position x="0.538708" z="0.390294" />
+            </actor>
+            <actor asset="ninja.mesh" animation="Walk" facing="back" scaleOffset="0.3">
+                <position x="0.155261" z="0.308235" />
+            </actor>
+            <actor asset="SBSquare" animation="" facing="" scaleOffset="1">
+                <position x="0.629812" z="0.318235" />
+            </actor>
+            <actor asset="elvenHouse.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.15633" z="0.368529" />
+            </actor>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.245295" z="0.470882" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="0.679427" z="0.487647" />
+            </actor>
+            <actor asset="desertTruck.mesh" animation="" facing="front" scaleOffset="0.2">
+                <position x="0.410393" z="0.495588" />
+            </actor>
+            <actor asset="SBSquare" animation="" facing="" scaleOffset="1">
+                <position x="0.70787" z="0.548529" />
+            </actor>
+            <actor asset="SBSquare" animation="" facing="" scaleOffset="1">
+                <position x="0.712789" z="0.55" />
+            </actor>
+            <actor asset="medievalChurch.mesh" animation="" facing="front" scaleOffset="0.1">
+                <position x="0.470274" z="0.639706" />
+            </actor>
+            <actor asset="ninja.mesh" animation="" facing="back" scaleOffset="0.3">
+                <position x="0.552181" z="0.695294" />
+            </actor>
+            <actor asset="SBSquare" animation="" facing="" scaleOffset="1">
+                <position x="0.562874" z="0.740882" />
+            </actor>
+            <actor asset="SBSquare" animation="" facing="" scaleOffset="1">
+                <position x="0.171942" z="0.842941" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

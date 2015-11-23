@@ -1,0 +1,16 @@
+#pragma once
+#include "SBComposition.h"
+using namespace std;
+
+class SBCompositionManager
+{
+	vector<SBComposition*> compositions;
+public:
+	SBCompositionManager(void);
+	~SBCompositionManager(void);
+
+	vector<SBComposition*> GetCompositions();
+	void AddComposition(SBComposition* composition);
+	void ToXml(string filename, int width, int height);
+};
+

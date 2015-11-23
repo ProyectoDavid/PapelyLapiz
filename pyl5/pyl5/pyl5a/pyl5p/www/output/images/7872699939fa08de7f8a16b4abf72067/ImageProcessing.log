@@ -1,0 +1,327 @@
+Parameter 1: Processing_edited_11.png
+Parameter 2: /var/www/pyl5/www/output/images/7872699939fa08de7f8a16b4abf72067
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Mon Oct  7 01:26:51 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_edited_11.png
+Parameter 2 is: /var/www/pyl5/www/output/images/7872699939fa08de7f8a16b4abf72067
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/7872699939fa08de7f8a16b4abf72067
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 35
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+# Verificando el label 8
+# Verificando el label 9
+# Verificando el label 10
+# Verificando el label 11
+# Verificando el label 12
+# Verificando el label 13
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (0.812821,0.168321,0.814744,0.169224)
+
+# Verificando el label 14
+# Verificando el label 15
+# Verificando el label 16
+# Verificando el label 17
+# Verificando el label 18
+# Verificando el label 19
+# Verificando el label 20
+# Verificando el label 21
+# Verificando el label 22
+# Verificando el label 23
+# Verificando el label 24
+# Verificando el label 25
+# Verificando el label 26
+# Verificando el label 27
+
+# Type: Noise
+# Image: Label27.png
+# Label: 27
+# Bounds: (0.850000,0.629964,0.851282,0.630866)
+
+# Verificando el label 28
+# Verificando el label 29
+# Verificando el label 30
+# Verificando el label 31
+# Verificando el label 32
+# Verificando el label 33
+# Verificando el label 34
+
+##Etapa de busqueda de RECTANGULOS##
+
+4(0.0803324Bird) 2(0.8272Chinchilla) 3(0.910557Butterfly) 3(0.969669Butterfly) 
+8(0.192982SBRectangle) 2(0.9288Chinchilla) 3(0.823082Butterfly) 3(0.960901Butterfly) 
+4(0.103448Bird) 5(0.8664FlyingSquirrel) 5(0.923842FlyingSquirrel) 5(0.969884FlyingSquirrel) 
+0(0.121127Rabbit) 5(0.8252FlyingSquirrel) 8(0.929289SBRectangle) 8(0.976663SBRectangle) 
+Actor: Label4==SBRectangle.png
+0(0.17313Rabbit) 5(0.6928FlyingSquirrel) 6(0.797515Apple) 0(0.961905Rabbit) 
+0(0.239829Rabbit) 6(0.7924Apple) 7(0.901511SBCamera) 7(0.975589SBCamera) 
+0(0.174873Rabbit) 3(0.7624Butterfly) 5(0.865836FlyingSquirrel) 3(0.96935Butterfly) 
+8(0.164619SBRectangle) 8(0.8252SBRectangle) 8(0.946148SBRectangle) 8(0.983527SBRectangle) 
+Actor: Label8==SBRectangle.png
+0(0.125926Rabbit) 3(0.7708Butterfly) 5(0.834471FlyingSquirrel) 3(0.964646Butterfly) 
+0(0.181682Rabbit) 5(0.7088FlyingSquirrel) 3(0.771527Butterfly) 0(0.958838Rabbit) 
+0(0.191318Rabbit) 7(0.7376SBCamera) 7(0.888197SBCamera) 7(0.98076SBCamera) 
+4(0.131313Bird) 1(0.9128Squirrel) 0(0.883381Rabbit) 8(0.957324SBRectangle) 
+0(0.143302Rabbit) 2(0.8392Chinchilla) 4(0.883381Bird) 4(0.966435Bird) 
+6(0.139932Apple) 2(0.8544Chinchilla) 2(0.819722Chinchilla) 2(0.964798Chinchilla) 
+0(0.113208Rabbit) 8(0.8516SBRectangle) 8(0.919377SBRectangle) 8(0.971495SBRectangle) 
+Actor: Label16==SBRectangle.png
+0(0.193798Rabbit) 3(0.7796Butterfly) 5(0.863985FlyingSquirrel) 3(0.971952Butterfly) 
+0(0.22547Rabbit) 8(0.7796SBRectangle) 5(0.74FlyingSquirrel) 0(0.949842Rabbit) 
+0(0.233591Rabbit) 5(0.7768FlyingSquirrel) 7(0.897044SBCamera) 7(0.975195SBCamera) 
+0(0.20339Rabbit) 8(0.8108SBRectangle) 0(0.910557Rabbit) 0(0.97845Rabbit) 
+0(0.164021Rabbit) 8(0.8256SBRectangle) 8(0.93SBRectangle) 8(0.977598SBRectangle) 
+Actor: Label21==SBRectangle.png
+4(0.150276Bird) 6(0.6564Apple) 7(0.882953SBCamera) 7(0.978825SBCamera) 
+6(0.130293Apple) 1(0.7532Squirrel) 3(0.907805Butterfly) 3(0.973905Butterfly) 
+0(0.16318Rabbit) 1(0.7072Squirrel) 6(0.897044Apple) 0(0.974718Rabbit) 
+0(0.220963Rabbit) 1(0.7132Squirrel) 5(0.859643FlyingSquirrel) 0(0.978831Rabbit) 
+8(0.162679SBRectangle) 8(0.878SBRectangle) 7(0.913977SBCamera) 0(0.968745Rabbit) 
+Actor: Label26==SBRectangle.png
+4(0.125Bird) 2(0.938Chinchilla) 5(0.684247FlyingSquirrel) 8(0.926359SBRectangle) 
+4(0.133663Bird) 2(0.81Chinchilla) 6(0.91Apple) 6(0.974813Apple) 
+0(0.185915Rabbit) 8(0.8364SBRectangle) 8(0.94169SBRectangle) 8(0.979725SBRectangle) 
+Actor: Label30==SBRectangle.png
+0(0.144804Rabbit) 6(0.7548Apple) 7(0.89SBCamera) 7(0.971369SBCamera) 
+0(0.134264Rabbit) 1(0.6352Squirrel) 0(0.897044Rabbit) 0(0.974461Rabbit) 
+0(0.189907Rabbit) 5(0.6948FlyingSquirrel) 0(0.888197Rabbit) 0(0.980715Rabbit) 
+0(0.163876Rabbit) 3(0.6828Butterfly) 0(0.89802Rabbit) 3(0.9815Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 6
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label5.png esta dentro de Label4==SBRectangle.png
+5 esta dentro de 4
+Label6.png esta dentro de Label4==SBRectangle.png
+6 esta dentro de 4
+Label7.png esta dentro de Label4==SBRectangle.png
+7 esta dentro de 4
+Label9.png esta dentro de Label8==SBRectangle.png
+9 esta dentro de 8
+Label10.png esta dentro de Label8==SBRectangle.png
+10 esta dentro de 8
+Label11.png esta dentro de Label8==SBRectangle.png
+11 esta dentro de 8
+Label17.png esta dentro de Label16==SBRectangle.png
+17 esta dentro de 16
+Label18.png esta dentro de Label16==SBRectangle.png
+18 esta dentro de 16
+Label19.png esta dentro de Label16==SBRectangle.png
+19 esta dentro de 16
+Label22.png esta dentro de Label21==SBRectangle.png
+22 esta dentro de 21
+Label23.png esta dentro de Label21==SBRectangle.png
+23 esta dentro de 21
+Label24.png esta dentro de Label21==SBRectangle.png
+24 esta dentro de 21
+Label25.png esta dentro de Label21==SBRectangle.png
+25 esta dentro de 21
+Label31.png esta dentro de Label30==SBRectangle.png
+31 esta dentro de 30
+Label32.png esta dentro de Label30==SBRectangle.png
+32 esta dentro de 30
+Label33.png esta dentro de Label30==SBRectangle.png
+33 esta dentro de 30
+Label34.png esta dentro de Label30==SBRectangle.png
+34 esta dentro de 30
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 8
+# un detectado es: 16
+# un detectado es: 21
+# un detectado es: 26
+# un detectado es: 30
+# Type: Text
+# Text: Hy
+# Inside Label: 4
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 8
+# un detectado es: 16
+# un detectado es: 21
+# un detectado es: 26
+# un detectado es: 30
+# Type: Text
+# Text: Hq
+# Inside Label: 8
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 8
+# un detectado es: 16
+# un detectado es: 21
+# un detectado es: 26
+# un detectado es: 30
+# Type: Text
+# Text: lib}
+# Inside Label: 16
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 8
+# un detectado es: 16
+# un detectado es: 21
+# un detectado es: 26
+# un detectado es: 30
+# Type: Text
+# Text: dum?
+# Inside Label: 21
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 8
+# un detectado es: 16
+# un detectado es: 21
+# un detectado es: 26
+# un detectado es: 30
+# Type: Text
+# Text: QAO0`\’
+# Inside Label: 30
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 5
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...Label2.png looked like an arrow, but its head was too big: (994,25,59)
+nope.
+Lets see if Label3.png is an arrow...Label3.png looked like an arrow, but its head was too big: (557,129,3)
+nope.
+Lets see if Label12.png is an arrow...nope.
+Lets see if Label14.png is an arrow...Label14.png looked like an arrow, but its head was too big: (148,143,102)
+nope.
+Lets see if Label15.png is an arrow...Label15.png looked like an arrow, but its head was too big: (24,282,60)
+nope.
+Lets see if Label20.png is an arrow...nope.
+Lets see if Label26==SBRectangle.png is an arrow...nope.
+Lets see if Label28.png is an arrow...Label28.png looked like an arrow, but its head was too big: (949,32,61)
+nope.
+Lets see if Label29.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+4(0.0803324Bird) 2(0.8272Chinchilla) 3(0.910557Butterfly) 3(0.969669Butterfly) 
+Actor: Label1==Butterfly.png
+3(0.140351Butterfly) 2(0.9288Chinchilla) 3(0.823082Butterfly) 3(0.960901Butterfly) 
+Actor: Label2==Butterfly.png
+4(0.103448Bird) 5(0.8664FlyingSquirrel) 5(0.923842FlyingSquirrel) 5(0.969884FlyingSquirrel) 
+Actor: Label3==FlyingSquirrel.png
+4(0.131313Bird) 1(0.9128Squirrel) 0(0.883381Rabbit) 3(0.956846Butterfly) 
+0(0.143302Rabbit) 2(0.8392Chinchilla) 4(0.883381Bird) 4(0.966435Bird) 
+Actor: Label14==Bird.png
+6(0.139932Apple) 2(0.8544Chinchilla) 2(0.819722Chinchilla) 2(0.964798Chinchilla) 
+Actor: Label15==Chinchilla.png
+0(0.20339Rabbit) 1(0.796Squirrel) 0(0.910557Rabbit) 0(0.97845Rabbit) 
+Actor: Label20==Rabbit.png
+0(0.15311Rabbit) 2(0.876Chinchilla) 7(0.913977SBCamera) 0(0.968745Rabbit) 
+Actor: Label26==Rabbit.png
+4(0.125Bird) 2(0.938Chinchilla) 5(0.684247FlyingSquirrel) 0(0.905668Rabbit) 
+4(0.133663Bird) 2(0.81Chinchilla) 6(0.91Apple) 6(0.974813Apple) 
+Actor: Label29==Apple.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:8
+
+# Type: NotRecognized
+# Image: Label12.png
+# Label: 12
+# Bounds: (0.757692,0.152978,0.892949,0.506318)
+
+
+# Type: NotRecognized
+# Image: Label28.png
+# Label: 28
+# Bounds: (0.461538,0.674188,0.783333,0.984657)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Butterfly
+# Image: Label1==Butterfly.png
+# Bounds: (0.072436,0.009477,0.195513,0.065433)
+# Animation: Hy
+
+# Type: Actor
+# Label: 2
+# Asset: Butterfly
+# Image: Label2==Butterfly.png
+# Bounds: (0.203846,0.027076,0.644231,0.248646)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: FlyingSquirrel
+# Image: Label3==FlyingSquirrel.png
+# Bounds: (0.741667,0.060469,0.890385,0.139892)
+# Animation: Hq
+
+# Type: Actor
+# Label: 14
+# Asset: Bird
+# Image: Label14==Bird.png
+# Bounds: (0.404487,0.243682,0.483333,0.310921)
+# Animation: lib}
+
+# Type: Actor
+# Label: 15
+# Asset: Chinchilla
+# Image: Label15==Chinchilla.png
+# Bounds: (0.232692,0.276173,0.423718,0.304603)
+# Animation: 
+
+# Type: Actor
+# Label: 20
+# Asset: Rabbit
+# Image: Label20==Rabbit.png
+# Bounds: (0.091667,0.495939,0.161538,0.556408)
+# Animation: dum?
+
+# Type: Actor
+# Label: 26
+# Asset: Rabbit
+# Image: Label26==Rabbit.png
+# Bounds: (0.371795,0.604693,0.504487,0.677347)
+# Animation: 
+
+# Type: Actor
+# Label: 29
+# Asset: Apple
+# Image: Label29==Apple.png
+# Bounds: (0.859615,0.791516,0.922436,0.852888)
+# Animation: QAO0`\’
+
+Execution time: 60.18 seconds.
+
+Mon Oct  7 01:32:54 COT 2013

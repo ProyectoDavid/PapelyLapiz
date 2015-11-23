@@ -1,0 +1,2354 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: ../../www/output/images/6f7ec0dcbcd20def88cd00882d3cd968
+Parameter 4: ../../www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: ../../../..
+Parameter 8: ../../www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/score.xml
+Wed Jul  2 18:11:15 COT 2014
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+Info: read library:  '/var/www/production/chars/flyingsquirrel.blend', '//..\..\chars\flyingsquirrel.blend'
+
+Info: read library:  '/var/www/production/chars/rabbit.blend', '//..\..\chars\rabbit.blend'
+
+Fra:1 Mem:86.41M (0.10M, peak 87.00M) | Preparing Scene data
+Fra:1 Mem:116.18M (0.10M, peak 185.05M) | Preparing Scene data
+Fra:1 Mem:192.48M (0.10M, peak 351.01M) | Preparing Scene data
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) | Preparing Scene data
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) | Creating Shadowbuffers
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) | Caching Point Densities
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) Sce: Scene Ve:148152 Fa:264121 La:13
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) | Loading voxel datasets
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) Sce: Scene Ve:148152 Fa:264121 La:13
+Fra:1 Mem:192.47M (0.10M, peak 351.01M) Sce: Scene Ve:148152 Fa:264121 La:13
+Fra:1 Mem:200.74M (1829.22M, peak 2437.79M) | Scene, Part 1-1
+Fra:1 Mem:86.77M (1819.34M, peak 2437.79M) Sce: Scene Ve:148152 Fa:264121 La:13
+Saved: output.png Time: 00:23.03
+read blend: /var/www/pyl5/www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/../../../../VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock miFra:3 Mem:206.35M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:3 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280332 La:13
+Writing frame 3, render width=960, render height=540
+Video Frame PTS: 7500
+Append frame 3 Time: 00:14.58
+Fra:4 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:4 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:4 Mem:198.40M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280221 La:13
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280221 La:13
+Fra:4 Mem:198.39M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280221 La:13
+Fra:4 Mem:206.30M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:4 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280221 La:13
+Writing frame 4, render width=960, render height=540
+Video Frame PTS: 11250
+Append frame 4 Time: 00:15.47
+Fra:5 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:5 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:5 Mem:198.41M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280150 La:13
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280150 La:13
+Fra:5 Mem:198.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280150 La:13
+Fra:5 Mem:206.31M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:5 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280150 La:13
+Writing frame 5, render width=960, render height=540
+Video Frame PTS: 15000
+Append frame 5 Time: 00:14.19
+Fra:6 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:6 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:6 Mem:198.44M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280050 La:13
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280050 La:13
+Fra:6 Mem:198.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280050 La:13
+Fra:6 Mem:206.34M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:6 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280050 La:13
+Writing frame 6, render width=960, render height=540
+Video Frame PTS: 18750
+Append frame 6 Time: 00:15.32
+Fra:7 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:7 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:7 Mem:198.45M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279856 La:13
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279856 La:13
+Fra:7 Mem:198.44M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279856 La:13
+Fra:7 Mem:206.35M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:7 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279856 La:13
+Writing frame 7, render width=960, render height=540
+Video Frame PTS: 22500
+Append frame 7 Time: 00:15.86
+Fra:8 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:8 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:8 Mem:198.49M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279946 La:13
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279946 La:13
+Fra:8 Mem:198.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279946 La:13
+Fra:8 Mem:206.39M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:8 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279946 La:13
+Writing frame 8, render width=960, render height=540
+Video Frame PTS: 26250
+Append frame 8 Time: 00:14.91
+Fra:9 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:9 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:9 Mem:198.49M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280034 La:13
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280034 La:13
+Fra:9 Mem:198.48M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280034 La:13
+Fra:9 Mem:206.40M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:9 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280034 La:13
+Writing frame 9, render width=960, render height=540
+Video Frame PTS: 30000
+Append frame 9 Time: 00:15.37
+Fra:10 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:10 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:10 Mem:198.50M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280119 La:13
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280119 La:13
+Fra:10 Mem:198.49M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280119 La:13
+Fra:10 Mem:206.40M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:10 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280119 La:13
+Writing frame 10, render width=960, render height=540
+Video Frame PTS: 33750
+Append frame 10 Time: 00:15.77
+Fra:11 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:11 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:11 Mem:198.58M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280157 La:13
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280157 La:13
+Fra:11 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280157 La:13
+Fra:11 Mem:206.48M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:11 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280157 La:13
+Writing frame 11, render width=960, render height=540
+Video Frame PTS: 37500
+Append frame 11 Time: 00:16.11
+Fra:12 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:12 Mem:122.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:12 Mem:198.58M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280192 La:13
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280192 La:13
+Fra:12 Mem:198.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280192 La:13
+Fra:12 Mem:206.48M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:12 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280192 La:13
+Writing frame 12, render width=960, render height=540
+Video Frame PTS: 41250
+Append frame 12 Time: 00:15.22
+Fra:13 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:13 Mem:122.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:13 Mem:198.72M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280308 La:13
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280308 La:13
+Fra:13 Mem:198.71M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280308 La:13
+Fra:13 Mem:206.62M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:13 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280308 La:13
+Writing frame 13, render width=960, render height=540
+Video Frame PTS: 45000
+Append frame 13 Time: 00:16.12
+Fra:14 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:14 Mem:122.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:14 Mem:198.84M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280327 La:13
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280327 La:13
+Fra:14 Mem:198.83M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280327 La:13
+Fra:14 Mem:206.74M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:14 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280327 La:13
+Writing frame 14, render width=960, render height=540
+Video Frame PTS: 48750
+Append frame 14 Time: 00:15.64
+Fra:15 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:15 Mem:122.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:15 Mem:199.08M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280269 La:13
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280269 La:13
+Fra:15 Mem:199.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280269 La:13
+Fra:15 Mem:206.98M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:15 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280269 La:13
+Writing frame 15, render width=960, render height=540
+Video Frame PTS: 52500
+Append frame 15 Time: 00:14.93
+Fra:16 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:16 Mem:122.15M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:16 Mem:199.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280223 La:13
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280223 La:13
+Fra:16 Mem:199.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280223 La:13
+Fra:16 Mem:207.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:16 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280223 La:13
+Writing frame 16, render width=960, render height=540
+Video Frame PTS: 56250
+Append frame 16 Time: 00:16.38
+Fra:17 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:17 Mem:122.15M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:17 Mem:199.56M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280244 La:13
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280244 La:13
+Fra:17 Mem:199.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280244 La:13
+Fra:17 Mem:207.46M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:17 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280244 La:13
+Writing frame 17, render width=960, render height=540
+Video Frame PTS: 60000
+Append frame 17 Time: 00:15.54
+Fra:18 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:18 Mem:122.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:18 Mem:199.81M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280357 La:13
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280357 La:13
+Fra:18 Mem:199.80M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280357 La:13
+Fra:18 Mem:207.71M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:18 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280357 La:13
+Writing frame 18, render width=960, render height=540
+Video Frame PTS: 63750
+Append frame 18 Time: 00:15.26
+Fra:19 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:19 Mem:122.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:19 Mem:200.11M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280482 La:13
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280482 La:13
+Fra:19 Mem:200.10M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280482 La:13
+Fra:19 Mem:208.01M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:19 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280482 La:13
+Writing frame 19, render width=960, render height=540
+Video Frame PTS: 67500
+Append frame 19 Time: 00:15.79
+Fra:20 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:20 Mem:122.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:20 Mem:200.37M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280573 La:13
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280573 La:13
+Fra:20 Mem:200.36M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280573 La:13
+Fra:20 Mem:208.27M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:20 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280573 La:13
+Writing frame 20, render width=960, render height=540
+Video Frame PTS: 71250
+Append frame 20 Time: 00:16.09
+Fra:21 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:21 Mem:122.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:21 Mem:200.63M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280679 La:13
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280679 La:13
+Fra:21 Mem:200.62M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280679 La:13
+Fra:21 Mem:208.53M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:21 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280679 La:13
+Writing frame 21, render width=960, render height=540
+Video Frame PTS: 75000
+Append frame 21 Time: 00:16.00
+Fra:22 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:22 Mem:122.20M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:22 Mem:200.88M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280865 La:13
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280865 La:13
+Fra:22 Mem:200.87M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280865 La:13
+Fra:22 Mem:208.78M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:22 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280865 La:13
+Writing frame 22, render width=960, render height=540
+Video Frame PTS: 78750
+Append frame 22 Time: 00:16.76
+Fra:23 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:23 Mem:122.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:23 Mem:201.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280827 La:13
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280827 La:13
+Fra:23 Mem:201.11M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280827 La:13
+Fra:23 Mem:209.02M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:23 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280827 La:13
+Writing frame 23, render width=960, render height=540
+Video Frame PTS: 82500
+Append frame 23 Time: 00:15.93
+Fra:24 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:24 Mem:122.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:24 Mem:201.36M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280647 La:13
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280647 La:13
+Fra:24 Mem:201.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280647 La:13
+Fra:24 Mem:209.26M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:24 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280647 La:13
+Writing frame 24, render width=960, render height=540
+Video Frame PTS: 86250
+Append frame 24 Time: 00:16.37
+Fra:25 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:25 Mem:122.15M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:25 Mem:201.58M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280530 La:13
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280530 La:13
+Fra:25 Mem:201.57M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280530 La:13
+Fra:25 Mem:209.48M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:25 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280530 La:13
+Writing frame 25, render width=960, render height=540
+Video Frame PTS: 90000
+Append frame 25 Time: 00:16.47
+Fra:26 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:26 Mem:122.13M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:26 Mem:201.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280234 La:13
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280234 La:13
+Fra:26 Mem:201.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280234 La:13
+Fra:26 Mem:209.72M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:26 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280234 La:13
+Writing frame 26, render width=960, render height=540
+Video Frame PTS: 93750
+Append frame 26 Time: 00:16.31
+Fra:27 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:27 Mem:122.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:27 Mem:202.03M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280165 La:13
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280165 La:13
+Fra:27 Mem:202.02M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280165 La:13
+Fra:27 Mem:209.93M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:27 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280165 La:13
+Writing frame 27, render width=960, render height=540
+Video Frame PTS: 97500
+Append frame 27 Time: 00:16.57
+Fra:28 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:28 Mem:122.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:28 Mem:202.24M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280102 La:13
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280102 La:13
+Fra:28 Mem:202.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280102 La:13
+Fra:28 Mem:210.15M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:28 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280102 La:13
+Writing frame 28, render width=960, render height=540
+Video Frame PTS: 101250
+Append frame 28 Time: 00:16.27
+Fra:29 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:29 Mem:122.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:29 Mem:202.55M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280208 La:13
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280208 La:13
+Fra:29 Mem:202.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280208 La:13
+Fra:29 Mem:210.45M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:29 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280208 La:13
+Writing frame 29, render width=960, render height=540
+Video Frame PTS: 105000
+Append frame 29 Time: 00:16.03
+Fra:30 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:30 Mem:122.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:30 Mem:202.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280016 La:13
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280016 La:13
+Fra:30 Mem:202.81M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280016 La:13
+Fra:30 Mem:210.72M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:30 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:280016 La:13
+Writing frame 30, render width=960, render height=540
+Video Frame PTS: 108750
+Append frame 30 Time: 00:16.13
+Fra:31 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:31 Mem:122.12M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:31 Mem:203.10M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279662 La:13
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279662 La:13
+Fra:31 Mem:203.09M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279662 La:13
+Fra:31 Mem:211.00M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:31 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279662 La:13
+Writing frame 31, render width=960, render height=540
+Video Frame PTS: 112500
+Append frame 31 Time: 00:15.64
+Fra:32 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:32 Mem:122.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:32 Mem:203.44M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279528 La:13
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279528 La:13
+Fra:32 Mem:203.43M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279528 La:13
+Fra:32 Mem:211.34M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:32 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279528 La:13
+Writing frame 32, render width=960, render height=540
+Video Frame PTS: 116250
+Append frame 32 Time: 00:15.91
+Fra:33 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:33 Mem:122.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:33 Mem:203.77M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279251 La:13
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279251 La:13
+Fra:33 Mem:203.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279251 La:13
+Fra:33 Mem:211.67M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:33 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:279251 La:13
+Writing frame 33, render width=960, render height=540
+Video Frame PTS: 120000
+Append frame 33 Time: 00:16.05
+Fra:34 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:34 Mem:122.03M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:34 Mem:204.01M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278889 La:13
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278889 La:13
+Fra:34 Mem:204.00M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278889 La:13
+Fra:34 Mem:211.91M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:34 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278889 La:13
+Writing frame 34, render width=960, render height=540
+Video Frame PTS: 123750
+Append frame 34 Time: 00:16.19
+Fra:35 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:35 Mem:122.01M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:35 Mem:204.34M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278538 La:13
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278538 La:13
+Fra:35 Mem:204.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278538 La:13
+Fra:35 Mem:212.24M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:35 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278538 La:13
+Writing frame 35, render width=960, render height=540
+Video Frame PTS: 127500
+Append frame 35 Time: 00:17.51
+Fra:36 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:36 Mem:122.01M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:36 Mem:204.65M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278230 La:13
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278230 La:13
+Fra:36 Mem:204.64M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278230 La:13
+Fra:36 Mem:212.55M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:36 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278230 La:13
+Writing frame 36, render width=960, render height=540
+Video Frame PTS: 131250
+Append frame 36 Time: 00:17.90
+Fra:37 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:37 Mem:122.00M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:37 Mem:204.94M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277991 La:13
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277991 La:13
+Fra:37 Mem:204.93M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277991 La:13
+Fra:37 Mem:212.84M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:37 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277991 La:13
+Writing frame 37, render width=960, render height=540
+Video Frame PTS: 135000
+Append frame 37 Time: 00:17.66
+Fra:38 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:38 Mem:121.98M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:38 Mem:205.24M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277749 La:13
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277749 La:13
+Fra:38 Mem:205.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277749 La:13
+Fra:38 Mem:213.14M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:38 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277749 La:13
+Writing frame 38, render width=960, render height=540
+Video Frame PTS: 138750
+Append frame 38 Time: 00:16.94
+Fra:39 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:39 Mem:121.92M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:39 Mem:205.48M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277494 La:13
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277494 La:13
+Fra:39 Mem:205.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277494 La:13
+Fra:39 Mem:213.38M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:39 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277494 La:13
+Writing frame 39, render width=960, render height=540
+Video Frame PTS: 142500
+Append frame 39 Time: 00:17.24
+Fra:40 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:40 Mem:121.92M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:40 Mem:205.74M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277371 La:13
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277371 La:13
+Fra:40 Mem:205.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277371 La:13
+Fra:40 Mem:213.64M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:40 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277371 La:13
+Writing frame 40, render width=960, render height=540
+Video Frame PTS: 146250
+Append frame 40 Time: 00:17.75
+Fra:41 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:41 Mem:121.91M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:41 Mem:205.99M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277282 La:13
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277282 La:13
+Fra:41 Mem:205.98M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277282 La:13
+Fra:41 Mem:213.89M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:41 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277282 La:13
+Writing frame 41, render width=960, render height=540
+Video Frame PTS: 150000
+Append frame 41 Time: 00:17.19
+Fra:42 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:42 Mem:121.89M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:42 Mem:206.29M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277275 La:13
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277275 La:13
+Fra:42 Mem:206.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277275 La:13
+Fra:42 Mem:214.19M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:42 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277275 La:13
+Writing frame 42, render width=960, render height=540
+Video Frame PTS: 153750
+Append frame 42 Time: 00:17.56
+Fra:43 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:43 Mem:121.89M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:43 Mem:206.55M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277306 La:13
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277306 La:13
+Fra:43 Mem:206.54M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277306 La:13
+Fra:43 Mem:214.45M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:43 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277306 La:13
+Writing frame 43, render width=960, render height=540
+Video Frame PTS: 157500
+Append frame 43 Time: 00:17.71
+Fra:44 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:44 Mem:121.89M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:44 Mem:206.77M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277211 La:13
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277211 La:13
+Fra:44 Mem:206.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277211 La:13
+Fra:44 Mem:214.67M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:44 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277211 La:13
+Writing frame 44, render width=960, render height=540
+Video Frame PTS: 161250
+Append frame 44 Time: 00:16.79
+Fra:45 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:45 Mem:121.89M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:45 Mem:207.02M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277156 La:13
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277156 La:13
+Fra:45 Mem:207.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277156 La:13
+Fra:45 Mem:214.92M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:45 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277156 La:13
+Writing frame 45, render width=960, render height=540
+Video Frame PTS: 165000
+Append frame 45 Time: 00:17.46
+Fra:46 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:46 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:46 Mem:207.25M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276920 La:13
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276920 La:13
+Fra:46 Mem:207.24M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276920 La:13
+Fra:46 Mem:215.15M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:46 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276920 La:13
+Writing frame 46, render width=960, render height=540
+Video Frame PTS: 168750
+Append frame 46 Time: 00:17.57
+Fra:47 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:47 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:47 Mem:207.59M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276783 La:13
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276783 La:13
+Fra:47 Mem:207.58M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276783 La:13
+Fra:47 Mem:215.49M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:47 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276783 La:13
+Writing frame 47, render width=960, render height=540
+Video Frame PTS: 172500
+Append frame 47 Time: 00:17.52
+Fra:48 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:48 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:48 Mem:207.90M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276488 La:13
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276488 La:13
+Fra:48 Mem:207.88M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276488 La:13
+Fra:48 Mem:215.80M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:48 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276488 La:13
+Writing frame 48, render width=960, render height=540
+Video Frame PTS: 176250
+Append frame 48 Time: 00:17.96
+Fra:49 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:49 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:49 Mem:208.29M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276379 La:13
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276379 La:13
+Fra:49 Mem:208.28M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276379 La:13
+Fra:49 Mem:216.19M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:49 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276379 La:13
+Writing frame 49, render width=960, render height=540
+Video Frame PTS: 180000
+Append frame 49 Time: 00:17.41
+Fra:50 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:50 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:50 Mem:208.68M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276318 La:13
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276318 La:13
+Fra:50 Mem:208.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276318 La:13
+Fra:50 Mem:216.58M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:50 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276318 La:13
+Writing frame 50, render width=960, render height=540
+Video Frame PTS: 183750
+Append frame 50 Time: 00:18.29
+Fra:51 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:51 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:51 Mem:209.04M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276325 La:13
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276325 La:13
+Fra:51 Mem:209.03M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276325 La:13
+Fra:51 Mem:216.94M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:51 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276325 La:13
+Writing frame 51, render width=960, render height=540
+Video Frame PTS: 187500
+Append frame 51 Time: 00:17.52
+Fra:52 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:52 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:52 Mem:209.41M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276419 La:13
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276419 La:13
+Fra:52 Mem:209.40M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276419 La:13
+Fra:52 Mem:217.31M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:52 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276419 La:13
+Writing frame 52, render width=960, render height=540
+Video Frame PTS: 191250
+Append frame 52 Time: 00:18.60
+Fra:53 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:53 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:53 Mem:209.83M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276502 La:13
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276502 La:13
+Fra:53 Mem:209.82M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276502 La:13
+Fra:53 Mem:217.73M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:53 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276502 La:13
+Writing frame 53, render width=960, render height=540
+Video Frame PTS: 195000
+Append frame 53 Time: 00:19.19
+Fra:54 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:54 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:54 Mem:210.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276609 La:13
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276609 La:13
+Fra:54 Mem:210.20M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276609 La:13
+Fra:54 Mem:218.11M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:54 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276609 La:13
+Writing frame 54, render width=960, render height=540
+Video Frame PTS: 198750
+Append frame 54 Time: 00:19.27
+Fra:55 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:55 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:55 Mem:210.57M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276787 La:13
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276787 La:13
+Fra:55 Mem:210.56M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276787 La:13
+Fra:55 Mem:218.47M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:55 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276787 La:13
+Writing frame 55, render width=960, render height=540
+Video Frame PTS: 202500
+Append frame 55 Time: 00:18.77
+Fra:56 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:56 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:56 Mem:211.02M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276953 La:13
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276953 La:13
+Fra:56 Mem:211.01M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276953 La:13
+Fra:56 Mem:218.92M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:56 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276953 La:13
+Writing frame 56, render width=960, render height=540
+Video Frame PTS: 206250
+Append frame 56 Time: 00:18.28
+Fra:57 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:57 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:57 Mem:211.34M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277054 La:13
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277054 La:13
+Fra:57 Mem:211.33M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277054 La:13
+Fra:57 Mem:219.24M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:57 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277054 La:13
+Writing frame 57, render width=960, render height=540
+Video Frame PTS: 210000
+Append frame 57 Time: 00:18.24
+Fra:58 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:58 Mem:121.86M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:58 Mem:211.67M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277132 La:13
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277132 La:13
+Fra:58 Mem:211.66M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277132 La:13
+Fra:58 Mem:219.57M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:58 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277132 La:13
+Writing frame 58, render width=960, render height=540
+Video Frame PTS: 213750
+Append frame 58 Time: 00:17.57
+Fra:59 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:59 Mem:121.87M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:59 Mem:212.00M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277492 La:13
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277492 La:13
+Fra:59 Mem:211.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277492 La:13
+Fra:59 Mem:219.90M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:59 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277492 La:13
+Writing frame 59, render width=960, render height=540
+Video Frame PTS: 217500
+Append frame 59 Time: 00:17.90
+Fra:60 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:60 Mem:121.92M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:60 Mem:212.38M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278083 La:13
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278083 La:13
+Fra:60 Mem:212.37M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278083 La:13
+Fra:60 Mem:220.28M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:60 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278083 La:13
+Writing frame 60, render width=960, render height=540
+Video Frame PTS: 221250
+Append frame 60 Time: 00:17.45
+Fra:61 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:61 Mem:121.95M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:61 Mem:212.80M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278453 La:13
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278453 La:13
+Fra:61 Mem:212.79M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278453 La:13
+Fra:61 Mem:220.70M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:61 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278453 La:13
+Writing frame 61, render width=960, render height=540
+Video Frame PTS: 225000
+Append frame 61 Time: 00:17.84
+Fra:62 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:62 Mem:121.95M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:62 Mem:213.16M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278523 La:13
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278523 La:13
+Fra:62 Mem:213.15M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278523 La:13
+Fra:62 Mem:221.06M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:62 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:278523 La:13
+Writing frame 62, render width=960, render height=540
+Video Frame PTS: 228750
+Append frame 62 Time: 00:18.02
+Fra:63 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:63 Mem:121.92M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:63 Mem:213.51M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277826 La:13
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277826 La:13
+Fra:63 Mem:213.50M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277826 La:13
+Fra:63 Mem:221.41M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:63 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:277826 La:13
+Writing frame 63, render width=960, render height=540
+Video Frame PTS: 232500
+Append frame 63 Time: 00:17.96
+Fra:64 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:64 Mem:121.80M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:64 Mem:213.77M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275665 La:13
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275665 La:13
+Fra:64 Mem:213.76M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275665 La:13
+Fra:64 Mem:221.67M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:64 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275665 La:13
+Writing frame 64, render width=960, render height=540
+Video Frame PTS: 236250
+Append frame 64 Time: 00:17.81
+Fra:65 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:65 Mem:121.78M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:65 Mem:214.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275581 La:13
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275581 La:13
+Fra:65 Mem:214.13M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275581 La:13
+Fra:65 Mem:222.04M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:65 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275581 La:13
+Writing frame 65, render width=960, render height=540
+Video Frame PTS: 240000
+Append frame 65 Time: 00:18.07
+Fra:66 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:66 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:66 Mem:214.56M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275726 La:13
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275726 La:13
+Fra:66 Mem:214.55M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275726 La:13
+Fra:66 Mem:222.46M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:66 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275726 La:13
+Writing frame 66, render width=960, render height=540
+Video Frame PTS: 243750
+Append frame 66 Time: 00:18.16
+Fra:67 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:67 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:67 Mem:215.00M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275871 La:13
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275871 La:13
+Fra:67 Mem:214.99M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275871 La:13
+Fra:67 Mem:222.90M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:67 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275871 La:13
+Writing frame 67, render width=960, render height=540
+Video Frame PTS: 247500
+Append frame 67 Time: 00:17.74
+Fra:68 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:68 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:68 Mem:215.36M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275920 La:13
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275920 La:13
+Fra:68 Mem:215.35M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275920 La:13
+Fra:68 Mem:223.26M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:68 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275920 La:13
+Writing frame 68, render width=960, render height=540
+Video Frame PTS: 251250
+Append frame 68 Time: 00:18.39
+Fra:69 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:69 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:69 Mem:215.68M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275868 La:13
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275868 La:13
+Fra:69 Mem:215.67M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275868 La:13
+Fra:69 Mem:223.58M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:69 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275868 La:13
+Writing frame 69, render width=960, render height=540
+Video Frame PTS: 255000
+Append frame 69 Time: 00:18.03
+Fra:70 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:70 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:70 Mem:216.09M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275857 La:13
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275857 La:13
+Fra:70 Mem:216.07M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275857 La:13
+Fra:70 Mem:223.99M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:70 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275857 La:13
+Writing frame 70, render width=960, render height=540
+Video Frame PTS: 258750
+Append frame 70 Time: 00:18.75
+Fra:71 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:71 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:71 Mem:216.48M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275914 La:13
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275914 La:13
+Fra:71 Mem:216.47M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275914 La:13
+Fra:71 Mem:224.38M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:71 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275914 La:13
+Writing frame 71, render width=960, render height=540
+Video Frame PTS: 262500
+Append frame 71 Time: 00:18.64
+Fra:72 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:72 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:72 Mem:216.93M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275971 La:13
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275971 La:13
+Fra:72 Mem:216.92M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275971 La:13
+Fra:72 Mem:224.83M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:72 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275971 La:13
+Writing frame 72, render width=960, render height=540
+Video Frame PTS: 266250
+Append frame 72 Time: 00:18.52
+Fra:73 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:73 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:73 Mem:217.33M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275982 La:13
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275982 La:13
+Fra:73 Mem:217.32M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275982 La:13
+Fra:73 Mem:225.23M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:73 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:275982 La:13
+Writing frame 73, render width=960, render height=540
+Video Frame PTS: 270000
+Append frame 73 Time: 00:18.34
+Fra:74 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:74 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:74 Mem:217.74M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276033 La:13
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276033 La:13
+Fra:74 Mem:217.73M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276033 La:13
+Fra:74 Mem:225.65M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:74 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276033 La:13
+Writing frame 74, render width=960, render height=540
+Video Frame PTS: 273750
+Append frame 74 Time: 00:18.10
+Fra:75 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:75 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:75 Mem:218.15M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276055 La:13
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276055 La:13
+Fra:75 Mem:218.14M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276055 La:13
+Fra:75 Mem:226.05M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:75 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276055 La:13
+Writing frame 75, render width=960, render height=540
+Video Frame PTS: 277500
+Append frame 75 Time: 00:18.83
+Fra:76 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:76 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:76 Mem:218.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276060 La:13
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276060 La:13
+Fra:76 Mem:218.16M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276060 La:13
+Fra:76 Mem:226.07M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:76 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276060 La:13
+Writing frame 76, render width=960, render height=540
+Video Frame PTS: 281250
+Append frame 76 Time: 00:18.06
+Fra:77 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:77 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:77 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:77 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:77 Mem:226.08M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:77 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Writing frame 77, render width=960, render height=540
+Video Frame PTS: 285000
+Append frame 77 Time: 00:17.97
+Fra:78 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:78 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:78 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:78 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:78 Mem:226.08M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:78 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Writing frame 78, render width=960, render height=540
+Video Frame PTS: 288750
+Append frame 78 Time: 00:17.95
+Fra:79 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:79 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:79 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:79 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:79 Mem:226.08M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:79 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Writing frame 79, render width=960, render height=540
+Video Frame PTS: 292500
+Append frame 79 Time: 00:18.33
+Fra:80 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:80 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:80 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:80 Mem:218.17M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:80 Mem:226.08M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:80 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Writing frame 80, render width=960, render height=540
+Video Frame PTS: 296250
+Append frame 80 Time: 00:17.76
+Fra:81 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:81 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:81 Mem:218.19M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:81 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:81 Mem:226.09M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:81 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Writing frame 81, render width=960, render height=540
+Video Frame PTS: 300000
+Append frame 81 Time: 00:18.83
+Fra:82 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:82 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:82 Mem:218.19M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:82 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:82 Mem:226.09M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:82 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Writing frame 82, render width=960, render height=540
+Video Frame PTS: 303750
+Append frame 82 Time: 00:18.51
+Fra:83 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:83 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:83 Mem:218.19M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276081 La:13
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276081 La:13
+Fra:83 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276081 La:13
+Fra:83 Mem:226.09M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:83 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276081 La:13
+Writing frame 83, render width=960, render height=540
+Video Frame PTS: 307500
+Append frame 83 Time: 00:18.81
+Fra:84 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:84 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:84 Mem:218.19M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:84 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:84 Mem:226.09M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:84 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Writing frame 84, render width=960, render height=540
+Video Frame PTS: 311250
+Append frame 84 Time: 00:18.29
+Fra:85 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:85 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:85 Mem:218.19M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:85 Mem:218.18M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:85 Mem:226.09M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:85 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Writing frame 85, render width=960, render height=540
+Video Frame PTS: 315000
+Append frame 85 Time: 00:18.92
+Fra:86 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:86 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:86 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:86 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Fra:86 Mem:226.12M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:86 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276059 La:13
+Writing frame 86, render width=960, render height=540
+Video Frame PTS: 318750
+Append frame 86 Time: 00:19.07
+Fra:87 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:87 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:87 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:87 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:87 Mem:226.12M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:87 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Writing frame 87, render width=960, render height=540
+Video Frame PTS: 322500
+Append frame 87 Time: 00:18.02
+Fra:88 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:88 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:88 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:88 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:88 Mem:226.12M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:88 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Writing frame 88, render width=960, render height=540
+Video Frame PTS: 326250
+Append frame 88 Time: 00:18.86
+Fra:89 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:89 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:89 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:89 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:89 Mem:226.12M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:89 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Writing frame 89, render width=960, render height=540
+Video Frame PTS: 330000
+Append frame 89 Time: 00:18.70
+Fra:90 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:90 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:90 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:90 Mem:218.21M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Fra:90 Mem:226.13M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:90 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276082 La:13
+Writing frame 90, render width=960, render height=540
+Video Frame PTS: 333750
+Append frame 90 Time: 00:18.42
+Fra:91 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:91 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:91 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:91 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Fra:91 Mem:226.13M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:91 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276078 La:13
+Writing frame 91, render width=960, render height=540
+Video Frame PTS: 337500
+Append frame 91 Time: 00:18.38
+Fra:92 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:92 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:92 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:92 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Fra:92 Mem:226.13M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:92 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276070 La:13
+Writing frame 92, render width=960, render height=540
+Video Frame PTS: 341250
+Append frame 92 Time: 00:19.30
+Fra:93 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:93 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:93 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:93 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:93 Mem:226.13M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:93 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Writing frame 93, render width=960, render height=540
+Video Frame PTS: 345000
+Append frame 93 Time: 00:18.44
+Fra:94 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:94 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:94 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:94 Mem:218.22M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Fra:94 Mem:226.13M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:94 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276088 La:13
+Writing frame 94, render width=960, render height=540
+Video Frame PTS: 348750
+Append frame 94 Time: 00:17.76
+Fra:95 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:95 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:95 Mem:218.24M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:95 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:95 Mem:226.14M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:95 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Writing frame 95, render width=960, render height=540
+Video Frame PTS: 352500
+Append frame 95 Time: 00:19.04
+Fra:96 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:96 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:96 Mem:218.24M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:96 Mem:218.23M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:96 Mem:226.14M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:96 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Writing frame 96, render width=960, render height=540
+Video Frame PTS: 356250
+Append frame 96 Time: 00:19.65
+Fra:97 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:97 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:97 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:97 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:97 Mem:226.16M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:97 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Writing frame 97, render width=960, render height=540
+Video Frame PTS: 360000
+Append frame 97 Time: 00:18.42
+Fra:98 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:98 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:98 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:98 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:98 Mem:226.16M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:98 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Writing frame 98, render width=960, render height=540
+Video Frame PTS: 363750
+Append frame 98 Time: 00:18.71
+Fra:99 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:99 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:99 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:99 Mem:218.25M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Fra:99 Mem:226.16M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:99 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276079 La:13
+Writing frame 99, render width=960, render height=540
+Video Frame PTS: 367500
+Append frame 99 Time: 00:18.07
+Fra:100 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:100 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:100 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276080 La:13
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276080 La:13
+Fra:100 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276080 La:13
+Fra:100 Mem:226.17M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:100 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276080 La:13
+Writing frame 100, render width=960, render height=540
+Video Frame PTS: 371250
+Append frame 100 Time: 00:18.44
+Fra:101 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:101 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:101 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:101 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Fra:101 Mem:226.17M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:101 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276065 La:13
+Writing frame 101, render width=960, render height=540
+Video Frame PTS: 375000
+Append frame 101 Time: 00:06.74
+Fra:102 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:102 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:102 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:102 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Fra:102 Mem:226.17M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:102 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276076 La:13
+Writing frame 102, render width=960, render height=540
+Video Frame PTS: 378750
+Append frame 102 Time: 00:18.37
+Fra:103 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:103 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:103 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:103 Mem:218.26M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:103 Mem:226.18M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:103 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Writing frame 103, render width=960, render height=540
+Video Frame PTS: 382500
+Append frame 103 Time: 00:18.16
+Fra:104 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:104 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:104 Mem:218.28M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:104 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:104 Mem:226.18M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:104 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Writing frame 104, render width=960, render height=540
+Video Frame PTS: 386250
+Append frame 104 Time: 00:18.00
+Fra:105 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:105 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:105 Mem:218.28M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:105 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:105 Mem:226.18M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:105 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Writing frame 105, render width=960, render height=540
+Video Frame PTS: 390000
+Append frame 105 Time: 00:18.13
+Fra:106 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:106 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:106 Mem:218.28M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276044 La:13
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276044 La:13
+Fra:106 Mem:218.27M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276044 La:13
+Fra:106 Mem:226.18M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:106 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276044 La:13
+Writing frame 106, render width=960, render height=540
+Video Frame PTS: 393750
+Append frame 106 Time: 00:18.63
+Fra:107 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:107 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:107 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276061 La:13
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276061 La:13
+Fra:107 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276061 La:13
+Fra:107 Mem:226.20M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:107 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276061 La:13
+Writing frame 107, render width=960, render height=540
+Video Frame PTS: 397500
+Append frame 107 Time: 00:17.82
+Fra:108 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:108 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:108 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:108 Mem:218.29M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:108 Mem:226.20M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:108 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Writing frame 108, render width=960, render height=540
+Video Frame PTS: 401250
+Append frame 108 Time: 00:18.50
+Fra:109 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:109 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:109 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:109 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Fra:109 Mem:226.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:109 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276063 La:13
+Writing frame 109, render width=960, render height=540
+Video Frame PTS: 405000
+Append frame 109 Time: 00:17.99
+Fra:110 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:110 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:110 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276053 La:13
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276053 La:13
+Fra:110 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276053 La:13
+Fra:110 Mem:226.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:110 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276053 La:13
+Writing frame 110, render width=960, render height=540
+Video Frame PTS: 408750
+Append frame 110 Time: 00:18.63
+Fra:111 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:111 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:111 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276047 La:13
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276047 La:13
+Fra:111 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276047 La:13
+Fra:111 Mem:226.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:111 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276047 La:13
+Writing frame 111, render width=960, render height=540
+Video Frame PTS: 412500
+Append frame 111 Time: 00:17.72
+Fra:112 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:112 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:112 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276051 La:13
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276051 La:13
+Fra:112 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276051 La:13
+Fra:112 Mem:226.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:112 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276051 La:13
+Writing frame 112, render width=960, render height=540
+Video Frame PTS: 416250
+Append frame 112 Time: 00:17.98
+Fra:113 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:113 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:113 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:113 Mem:218.30M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Fra:113 Mem:226.21M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:113 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276056 La:13
+Writing frame 113, render width=960, render height=540
+Video Frame PTS: 420000
+Append frame 113 Time: 00:17.94
+Fra:114 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:114 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:114 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:114 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Fra:114 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:114 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276067 La:13
+Writing frame 114, render width=960, render height=540
+Video Frame PTS: 423750
+Append frame 114 Time: 00:17.57
+Fra:115 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:115 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:115 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276074 La:13
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276074 La:13
+Fra:115 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276074 La:13
+Fra:115 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:115 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276074 La:13
+Writing frame 115, render width=960, render height=540
+Video Frame PTS: 427500
+Append frame 115 Time: 00:17.76
+Fra:116 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:116 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:116 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276068 La:13
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276068 La:13
+Fra:116 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276068 La:13
+Fra:116 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:116 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276068 La:13
+Writing frame 116, render width=960, render height=540
+Video Frame PTS: 431250
+Append frame 116 Time: 00:17.46
+Fra:117 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:117 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:117 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:117 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Fra:117 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:117 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276077 La:13
+Writing frame 117, render width=960, render height=540
+Video Frame PTS: 435000
+Append frame 117 Time: 00:18.84
+Fra:118 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:118 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:118 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:118 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Fra:118 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:118 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276064 La:13
+Writing frame 118, render width=960, render height=540
+Video Frame PTS: 438750
+Append frame 118 Time: 00:18.17
+Fra:119 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:119 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:119 Mem:218.32M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:119 Mem:218.31M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Fra:119 Mem:226.22M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:119 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276083 La:13
+Writing frame 119, render width=960, render height=540
+Video Frame PTS: 442500
+Append frame 119 Time: 00:17.42
+Fra:120 Mem:90.06M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:120 Mem:121.82M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:120 Mem:218.35M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) | Preparing Scene data
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) | Creating Shadowbuffers
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) | Caching Point Densities
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) | Loading voxel datasets
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:120 Mem:218.34M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Fra:120 Mem:226.25M (1829.22M, peak 2443.40M) | Scene, Part 1-1
+Fra:120 Mem:90.06M (1819.34M, peak 2443.40M) Sce: Scene Ve:174312 Fa:276069 La:13
+Writing frame 120, render width=960, render height=540
+Video Frame PTS: 446250
+Append frame 120 Time: 00:18.27
+Closing ffmpeg...
+Flushing delayed frames...
+zero video stream 0x7fce875c5b00
+read blend: /var/www/pyl5/www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/../../../../VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat1' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_med' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_mix' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_small' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.003' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.012' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.013' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.014' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'grass_tall' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Material:'grass' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'birch_001' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_002' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_003' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_004' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Object:'field_flower_blue' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_pink' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'flowers_star1' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gidio' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'taddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'yellowtaddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gollum' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'smeagol' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp.001' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'oak_001' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_002' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_veryhighres_leave' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'apple_tree' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'apple_tree_trunk' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'rock_big_field' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'rock_big_field.001' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'shrooms_rodents' unread libblock missing from '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Object grass_tall.005 lost data.
+Object grasspatch_med lost data.
+Object grasspatch_mix lost data.
+Object grasspatch_quarter lost data.
+Object grasspatch_small lost data.
+Warning: Warning in console
+Parsing: ../../../../www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/script.xml
+##### INICIO #####
+2014-07-02 23:10:50
+***loading FlyingSquirrel - DEFAULT***
+***loading Rabbit - DEFAULT***
+bb_min
+<Vector (7.5000, -3.9271, 0.0000)>
+bb_max
+<Vector (12.7188, -1.8542, 0.0000)>
+la camara quedo en 10.109375953674316, -14.890624046325684, 4.0
+Rotatin at:
+2014-07-02 23:10:54
+################################################################################
+Ambientin at:
+2014-07-02 23:10:54
+################################################################################
+##### FIN #####
+2014-07-02 23:45:48
+reconstruct len: 120 0x7fce8afb17f8
+reconstruct len: 120 0x7fce8afb18b8
+reconstruct len: 120 0x7fce8afb1978
+reconstruct len: 120 0x7fce8afb1a38
+reconstruct len: 120 0x7fce8afb1af8
+reconstruct len: 120 0x7fce8afb1bb8
+reconstruct len: 120 0x7fce8afb1c78
+reconstruct len: 120 0x7fce8afb1d38
+reconstruct len: 120 0x7fce8afb1df8
+reconstruct len: 120 0x7fce8afb1eb8
+reconstruct len: 120 0x7fce8afb1f78
+reconstruct len: 120 0x7fce88f090f8
+reconstruct len: 120 0x7fce88f091b8
+reconstruct len: 120 0x7fce88f09278
+reconstruct len: 120 0x7fce88f09338
+Data from AC len: 56 0x7fce8a7517b8
+Data from AC len: 56 0x7fce8a751838
+reconstruct len: 120 0x7fce88f093f8
+Data from AC len: 56 0x7fce8a7518b8
+Data from AC len: 56 0x7fce8a751938
+reconstruct len: 120 0x7fce88f094b8
+Data from AC len: 56 0x7fce8a7519b8
+Data from AC len: 56 0x7fce8a751a38
+reconstruct len: 120 0x7fce88f09578
+Data from AC len: 56 0x7fce8a751ab8
+Data from AC len: 56 0x7fce8a751b38
+reconstruct len: 120 0x7fce88f09638
+Data from AC len: 56 0x7fce8a751bb8
+Data from AC len: 56 0x7fce8a751c38
+reconstruct len: 120 0x7fce88f096f8
+Data from AC len: 56 0x7fce8a751cb8
+Data from AC len: 56 0x7fce8a751d38
+reconstruct len: 120 0x7fce88f097b8
+Data from AC len: 56 0x7fce8a751db8
+Data from AC len: 56 0x7fce8a751e38
+reconstruct len: 120 0x7fce88f09878
+Data from AC len: 56 0x7fce8a751eb8
+Data from AC len: 56 0x7fce8a751f38
+reconstruct len: 120 0x7fce88f09938
+Data from AC len: 56 0x7fce8a751fb8
+Data from AC len: 56 0x7fce88fa00b8
+reconstruct len: 120 0x7fce88f099f8
+Data from AC len: 56 0x7fce88fa0138
+Data from AC len: 56 0x7fce88fa01b8
+reconstruct len: 120 0x7fce88f09ab8
+reconstruct len: 120 0x7fce88f09b78
+reconstruct len: 120 0x7fce88f09c38
+reconstruct len: 120 0x7fce88f09cf8
+reconstruct len: 120 0x7fce88f09db8
+reconstruct len: 120 0x7fce88f09e78
+reconstruct len: 120 0x7fce88f09f38
+reconstruct len: 120 0x7fce88f09ff8
+reconstruct len: 120 0x7fce88f0a0b8
+reconstruct len: 120 0x7fce88f0a178
+reconstruct len: 120 0x7fce88f0a238
+reconstruct len: 120 0x7fce88f0a2f8
+reconstruct len: 120 0x7fce88f0a3b8
+reconstruct len: 120 0x7fce88f0a478
+reconstruct len: 120 0x7fce88f0a538
+reconstruct len: 120 0x7fce88f0a5f8
+reconstruct len: 120 0x7fce88f0a6b8
+reconstruct len: 120 0x7fce88f0a778
+reconstruct len: 120 0x7fce88f0a838
+reconstruct len: 120 0x7fce88f0a8f8
+reconstruct len: 120 0x7fce88f0a9b8
+reconstruct len: 120 0x7fce88f0aa78
+reconstruct len: 120 0x7fce88f0ab38
+reconstruct len: 120 0x7fce88f0abf8
+reconstruct len: 120 0x7fce88f0acb8
+reconstruct len: 120 0x7fce88f0ad78
+reconstruct len: 120 0x7fce88f0ae38
+reconstruct len: 120 0x7fce88f0aef8
+reconstruct len: 120 0x7fce88f0afb8
+reconstruct len: 120 0x7fce88f0b078
+reconstruct len: 120 0x7fce88f0b138
+reconstruct len: 120 0x7fce88f0b1f8
+reconstruct len: 120 0x7fce88f0b2b8
+reconstruct len: 120 0x7fce88f0b378
+reconstruct len: 120 0x7fce88f0b438
+reconstruct len: 120 0x7fce88f0b4f8
+reconstruct len: 120 0x7fce88f0b5b8
+reconstruct len: 120 0x7fce88f0b678
+reconstruct len: 120 0x7fce88f0b738
+reconstruct len: 120 0x7fce88f0b7f8
+reconstruct len: 120 0x7fce88f0b8b8
+reconstruct len: 120 0x7fce88f0b978
+reconstruct len: 120 0x7fce88f0ba38
+reconstruct len: 120 0x7fce88f0baf8
+reconstruct len: 120 0x7fce88f0bbb8
+reconstruct len: 120 0x7fce88f0bc78
+reconstruct len: 120 0x7fce88f0bd38
+reconstruct len: 120 0x7fce88f0bdf8
+reconstruct len: 120 0x7fce88f0beb8
+reconstruct len: 120 0x7fce88f0bf78
+reconstruct len: 120 0x7fce88fa20f8
+reconstruct len: 120 0x7fce88fa21b8
+reconstruct len: 120 0x7fce88fa2278
+reconstruct len: 120 0x7fce88fa2338
+reconstruct len: 120 0x7fce88fa23f8
+reconstruct len: 120 0x7fce88fa24b8
+reconstruct len: 120 0x7fce88fa2578
+reconstruct len: 120 0x7fce88fa2638
+reconstruct len: 120 0x7fce88fa26f8
+reconstruct len: 120 0x7fce88fa27b8
+reconstruct len: 120 0x7fce88fa2878
+reconstruct len: 120 0x7fce88fa2938
+reconstruct len: 120 0x7fce88fa29f8
+reconstruct len: 120 0x7fce88fa2ab8
+reconstruct len: 120 0x7fce88fa2b78
+reconstruct len: 120 0x7fce88fa2c38
+reconstruct len: 120 0x7fce88fa2cf8
+reconstruct len: 120 0x7fce88fa2db8
+reconstruct len: 120 0x7fce88fa2e78
+reconstruct len: 120 0x7fce88fa2f38
+reconstruct len: 120 0x7fce88fa3178
+reconstruct len: 120 0x7fce88fa3238
+reconstruct len: 120 0x7fce88fa32f8
+reconstruct len: 120 0x7fce88fa33b8
+reconstruct len: 120 0x7fce88fa35f8
+reconstruct len: 120 0x7fce88fa36b8
+reconstruct len: 120 0x7fce88fa3778
+reconstruct len: 120 0x7fce88fa3838
+reconstruct len: 120 0x7fce88fa38f8
+reconstruct len: 120 0x7fce88fa39b8
+reconstruct len: 120 0x7fce88fa3a78
+reconstruct len: 120 0x7fce88fa3b38
+reconstruct len: 120 0x7fce88fa3ef8
+reconstruct len: 120 0x7fce88fa3fb8
+reconstruct len: 120 0x7fce88fa4078
+reconstruct len: 120 0x7fce88fa4138
+reconstruct len: 120 0x7fce88fa41f8
+reconstruct len: 120 0x7fce88fa42b8
+reconstruct len: 120 0x7fce88fa4378
+reconstruct len: 120 0x7fce88fa4438
+reconstruct len: 120 0x7fce88fa44f8
+reconstruct len: 120 0x7fce88fa45b8
+reconstruct len: 120 0x7fce88fa4678
+reconstruct len: 120 0x7fce88fa4738
+reconstruct len: 120 0x7fce88fa47f8
+reconstruct len: 120 0x7fce88fa48b8
+reconstruct len: 120 0x7fce88fa4978
+reconstruct len: 120 0x7fce88fa4a38
+reconstruct len: 120 0x7fce88fa4af8
+reconstruct len: 120 0x7fce88fa4bb8
+reconstruct len: 120 0x7fce88fa4c78
+reconstruct len: 120 0x7fce88fa4d38
+reconstruct len: 120 0x7fce88fa4df8
+reconstruct len: 120 0x7fce88fa4eb8
+reconstruct len: 120 0x7fce88fa4f78
+reconstruct len: 120 0x7fce88faa0f8
+reconstruct len: 120 0x7fce88faa1b8
+reconstruct len: 120 0x7fce88faa278
+reconstruct len: 120 0x7fce88faa338
+reconstruct len: 120 0x7fce88faa3f8
+reconstruct len: 120 0x7fce88faa4b8
+reconstruct len: 120 0x7fce88faa578
+reconstruct len: 120 0x7fce88faa638
+reconstruct len: 120 0x7fce88faa6f8
+reconstruct len: 120 0x7fce88faa7b8
+reconstruct len: 120 0x7fce88faa878
+reconstruct len: 120 0x7fce88faa938
+reconstruct len: 120 0x7fce88faa9f8
+reconstruct len: 120 0x7fce88faaab8
+reconstruct len: 120 0x7fce88faab78
+reconstruct len: 120 0x7fce88faac38
+reconstruct len: 120 0x7fce88709878
+reconstruct len: 120 0x7fce88709938
+reconstruct len: 120 0x7fce887099f8
+reconstruct len: 120 0x7fce88709ab8
+reconstruct len: 120 0x7fce88709b78
+reconstruct len: 120 0x7fce88709c38
+reconstruct len: 120 0x7fce88709cf8
+reconstruct len: 120 0x7fce88709db8
+reconstruct len: 120 0x7fce88709e78
+reconstruct len: 120 0x7fce88709f38
+reconstruct len: 120 0x7fce88709ff8
+reconstruct len: 120 0x7fce8870a0b8
+reconstruct len: 120 0x7fce8870a178
+reconstruct len: 120 0x7fce8870a238
+reconstruct len: 120 0x7fce8870a2f8
+reconstruct len: 120 0x7fce8870a3b8
+reconstruct len: 120 0x7fce8870a478
+reconstruct len: 120 0x7fce8870a538
+reconstruct len: 120 0x7fce8870a5f8
+reconstruct len: 120 0x7fce8870a6b8
+reconstruct len: 120 0x7fce8870a778
+reconstruct len: 120 0x7fce8870a838
+reconstruct len: 120 0x7fce8870a8f8
+reconstruct len: 120 0x7fce8870a9b8
+reconstruct len: 120 0x7fce8870aa78
+reconstruct len: 120 0x7fce8870ab38
+reconstruct len: 120 0x7fce8870abf8
+reconstruct len: 120 0x7fce8870acb8
+reconstruct len: 120 0x7fce8870ad78
+reconstruct len: 120 0x7fce8870ae38
+reconstruct len: 120 0x7fce8870aef8
+reconstruct len: 120 0x7fce8870afb8
+reconstruct len: 120 0x7fce8870b078
+reconstruct len: 120 0x7fce8870b138
+reconstruct len: 120 0x7fce8870b1f8
+reconstruct len: 120 0x7fce8870b2b8
+reconstruct len: 120 0x7fce8870b378
+reconstruct len: 120 0x7fce8870b438
+reconstruct len: 120 0x7fce8870b4f8
+reconstruct len: 120 0x7fce8870b5b8
+reconstruct len: 120 0x7fce8870b678
+reconstruct len: 120 0x7fce8870b738
+reconstruct len: 120 0x7fce8870b7f8
+reconstruct len: 120 0x7fce8870b8b8
+reconstruct len: 120 0x7fce8870b978
+Data from AC len: 56 0x7fce8b43d238
+Data from AC len: 56 0x7fce8b43d2b8
+reconstruct len: 120 0x7fce8870ba38
+Data from AC len: 56 0x7fce8b43d338
+Data from AC len: 56 0x7fce8b43d3b8
+reconstruct len: 120 0x7fce8870baf8
+Data from AC len: 56 0x7fce8b43d438
+Data from AC len: 56 0x7fce8b43d4b8
+reconstruct len: 120 0x7fce8870bbb8
+Data from AC len: 56 0x7fce8b43d538
+Data from AC len: 56 0x7fce8b43d5b8
+reconstruct len: 120 0x7fce8870bc78
+Data from AC len: 56 0x7fce8b43d638
+Data from AC len: 56 0x7fce8b43d6b8
+reconstruct len: 120 0x7fce8870bd38
+Data from AC len: 56 0x7fce8b43d738
+Data from AC len: 56 0x7fce8b43d7b8
+reconstruct len: 120 0x7fce8870bdf8
+Data from AC len: 56 0x7fce8b43d838
+Data from AC len: 56 0x7fce8b43d8b8
+reconstruct len: 120 0x7fce8870beb8
+Data from AC len: 56 0x7fce8b43d938
+Data from AC len: 56 0x7fce8b43d9b8
+reconstruct len: 120 0x7fce8870bf78
+Data from AC len: 56 0x7fce8b43da38
+Data from AC len: 56 0x7fce8b43dab8
+reconstruct len: 120 0x7fce8b43f0f8
+Data from AC len: 56 0x7fce8b43db38
+Data from AC len: 56 0x7fce8b43dbb8
+reconstruct len: 120 0x7fce8b43f1b8
+reconstruct len: 120 0x7fce8b43f278
+reconstruct len: 120 0x7fce8b43f338
+reconstruct len: 120 0x7fce8b43f3f8
+reconstruct len: 120 0x7fce8b43f4b8
+reconstruct len: 120 0x7fce8b43f578
+reconstruct len: 120 0x7fce8b43f638
+reconstruct len: 120 0x7fce8b43f6f8
+reconstruct len: 120 0x7fce8b43f7b8
+reconstruct len: 120 0x7fce8b43f878
+reconstruct len: 120 0x7fce8b43f938
+reconstruct len: 120 0x7fce8b43f9f8
+reconstruct len: 120 0x7fce8b43fab8
+reconstruct len: 120 0x7fce8b43fb78
+reconstruct len: 120 0x7fce8b43fc38
+reconstruct len: 120 0x7fce8b43fcf8
+reconstruct len: 120 0x7fce8b43fdb8
+reconstruct len: 120 0x7fce8b43fe78
+reconstruct len: 120 0x7fce8b43ff38
+reconstruct len: 120 0x7fce8b43fff8
+reconstruct len: 120 0x7fce8b4400b8
+reconstruct len: 120 0x7fce8a3e3ef8
+Data from AC len: 56 0x7fce8a274d38
+reconstruct len: 120 0x7fce8a3e4d38
+reconstruct len: 120 0x7fce8a3e4df8
+reconstruct len: 120 0x7fce8a3e4eb8
+reconstruct len: 120 0x7fce8a3e4f78
+reconstruct len: 120 0x7fce8b2bf0f8
+reconstruct len: 120 0x7fce8b2bf1b8
+reconstruct len: 120 0x7fce8b2bf278
+reconstruct len: 120 0x7fce8b2bf338
+reconstruct len: 120 0x7fce8b2bf3f8
+reconstruct len: 120 0x7fce8b2bf4b8
+reconstruct len: 120 0x7fce8b2bf578
+reconstruct len: 120 0x7fce8b2bf638
+reconstruct len: 120 0x7fce8b2bf6f8
+reconstruct len: 120 0x7fce8b2bf7b8
+reconstruct len: 120 0x7fce8b2bf878
+reconstruct len: 120 0x7fce8b2bf938
+reconstruct len: 120 0x7fce8b2bf9f8
+reconstruct len: 120 0x7fce8b2bfab8
+reconstruct len: 120 0x7fce8b2bfb78
+reconstruct len: 120 0x7fce8b2bfc38
+reconstruct len: 120 0x7fce8b2bfcf8
+reconstruct len: 120 0x7fce8b2bfdb8
+reconstruct len: 120 0x7fce8b2bfe78
+reconstruct len: 120 0x7fce8b2bff38
+reconstruct len: 120 0x7fce8b2bfff8
+reconstruct len: 120 0x7fce8b2c00b8
+reconstruct len: 120 0x7fce8b2c0178
+reconstruct len: 120 0x7fce8b2c0238
+reconstruct len: 120 0x7fce8b2c02f8
+reconstruct len: 120 0x7fce8b2c03b8
+reconstruct len: 120 0x7fce8b2c0478
+reconstruct len: 120 0x7fce8b2c0538
+reconstruct len: 120 0x7fce8b2c05f8
+reconstruct len: 120 0x7fce8b2c06b8
+reconstruct len: 120 0x7fce8b2c0778
+reconstruct len: 120 0x7fce8b2c0838
+reconstruct len: 120 0x7fce8b2c08f8
+reconstruct len: 120 0x7fce8b2c09b8
+reconstruct len: 120 0x7fce8b2c0a78
+reconstruct len: 120 0x7fce8b2c0b38
+reconstruct len: 120 0x7fce8b2c0bf8
+reconstruct len: 120 0x7fce8b2c0cb8
+reconstruct len: 120 0x7fce8b2c0d78
+reconstruct len: 120 0x7fce8b2c0e38
+reconstruct len: 120 0x7fce8b2c0ef8
+reconstruct len: 120 0x7fce8b2c0fb8
+reconstruct len: 120 0x7fce8b2c1078
+reconstruct len: 120 0x7fce8b2c1138
+reconstruct len: 120 0x7fce8b2c11f8
+reconstruct len: 120 0x7fce8b2c12b8
+reconstruct len: 120 0x7fce8b2c1378
+reconstruct len: 120 0x7fce8b2c1438
+reconstruct len: 120 0x7fce8b2c14f8
+reconstruct len: 120 0x7fce8b2c15b8
+reconstruct len: 120 0x7fce8b2c1678
+reconstruct len: 120 0x7fce8b2c1738
+reconstruct len: 120 0x7fce8b2c17f8
+reconstruct len: 120 0x7fce8b2c18b8
+reconstruct len: 120 0x7fce8b2c1978
+reconstruct len: 120 0x7fce8b2c1a38
+reconstruct len: 120 0x7fce8b2c1af8
+reconstruct len: 120 0x7fce8b2c1bb8
+reconstruct len: 120 0x7fce8b2c1c78
+reconstruct len: 120 0x7fce8b2c1d38
+reconstruct len: 120 0x7fce8b2c1df8
+reconstruct len: 120 0x7fce8b2c1eb8
+reconstruct len: 120 0x7fce8b2c1f78
+reconstruct len: 120 0x7fce8b3400f8
+reconstruct len: 120 0x7fce8b340338
+reconstruct len: 120 0x7fce8b3403f8
+reconstruct len: 120 0x7fce8b3404b8
+reconstruct len: 120 0x7fce8b340578
+reconstruct len: 120 0x7fce8b340638
+reconstruct len: 120 0x7fce8b3406f8
+reconstruct len: 120 0x7fce8b3407b8
+reconstruct len: 120 0x7fce8b340878
+reconstruct len: 120 0x7fce8b340ab8
+reconstruct len: 120 0x7fce8b340b78
+reconstruct len: 120 0x7fce8b340c38
+reconstruct len: 120 0x7fce8b340cf8
+reconstruct len: 120 0x7fce8b340db8
+reconstruct len: 120 0x7fce8b340e78
+reconstruct len: 120 0x7fce8b340f38
+reconstruct len: 120 0x7fce8b340ff8
+reconstruct len: 120 0x7fce842aaff8
+reconstruct len: 120 0x7fce842ab0b8
+reconstruct len: 120 0x7fce842ab178
+Error: Not freed memory blocks: 349
+
+Blender quit
+
+Wed Jul  2 18:45:49 COT 2014

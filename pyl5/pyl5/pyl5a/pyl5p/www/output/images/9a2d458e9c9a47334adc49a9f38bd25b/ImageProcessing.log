@@ -1,0 +1,121 @@
+Parameter 1: Processing_BunnyCrawlNew.png
+Parameter 2: /var/www/pyl5/www/output/images/9a2d458e9c9a47334adc49a9f38bd25b
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Thu May 30 11:22:34 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_BunnyCrawlNew.png
+Parameter 2 is: /var/www/pyl5/www/output/images/9a2d458e9c9a47334adc49a9f38bd25b
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/9a2d458e9c9a47334adc49a9f38bd25b
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 8
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.110266Rabbit) 7(0.85FlyingSquirrel) 0(0.891833Rabbit) 8(0.970704SBRectangle) 
+8(0.144708SBRectangle) 8(0.8028SBRectangle) 8(0.94901SBRectangle) 8(0.982587SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.198255Rabbit) 4(0.5312Butterfly) 0(0.919377Rabbit) 0(0.987033Rabbit) 
+0(0.181707Rabbit) 4(0.6788Butterfly) 4(0.891833Butterfly) 4(0.979579Butterfly) 
+0(0.165116Rabbit) 4(0.6684Butterfly) 4(0.855778Butterfly) 4(0.973912Butterfly) 
+0(0.166417Rabbit) 8(0.7196SBRectangle) 7(0.76FlyingSquirrel) 0(0.94662Rabbit) 
+0(0.211699Rabbit) 6(0.7056Apple) 8(0.851339SBRectangle) 8(0.971168SBRectangle) 
+Actor: Label7==SBRectangle.png
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Label4.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Label6.png esta dentro de Label2==SBRectangle.png
+6 esta dentro de 2
+Label7==SBRectangle.png esta dentro de Label2==SBRectangle.png
+7 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label7==SBRectangle.png
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# un detectado es: 7
+# Type: Text
+# Text: CRRWL
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.110266Rabbit) 7(0.85FlyingSquirrel) 0(0.891833Rabbit) 0(0.96522Rabbit) 
+Actor: Label1==Rabbit.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:1
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.029851,0.157303,0.416554,0.883146)
+# Animation: CRRWL
+
+Execution time: 6.46 seconds.
+
+Thu May 30 11:22:40 COT 2013

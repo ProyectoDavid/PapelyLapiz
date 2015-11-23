@@ -1,0 +1,97 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: /var/www/pyl5/www/output/images/8105dcad38a15ee38721ef62c1c37c95
+Parameter 4: /var/www/pyl5/www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: /var/www/pyl5
+Parameter 8: /var/www/pyl5/ImageProcessing/Execution/score.xml
+Thu May 30 15:17:03 COT 2013
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+Info: read library:  '/var/www/production/chars/rabbit.blend', '//..\..\chars\rabbit.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend', '//../../mattes/sky-hills.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend', '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend', '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend', '/var/www/pyl5/VideoGenerator/production/mattes/sky-hills.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/sets/smellingfield.blend', '//../../sets/smellingfield.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/plants.blend', '//../envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/flowers.blend', '//../envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/sets/kite_set.blend', '//../../sets/kite_set.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/flowers.blend', '//../envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/trees.blend', '//../envs/trees.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/trees_pine.blend', '//../envs/trees_pine.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/trees_beech.blend', '//../envs/trees_beech.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/bushes.blend', '//../envs/bushes.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/leaves.blend', '//leaves.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/leaves.blend', '//leaves.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/leaves.blend', '//leaves.blend'
+
+Info: read library:  '/var/www/pyl5/VideoGenerator/production/envs/leaves.blend', '//leaves.blend'
+
+Fra:1 Mem:182.04M (0.10M, peak 182.68M) | Preparing Scene data
+Fra:1 Mem:266.44M (0.10M, peak 437.69M) | Preparing Scene data
+Fra:1 Mem:656.42M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:689.64M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:698.69M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:707.74M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:718.74M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:727.70M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:738.66M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:747.71M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:758.67M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:767.82M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:778.83M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:787.88M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:802.95M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:811.91M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:826.98M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:836.03M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:845.27M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:856.31M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:948.65M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:997.57M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:1057.56M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:1065.42M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:983.72M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) | Preparing Scene data
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) | Creating Shadowbuffers
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) | Caching Point Densities
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) Sce: Scene Ve:16120731 Fa:9771026 La:13
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) | Loading voxel datasets
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) Sce: Scene Ve:16120731 Fa:9771026 La:13
+Fra:1 Mem:984.55M (0.10M, peak 1573.24M) Sce: Scene Ve:16120731 Fa:9771026 La:13
+/var/www/pyl5/www/cgi-bin/VideoGenerator.sh: line 31:  4034 Killed                  RENDER_LOW_QUALITY=$1 RENDER_VIDEO=$2 SCRIPT_XML_FILENAME=$3/$5 SCORE_XML_FILENAME=$8 MODELS_PATH=$7/VideoGenerator /opt/blender/blender -P $7/VideoGenerator/VideoGenerator.py -b $7/VideoGenerator/smellingfield.blend
+
+Thu May 30 15:26:08 COT 2013

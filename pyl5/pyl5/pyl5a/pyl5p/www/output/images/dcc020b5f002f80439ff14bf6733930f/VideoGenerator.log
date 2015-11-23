@@ -1,0 +1,347 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: /var/www/pyl5/www/output/images/dcc020b5f002f80439ff14bf6733930f
+Parameter 4: /var/www/pyl5/www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: /var/www/pyl5
+Parameter 8: /var/www/pyl5/ImageProcessing/Execution/score.xml
+Thu Dec 19 12:55:57 COT 2013
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+Info: read library:  '/var/www/production/chars/butterfly.blend', '//..\..\chars\butterfly.blend'
+
+Info: read library:  '/var/www/production/chars/rabbit.blend', '//..\..\chars\rabbit.blend'
+
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Info: read library:  '/var/www/production/chars/chinchilla.blend', '//..\..\chars\chinchilla.blend'
+
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Fra:1 Mem:162.75M (0.10M, peak 163.33M) | Preparing Scene data
+Fra:1 Mem:235.36M (0.10M, peak 363.14M) | Preparing Scene data
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) | Preparing Scene data
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) | Preparing Scene data
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) | Creating Shadowbuffers
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) | Caching Point Densities
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) Sce: Scene Ve:305462 Fa:509610 La:13
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) | Loading voxel datasets
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) Sce: Scene Ve:305462 Fa:509610 La:13
+Fra:1 Mem:267.63M (0.10M, peak 363.14M) Sce: Scene Ve:305462 Fa:509610 La:13
+Fra:1 Mem:275.72M (1401.89M, peak 2013.21M) | Scene, Part 1-1
+Fra:1 Mem:162.92M (1392.00M, peak 2013.21M) Sce: Scene Ve:305462 Fa:509610 La:13
+Saved: output.png Time: 00:14.75
+read blend: /var/www/pyl5/VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat1' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_med' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_mix' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_small' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.003' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.012' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.013' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.014' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'grass_tall' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Material:'grass' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'birch_001' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_002' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_003' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_004' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Object:'field_flower_blue' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_pink' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'flowers_star1' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gidio' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'taddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'yellowtaddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gollum' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'smeagol' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp.001' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'oak_001' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_002' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_veryhighres_leave' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'apple_tree' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'apple_tree_trunk' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'rock_big_field' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'rock_big_field.001' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'shrooms_rodents' unread libblock missing from '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Object grass_tall.005 lost data.
+Object grasspatch_med lost data.
+Object grasspatch_mix lost data.
+Object grasspatch_quarter lost data.
+Object grasspatch_small lost data.
+Warning: Warning in console
+Parsing: /var/www/pyl5/www/output/images/dcc020b5f002f80439ff14bf6733930f/script.xml
+##### INICIO #####
+2013-12-19 17:56:00
+***loading Butterfly - FLY***
+***loading Apple - DEFAULT***
+***loading SBCamera - DEFAULT***
+***loading Rabbit - WALK***
+***loading Rabbit - DEFAULT***
+***loading Butterfly - DEFAULT***
+***loading Chinchilla - DEFAULT***
+bb_min
+<Vector (1.7486, -5.6250, 0.0000)>
+bb_max
+<Vector (14.0692, -0.6568, 0.0000)>
+la camara quedo en 8.335151672363281, -6.656780242919922, 4.0
+Rotatin at:
+2013-12-19 17:56:07
+################################################################################
+Foleyin at:
+2013-12-19 17:56:07
+################################################################################
+Ambientin at:
+2013-12-19 17:56:07
+################################################################################
+##### FIN #####
+2013-12-19 17:56:22
+reconstruct len: 120 0x7fe650767b78
+Data from AC len: 56 0x7fe64f755b38
+reconstruct len: 120 0x7fe6507689b8
+reconstruct len: 120 0x7fe650768a78
+reconstruct len: 120 0x7fe650768b38
+reconstruct len: 120 0x7fe650768bf8
+reconstruct len: 120 0x7fe650768cb8
+reconstruct len: 120 0x7fe650768d78
+reconstruct len: 120 0x7fe650768e38
+reconstruct len: 120 0x7fe650768ef8
+reconstruct len: 120 0x7fe650768fb8
+reconstruct len: 120 0x7fe650769078
+reconstruct len: 120 0x7fe650769138
+reconstruct len: 120 0x7fe6507691f8
+reconstruct len: 120 0x7fe6507692b8
+reconstruct len: 120 0x7fe650769378
+reconstruct len: 120 0x7fe650769438
+reconstruct len: 120 0x7fe6507694f8
+reconstruct len: 120 0x7fe6507695b8
+reconstruct len: 120 0x7fe650769678
+reconstruct len: 120 0x7fe650769738
+reconstruct len: 120 0x7fe6507697f8
+reconstruct len: 120 0x7fe6507698b8
+reconstruct len: 120 0x7fe650769978
+reconstruct len: 120 0x7fe650769a38
+reconstruct len: 120 0x7fe650769af8
+reconstruct len: 120 0x7fe650769bb8
+reconstruct len: 120 0x7fe650769c78
+reconstruct len: 120 0x7fe650769d38
+reconstruct len: 120 0x7fe650769df8
+reconstruct len: 120 0x7fe650769eb8
+reconstruct len: 120 0x7fe650769f78
+reconstruct len: 120 0x7fe64d7e30f8
+reconstruct len: 120 0x7fe64d7e31b8
+reconstruct len: 120 0x7fe64d7e3278
+reconstruct len: 120 0x7fe64d7e3338
+reconstruct len: 120 0x7fe64d7e33f8
+reconstruct len: 120 0x7fe64d7e34b8
+reconstruct len: 120 0x7fe64d7e3578
+reconstruct len: 120 0x7fe64d7e3638
+reconstruct len: 120 0x7fe64d7e36f8
+reconstruct len: 120 0x7fe64d7e37b8
+reconstruct len: 120 0x7fe64d7e3878
+reconstruct len: 120 0x7fe64d7e3938
+reconstruct len: 120 0x7fe64d7e39f8
+reconstruct len: 120 0x7fe64d7e3ab8
+reconstruct len: 120 0x7fe64d7e3b78
+reconstruct len: 120 0x7fe64d7e3c38
+reconstruct len: 120 0x7fe64d7e3cf8
+reconstruct len: 120 0x7fe64d7e3db8
+reconstruct len: 120 0x7fe64d7e3e78
+reconstruct len: 120 0x7fe64d7e3f38
+reconstruct len: 120 0x7fe64d7e3ff8
+reconstruct len: 120 0x7fe64d7e40b8
+reconstruct len: 120 0x7fe64d7e4178
+reconstruct len: 120 0x7fe64d7e4238
+reconstruct len: 120 0x7fe64d7e42f8
+reconstruct len: 120 0x7fe64d7e43b8
+reconstruct len: 120 0x7fe64d7e4478
+reconstruct len: 120 0x7fe64d7e4538
+reconstruct len: 120 0x7fe64d7e45f8
+reconstruct len: 120 0x7fe64d7e46b8
+reconstruct len: 120 0x7fe64d7e4778
+reconstruct len: 120 0x7fe64d7e4838
+reconstruct len: 120 0x7fe64d7e48f8
+reconstruct len: 120 0x7fe64d7e49b8
+reconstruct len: 120 0x7fe64d7e4a78
+reconstruct len: 120 0x7fe64d7e4b38
+reconstruct len: 120 0x7fe64d7e4bf8
+reconstruct len: 120 0x7fe64d7e4cb8
+reconstruct len: 120 0x7fe64d7e4ef8
+reconstruct len: 120 0x7fe64d7e4fb8
+reconstruct len: 120 0x7fe64d7e5078
+reconstruct len: 120 0x7fe64d7e5138
+reconstruct len: 120 0x7fe64d7e51f8
+reconstruct len: 120 0x7fe64d7e52b8
+reconstruct len: 120 0x7fe64d7e5378
+reconstruct len: 120 0x7fe64d7e5438
+reconstruct len: 120 0x7fe64d7e5678
+reconstruct len: 120 0x7fe64d7e5738
+reconstruct len: 120 0x7fe64d7e57f8
+reconstruct len: 120 0x7fe64d7e58b8
+reconstruct len: 120 0x7fe64d7e5978
+reconstruct len: 120 0x7fe64d7e5a38
+reconstruct len: 120 0x7fe64d7e5af8
+reconstruct len: 120 0x7fe64d7e5bb8
+reconstruct len: 120 0x7fe64c7a5bb8
+reconstruct len: 120 0x7fe64c7a5c78
+reconstruct len: 120 0x7fe64c7a5d38
+reconstruct len: 120 0x7fe650eefff8
+reconstruct len: 120 0x7fe650ef00b8
+reconstruct len: 120 0x7fe650ef0178
+reconstruct len: 120 0x7fe650ef0238
+reconstruct len: 120 0x7fe650ef02f8
+reconstruct len: 120 0x7fe650ef03b8
+reconstruct len: 120 0x7fe650ef0478
+reconstruct len: 120 0x7fe650ef0538
+reconstruct len: 120 0x7fe650ef0778
+reconstruct len: 120 0x7fe650ef0838
+reconstruct len: 120 0x7fe650ef08f8
+reconstruct len: 120 0x7fe650ef09b8
+reconstruct len: 120 0x7fe650ef0a78
+reconstruct len: 120 0x7fe650ef0b38
+reconstruct len: 120 0x7fe650ef0bf8
+reconstruct len: 120 0x7fe650ef0cb8
+Error: Not freed memory blocks: 105
+
+Blender quit
+
+Thu Dec 19 12:56:24 COT 2013

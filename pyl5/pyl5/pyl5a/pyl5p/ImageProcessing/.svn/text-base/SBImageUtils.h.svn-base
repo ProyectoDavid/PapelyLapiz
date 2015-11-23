@@ -1,0 +1,16 @@
+#pragma once
+#include "SBShape.h"
+class SBImageUtils
+{
+public:
+	static void CalculateFeature(SBShape *sbShape, int k, int step);
+	
+	static ImageType::Pointer ResizeImage(ImageType::Pointer image, uint width, uint height);
+	
+	static BoundingBoxType::Pointer GetBoundingBox(ImageType::Pointer image, int label);
+	
+	static BoundingBoxType::Pointer GetBoundingBox(ImageType::Pointer image);
+	
+	//static ImageType::Pointer CropImage(ImageType::Pointer input);
+};
+

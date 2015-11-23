@@ -1,0 +1,39 @@
+<!--
+#
+#Papel y Lapiz - Software para la creacion de pequeños cortos.
+#Copyright (C) 2015  Universidad de Los Andes - Proyecto DAVID.   
+#This program is free software; you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by 
+#the Free Software Foundation; either version 2 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License along
+#with this program; if not, write to the Free Software Foundation,
+#Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+#
+-->
+<objects>
+  <object shape="Training/SS1/square.png" asset="medievalChurch.mesh" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS1/triangle.png" asset="elvenHouse.mesh" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS1/car.png" asset="desertTruck.mesh" facing="front" scaleOffset="0.2"/>
+  <object shape="Training/SS1/ninja.png" asset="ninja.mesh" facing="back" scaleOffset="0.3">
+    <actions>
+      <action text="WALK" animation="Walk"/>
+      <action text="JUMP" animation="Jump"/>
+    </actions>
+  </object>
+  <object shape="Training/SS1/robot.png" asset="robot.mesh" facing="right" scaleOffset="0.7">
+    <actions>
+      <action text="WALK" animation="Walk"/>
+      <action text="SHOOT" animation="Shoot"/>
+    </actions>
+  </object>
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <!--object shape="Training/Default/SBSquare.png" asset="SBSquare" facing="" scaleOffset=""/-->
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+</objects>

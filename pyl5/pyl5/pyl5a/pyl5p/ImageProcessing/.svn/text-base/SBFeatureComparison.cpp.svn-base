@@ -1,0 +1,67 @@
+#include "SBFeatureComparison.h"
+#include <iostream>
+#include <math.h>
+
+SBFeatureComparison::SBFeatureComparison(void)
+{
+}
+
+
+SBFeatureComparison::~SBFeatureComparison(void)
+{
+}
+
+void SBFeatureComparison::SetFeature1(std::vector<float> pFeature1) {
+	feature1=pFeature1;
+}
+
+void SBFeatureComparison::SetFeature2(std::vector<float> pFeature2) {
+	feature2=pFeature2;
+}
+
+
+float SBFeatureComparison::Compare() {
+
+	if(feature1.size()!=feature2.size()) {
+		std::cout << "The sizes of the 2 features are different. You must choose the same number of bins for both features." << std::endl;
+		return -1;
+	}
+
+	float metric=0.0;
+	for(int i=0; i<(int)feature1.size(); i++) {
+		
+		metric+=pow((feature1[i]-feature2[i]), 2);
+	}
+
+	return metric;
+}
+
+
+float SBFeatureComparison::CompareWithRotations() {
+	
+	float tempMetric=0.0;
+	float metric=Compare();
+
+	//A rotation of 2PI/k corresponds to a shift of +-1 element in the feature array.
+	//Here we make k shifts and after each one, the altered feature is compared against the original image feature.
+	//The smaller metric is the chosen one
+	int count=0;
+	while(count<(int)feature2.size()-1){
+
+		float firstElement=feature2[0];
+		for(int i=0; i<(int)feature2.size()-1; i++) {
+			feature2[i]=feature2[i+1];
+		}
+		feature2[feature2.size()-1]=firstElement;
+
+		tempMetric=Compare();
+
+		if(tempMetric<metric) {
+			metric=tempMetric;
+		}
+
+		count++;
+	}
+
+	return metric;
+}

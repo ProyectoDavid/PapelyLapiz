@@ -1,0 +1,24 @@
+#pragma once
+#include <vector>
+
+class SBFeatureComparison
+{
+	
+	std::vector<float> feature1;
+	std::vector<float> feature2;
+
+public:
+	SBFeatureComparison(void);
+	~SBFeatureComparison(void);
+
+	void SetFeature1(std::vector<float> pFeature1);
+
+	void SetFeature2(std::vector<float> pFeature2);
+
+	//Returns the euclidean distance metric between feature1 and feature2
+	float Compare();
+
+	//Returns the smallest euclidean distance metric between feature1 and k-1 rotations of feature2
+	float CompareWithRotations();
+};
+

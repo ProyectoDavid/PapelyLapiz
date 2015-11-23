@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<base href="." />    
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" />
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="0" />
+	<meta HTTP-EQUIV="REFRESH" content="0; url=cgi-bin/inicio.pl" />
+</head>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+#pragma once
+#include "SBDefinitions.h"
+#include "SBShape.h"
+class SBNoiseReduction
+{
+	SBShape* sbShape;
+
+public:
+	
+	void ReduceNoise();
+
+	void SetSBShape(SBShape* pSBShape);
+};
+

@@ -1,0 +1,35 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.193122" z="0.320405" />
+            </actor>
+            <actor asset="Butterfly" animation="VL}!" facing="" scaleOffset="1">
+                <position x="0.511464" z="0.34317" />
+                <trajectory>
+                    <point x="0.650794" z="0.350759" />
+                    <point x="0.64903" z="0.349073" />
+                    <point x="0.647266" z="0.349073" />
+                    <point x="0.645503" z="0.349073" />
+                    <point x="0.643739" z="0.347386" />
+                    <point x="0.641975" z="0.3457" />
+                    <point x="0.640212" z="0.344013" />
+                    <point x="0.638448" z="0.342327" />
+                    <point x="0.636684" z="0.340641" />
+                    <point x="0.636684" z="0.338954" />
+                    <point x="0.634921" z="0.338954" />
+                    <point x="0.633157" z="0.337268" />
+                    <point x="0.631393" z="0.335582" />
+                    <point x="0.62963" z="0.335582" />
+                    <point x="0.627866" z="0.333895" />
+                    <point x="0.626102" z="0.332209" />
+                    <point x="0.626102" z="0.330523" />
+                    <point x="0.626102" z="0.328836" />
+                </trajectory>
+            </actor>
+            <actor asset="Bird" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.330688" z="0.445194" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

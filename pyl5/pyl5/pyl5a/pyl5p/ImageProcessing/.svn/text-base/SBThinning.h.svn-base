@@ -1,0 +1,23 @@
+#pragma once
+#include "SBDefinitions.h"
+#include "SBShape.h"
+
+class SBThinning
+{
+	SBShape* sbShape;
+
+	void EliminateS();
+	void EliminateCorners();
+	void EliminateRedundantPaths();
+	void MakeShapeOnePixelThick();
+
+	ImageType::IndexType CalculateValidSeed();
+	
+
+public:
+	void ThinShape();
+
+	void SetSBShape(SBShape* pSBShape);
+	
+};
+

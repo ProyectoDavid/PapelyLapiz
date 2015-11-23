@@ -1,0 +1,195 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/2fdf2dd420c59caca0718afedce42c89
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 20:10:02 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/2fdf2dd420c59caca0718afedce42c89
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/2fdf2dd420c59caca0718afedce42c89
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 15
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+# Verificando el label 8
+# Verificando el label 9
+# Verificando el label 10
+# Verificando el label 11
+# Verificando el label 12
+# Verificando el label 13
+# Verificando el label 14
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.0977444Rabbit) 2(0.8436Chinchilla) 8(0.95SBRectangle) 8(0.977591SBRectangle) 
+Actor: Label1==SBRectangle.png
+0(0.132812Rabbit) 8(0.8592SBRectangle) 1(0.803023Squirrel) 8(0.95174SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.131833Rabbit) 1(0.7412Squirrel) 0(0.883381Rabbit) 3(0.977553Butterfly) 
+0(0.147122Rabbit) 8(0.7932SBRectangle) 7(0.837212SBCamera) 8(0.974117SBRectangle) 
+Actor: Label4==SBRectangle.png
+0(0.184015Rabbit) 8(0.7656SBRectangle) 0(0.87917Rabbit) 0(0.974602Rabbit) 
+1(0.103448Squirrel) 1(0.9192Squirrel) 1(0.865836Squirrel) 1(0.949683Squirrel) 
+0(0.117347Rabbit) 2(0.8764Chinchilla) 0(0.919377Rabbit) 0(0.972964Rabbit) 
+0(0.172414Rabbit) 2(0.9392Chinchilla) 4(0.851339Bird) 4(0.950378Bird) 
+0(0.1Rabbit) 2(0.8996Chinchilla) 1(0.876307Squirrel) 1(0.946927Squirrel) 
+8(0.153439SBRectangle) 8(0.882SBRectangle) 8(0.95SBRectangle) 8(0.980389SBRectangle) 
+Actor: Label10==SBRectangle.png
+0(0.225681Rabbit) 8(0.7712SBRectangle) 0(0.838755Rabbit) 0(0.974307Rabbit) 
+6(0.139073Apple) 6(0.756Apple) 1(0.885982Squirrel) 6(0.975364Apple) 
+0(0.167116Rabbit) 8(0.83SBRectangle) 1(0.81Squirrel) 8(0.968437SBRectangle) 
+Actor: Label13==SBRectangle.png
+8(0.156085SBRectangle) 8(0.8304SBRectangle) 6(0.739808Apple) 8(0.950135SBRectangle) 
+Actor: Label14==SBRectangle.png
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 6
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label2==SBRectangle.png esta dentro de Label1==SBRectangle.png
+2 esta dentro de 1
+*Se ha removido falso rectangulo del log: Log/Actors/Label2==SBRectangle.png
+Label3.png esta dentro de Label1==SBRectangle.png
+3 esta dentro de 1
+Label4==SBRectangle.png esta dentro de Label1==SBRectangle.png
+4 esta dentro de 1
+*Se ha removido falso rectangulo del log: Log/Actors/Label4==SBRectangle.png
+Label5.png esta dentro de Label1==SBRectangle.png
+5 esta dentro de 1
+Label11.png esta dentro de Label10==SBRectangle.png
+11 esta dentro de 10
+Label12.png esta dentro de Label10==SBRectangle.png
+12 esta dentro de 10
+Label13==SBRectangle.png esta dentro de Label10==SBRectangle.png
+13 esta dentro de 10
+*Se ha removido falso rectangulo del log: Log/Actors/Label13==SBRectangle.png
+Label14==SBRectangle.png esta dentro de Label10==SBRectangle.png
+14 esta dentro de 10
+*Se ha removido falso rectangulo del log: Log/Actors/Label14==SBRectangle.png
+Tesseract Open Source OCR Engine
+# un detectado es: 1
+# un detectado es: 2
+# un detectado es: 4
+# un detectado es: 10
+# un detectado es: 13
+# un detectado es: 14
+# Type: Text
+# Text: JUMD
+# Inside Label: 1
+Tesseract Open Source OCR Engine
+# un detectado es: 1
+# un detectado es: 2
+# un detectado es: 4
+# un detectado es: 10
+# un detectado es: 13
+# un detectado es: 14
+# Type: Text
+# Text: cut?
+# Inside Label: 10
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 4
+## Total PALABRAS Encontradas: 2
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label6.png is an arrow...Label6.png looked like an arrow, but its head was too big: (55,72,514)
+nope.
+Lets see if Label7.png is an arrow...nope.
+Lets see if Label8.png is an arrow...Label8.png looked like an arrow, but its head was too big: (62,77,573)
+nope.
+Lets see if Label9.png is an arrow...Label9.png looked like an arrow, but its head was too big: (201,783,3)
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+1(0.103448Squirrel) 1(0.9192Squirrel) 1(0.865836Squirrel) 1(0.949683Squirrel) 
+Actor: Label6==Squirrel.png
+0(0.117347Rabbit) 2(0.8764Chinchilla) 0(0.919377Rabbit) 0(0.972964Rabbit) 
+Actor: Label7==Rabbit.png
+0(0.172414Rabbit) 2(0.9392Chinchilla) 4(0.851339Bird) 4(0.950378Bird) 
+Actor: Label8==Bird.png
+0(0.1Rabbit) 2(0.8996Chinchilla) 1(0.876307Squirrel) 1(0.946927Squirrel) 
+Actor: Label9==Squirrel.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:4
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 6
+# Asset: Squirrel
+# Image: Label6==Squirrel.png
+# Bounds: (0.323242,0.084635,0.587891,0.449219)
+# Animation: 
+
+# Type: Actor
+# Label: 7
+# Asset: Rabbit
+# Image: Label7==Rabbit.png
+# Bounds: (0.119141,0.139323,0.288086,0.446615)
+# Animation: JUMD
+
+# Type: Actor
+# Label: 8
+# Asset: Bird
+# Image: Label8==Bird.png
+# Bounds: (0.359375,0.201823,0.871094,0.825521)
+# Animation: 
+
+# Type: Actor
+# Label: 9
+# Asset: Squirrel
+# Image: Label9==Squirrel.png
+# Bounds: (0.052734,0.618490,0.343750,0.920573)
+# Animation: cut?
+
+Execution time: 15.53 seconds.
+
+Wed Jul  2 20:10:14 COT 2014

@@ -1,0 +1,64 @@
+#include "SBFeatureExtraction.h"
+#include "SBNoiseReduction.h"
+#include "SBThinning.h"
+#include "SBPointTracker.h"
+#include "SBAngleQuantization.h"
+#include "SBFeatureComparison.h"
+#include "SBFileUtils.h"
+#include "SBNeighborUtils.h"
+#include "SBFilterUtils.h"
+
+SBFeatureExtraction::SBFeatureExtraction(void)
+{
+	sbShape = NULL;
+}
+
+
+SBFeatureExtraction::~SBFeatureExtraction(void)
+{
+}
+
+void SBFeatureExtraction::SetSBShape(SBShape *pSBShape)
+{
+	sbShape = pSBShape;
+}
+
+void SBFeatureExtraction::ComputeFeature(int k, int step)
+{
+	ImageType::Pointer originalImage = sbShape->GetImage();
+	
+	SBNoiseReduction sbNoiseReduction;
+	sbNoiseReduction.SetSBShape(sbShape);
+	sbNoiseReduction.ReduceNoise();
+	
+	//SBFileUtils::WriteImage(sbShape->GetImage(), FEATURE_LOG + sbShape->GetName() + " F4. NoiseReduction.png");
+	
+	SBThinning sbThinning;
+	sbThinning.SetSBShape(sbShape);
+	sbThinning.ThinShape();
+
+	SBFileUtils::WriteImage(sbShape->GetImage(), FEATURE_LOG + sbShape->GetName() + " F6. OnePixelThick.png");
+	
+	SBNeighborUtils::CalculateInterestPoints(sbShape);
+
+	SBPointTracker sbPointTracker;
+	sbPointTracker.SetSBShape(sbShape);
+
+	if(sbShape->GetIntersectionPoints().size()>0)
+	{
+		sbPointTracker.TrackPaths();
+	}
+	else
+	{
+		sbPointTracker.TrackAdvancedPoints();
+	}
+
+	SBAngleQuantization sbAngleQuantization;
+	sbAngleQuantization.SetSBShape(sbShape);
+	sbAngleQuantization.SetK(k);
+	sbAngleQuantization.SetStep(step);
+	sbAngleQuantization.CalculateAdvancedFeature();
+	
+	sbShape->SetImage(originalImage);
+}
+

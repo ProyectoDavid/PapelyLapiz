@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/Applications/blender.app/Contents/MacOS/blender -P /Users/dwilches/Dropbox/Uniandes/Doctorado/blender-python/xml-loader.py -b /Users/dwilches/Dropbox/Uniandes/Doctorado/blender-python/empty_scene.blend 
+

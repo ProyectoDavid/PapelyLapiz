@@ -1,0 +1,207 @@
+Parameter 1: Processing_edited_02.png
+Parameter 2: /var/www/pyl5/www/output/images/42b33b15baeaddf9d8ee172ab723b871
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Tue Oct  1 10:26:08 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_edited_02.png
+Parameter 2 is: /var/www/pyl5/www/output/images/42b33b15baeaddf9d8ee172ab723b871
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/42b33b15baeaddf9d8ee172ab723b871
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 17
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+# Verificando el label 8
+# Verificando el label 9
+# Verificando el label 10
+# Verificando el label 11
+
+# Type: Noise
+# Image: Label11.png
+# Label: 11
+# Bounds: (0.731053,0.530891,0.735789,0.540948)
+
+# Verificando el label 12
+# Verificando el label 13
+# Verificando el label 14
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (0.273158,0.672414,0.273158,0.673132)
+
+# Verificando el label 15
+# Verificando el label 16
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.0839161Rabbit) 1(0.8992Squirrel) 5(0.905132FlyingSquirrel) 5(0.958959FlyingSquirrel) 
+4(0.125984Bird) 2(0.9056Chinchilla) 4(0.88Bird) 4(0.957105Bird) 
+0(0.132075Rabbit) 2(0.9288Chinchilla) 5(0.740578FlyingSquirrel) 3(0.925728Butterfly) 
+6(0.111111Apple) 2(0.9328Chinchilla) 2(0.821115Chinchilla) 2(0.93198Chinchilla) 
+0(0.145985Rabbit) 2(0.8952Chinchilla) 8(0.87SBRectangle) 8(0.974229SBRectangle) 
+Actor: Label5==SBRectangle.png
+0(0.158416Rabbit) 6(0.646Apple) 7(0.883381SBCamera) 0(0.97136Rabbit) 
+0(0.261818Rabbit) 2(0.8528Chinchilla) 7(0.913977SBCamera) 7(0.970469SBCamera) 
+0(0.140541Rabbit) 8(0.8208SBRectangle) 8(0.88SBRectangle) 8(0.969765SBRectangle) 
+Actor: Label8==SBRectangle.png
+0(0.171975Rabbit) 8(0.798SBRectangle) 8(0.93SBRectangle) 8(0.982418SBRectangle) 
+Actor: Label9==SBRectangle.png
+0(0.168981Rabbit) 8(0.8152SBRectangle) 8(0.921898SBRectangle) 8(0.980464SBRectangle) 
+Actor: Label10==SBRectangle.png
+6(0.163793Apple) 2(0.9084Chinchilla) 6(0.892297Apple) 6(0.967665Apple) 
+3(0.192982Butterfly) 3(0.8788Butterfly) 3(0.886863Butterfly) 3(0.97142Butterfly) 
+3(0.122137Butterfly) 2(0.9008Chinchilla) 0(0.891833Rabbit) 0(0.967719Rabbit) 
+3(0.155172Butterfly) 2(0.9092Chinchilla) 5(0.805835FlyingSquirrel) 3(0.9565Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 4
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label6.png esta dentro de Label5==SBRectangle.png
+6 esta dentro de 5
+Label7.png esta dentro de Label5==SBRectangle.png
+7 esta dentro de 5
+Label8==SBRectangle.png esta dentro de Label5==SBRectangle.png
+8 esta dentro de 5
+*Se ha removido falso rectangulo del log: Log/Actors/Label8==SBRectangle.png
+Label9==SBRectangle.png esta dentro de Label5==SBRectangle.png
+9 esta dentro de 5
+*Se ha removido falso rectangulo del log: Log/Actors/Label9==SBRectangle.png
+Label10==SBRectangle.png esta dentro de Label5==SBRectangle.png
+10 esta dentro de 5
+*Se ha removido falso rectangulo del log: Log/Actors/Label10==SBRectangle.png
+Tesseract Open Source OCR Engine
+# un detectado es: 5
+# un detectado es: 8
+# un detectado es: 9
+# un detectado es: 10
+# Type: Text
+# Text: ‘F0©@\
+# Inside Label: 5
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 3
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...0
+nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label3.png is an arrow...Label3.png looked like an arrow, but its head was too big: (617,28,50)
+nope.
+Lets see if Label4.png is an arrow...Label4.png looked like an arrow, but its head was too big: (611,26,39)
+nope.
+Lets see if Label12.png is an arrow...nope.
+Lets see if Label13.png is an arrow...nope.
+Lets see if Label15.png is an arrow...nope.
+Lets see if Label16.png is an arrow...Label16.png looked like an arrow, but its head was too big: (25,72,689)
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.0839161Rabbit) 1(0.8992Squirrel) 5(0.905132FlyingSquirrel) 5(0.958959FlyingSquirrel) 
+Actor: Label1==FlyingSquirrel.png
+4(0.125984Bird) 2(0.9056Chinchilla) 4(0.88Bird) 4(0.957105Bird) 
+Actor: Label2==Bird.png
+0(0.132075Rabbit) 2(0.9288Chinchilla) 5(0.740578FlyingSquirrel) 3(0.925728Butterfly) 
+6(0.111111Apple) 2(0.9328Chinchilla) 2(0.821115Chinchilla) 2(0.93198Chinchilla) 
+Actor: Label4==Chinchilla.png
+6(0.163793Apple) 2(0.9084Chinchilla) 6(0.892297Apple) 6(0.967665Apple) 
+Actor: Label12==Apple.png
+3(0.192982Butterfly) 3(0.8788Butterfly) 3(0.886863Butterfly) 3(0.97142Butterfly) 
+Actor: Label13==Butterfly.png
+3(0.122137Butterfly) 2(0.9008Chinchilla) 0(0.891833Rabbit) 0(0.967719Rabbit) 
+Actor: Label15==Rabbit.png
+3(0.155172Butterfly) 2(0.9092Chinchilla) 5(0.805835FlyingSquirrel) 3(0.9565Butterfly) 
+Actor: Label16==Butterfly.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:7
+
+# Type: NotRecognized
+# Image: Label3.png
+# Label: 3
+# Bounds: (0.135263,0.230603,0.250000,0.689655)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: FlyingSquirrel
+# Image: Label1==FlyingSquirrel.png
+# Bounds: (0.059474,0.030891,0.227895,0.201868)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Bird
+# Image: Label2==Bird.png
+# Bounds: (0.680526,0.198276,0.796842,0.367098)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Chinchilla
+# Image: Label4==Chinchilla.png
+# Bounds: (0.353158,0.350575,0.660000,0.534483)
+# Animation: ‘F0©@\
+
+# Type: Actor
+# Label: 12
+# Asset: Apple
+# Image: Label12==Apple.png
+# Bounds: (0.225263,0.594109,0.370000,0.867816)
+# Animation: 
+
+# Type: Actor
+# Label: 13
+# Asset: Butterfly
+# Image: Label13==Butterfly.png
+# Bounds: (0.032105,0.604885,0.151053,0.740661)
+# Animation: 
+
+# Type: Actor
+# Label: 15
+# Asset: Rabbit
+# Image: Label15==Rabbit.png
+# Bounds: (0.828421,0.691092,0.972632,0.959770)
+# Animation: 
+
+# Type: Actor
+# Label: 16
+# Asset: Butterfly
+# Image: Label16==Butterfly.png
+# Bounds: (0.461053,0.822557,0.835263,0.882184)
+# Animation: 
+
+Execution time: 47.51 seconds.
+
+Tue Oct  1 10:29:26 COT 2013

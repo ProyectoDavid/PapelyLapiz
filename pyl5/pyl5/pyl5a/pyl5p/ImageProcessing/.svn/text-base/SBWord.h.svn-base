@@ -1,0 +1,33 @@
+#pragma once
+#include "SBDefinitions.h"
+
+using namespace std;
+class SBWord
+{
+	ImageType::Pointer image;
+	int containerLabel;
+	vector<int> letterLabels;
+	string text;
+	BoundingBoxType::Pointer boundingBox;
+
+public:
+	SBWord(void);
+	~SBWord(void);
+
+	ImageType::Pointer GetImage();
+	void SetImage(ImageType::Pointer pImage);
+	
+	int GetContainerLabel();
+	void SetContainerLabel(int pContainerLabel);
+
+	vector<int> GetLetterLabels();
+	void SetLetterLabels(vector<int> pLetterLabels);
+
+	string GetText();
+	void SetText(string pText);
+
+	BoundingBoxType::Pointer GetBoundingBox();
+	void SetBoundingBox(BoundingBoxType::Pointer pBoundingBox);
+
+};
+

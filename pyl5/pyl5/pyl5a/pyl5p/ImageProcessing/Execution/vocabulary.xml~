@@ -1,0 +1,196 @@
+<objects>
+	<object shape="Training/SS4/Conejo.png" asset="Rabbit" facing="" scaleOffset="" es="Conejo" en="Rabbit" framestart="4" sound="RabbitDefault" typeofsound="voice" delay="2" >
+		<actions>
+			<action text="WALK" animation="WALK">
+				<events>
+					<event name="RabbitWalk" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+		<actions>
+			<action text="JUMP" animation="JUMP">
+				<events>
+					<event name="RabbitJump" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+	</object>
+	<object shape="Training/SS4/Ardilla.png" asset="Squirrel" facing="" scaleOffset="" es="Ardilla" en="Squirrel" framestart="4" sound="SquirrelDefault" typeofsound="voice" delay="2" >
+		<actions>
+			<action text="CLAP" animation="CLAP">
+				<events>
+					<event name="SquirrelClap" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+		<actions>
+			<action text="FLAP" animation="FLAP">
+				<events>
+					<event name="SquirrelFlap" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+	</object>
+	<object shape="Training/SS4/Chinchilla.png" asset="Chinchilla" facing="" scaleOffset="" es="Chinchilla" en="Chinchilla" framestart="4" sound="ChinchillaDefault" typeofsound="voice" delay="2" >
+		<actions>
+			<action text="EAT" animation="EAT">
+				<events>
+					<event name="ChinchillaEat" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+		<actions>
+			<action text="RUN" animation="RUN">
+				<events>
+					<event name="ChinchillaRun" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+	</object>
+	<object shape="Training/SS4/Mariposa.png" asset="Butterfly" facing="" scaleOffset="" es="Mariposa" en="Butterfly" >
+		<!--actions>
+			<action text="FLY" animation="FLY">
+				<events>
+					<event name="ButterflyFly" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions-->
+	</object>
+	<object shape="Training/SS4/Pajaro.png" asset="Bird" facing="" scaleOffset="" es="Pajaro" en="Bird" framestart="4" sound="BirdDefault" typeofsound="voice" delay="2" >
+		<actions>
+			<action text="FLAP" animation="FLAP">
+				<events>
+					<event name="BirdFlap" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+	</object>
+	<object shape="Training/SS4/FlyingSquirrel.png" asset="FlyingSquirrel" facing="" scaleOffset="" es="Ardilla Voladora" en="Flying Squirrel" framestart="4" sound="FlyingSquirrelDefault" typeofsound="voice" delay="2" >
+		<actions>
+			<action text="FLAP" animation="FLAP">
+				<events>
+					<event name="FlyingSquirrelFlap" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+		<actions>
+			<action text="RUN" animation="RUN">
+				<events>
+					<event name="FlyingSquirrelRun" framestart="4" delay="2"/>
+				</events>
+			</action>
+		</actions>
+	</object>
+	<object shape="Training/SS4/Manzana.png" asset="Apple" facing="" scaleOffset="" es="Manzana" en="Apple"/>
+	<object shape="Training/SS4/Camera.png" asset="SBCamera" facing="" scaleOffset="" es="Camara" en="Camera"/>
+	<object shape="Training/SS4/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset="" es="Rectangulo" en="Rectangle"/>
+	
+<!--Objeto scene-->
+	<!-- scene material="GroundMat" ambientSound="jazz"/ -->
+
+<!-- Libreria de emociones-->
+	<!-- emotionlibrary>
+			<event name="happy">
+					<sound name="happy"/>
+			</event>
+			<event name="sad">
+					<sound name="sad"/>
+			</event>
+			<event name="afraid">
+					<sound name="afraid"/>
+			</event>
+			<event name="angry">
+					<sound name="angry"/>
+			</event>
+	 </emotionlibrary -->
+	
+<!--Libreria de eventos.
+	Los eventos tienen asociados sonidos que se escuchan al ocurrir el evento-->
+	<eventlibrary>
+		<event name="RabbitWalk">
+			<sound name="RabbitWalk"/>
+		</event>
+		<event name="RabbitJump">
+			<sound name="RabbitJump"/>
+		</event>
+		<event name="SquirrelClap">
+			<sound name="SquirrelClap"/>
+		</event>
+		<event name="SquirrelFlap">
+			<sound name="SquirrelFlap"/>
+		</event>
+		<event name="ChinchillaEat">
+			<sound name="ChinchillaEat"/>
+		</event>
+		<event name="ChinchillaRun">
+			<sound name="ChinchillaRun"/>
+		</event>
+		<event name="ButterflyFly">
+			<sound name="ButterflyFly"/>
+		</event>
+		<event name="BirdFlap">
+			<sound name="BirdFlap"/>
+		</event>
+		<event name="FlyingSquirrelFlap">
+			<sound name="FlyingSquirrelFlap"/>
+		</event>
+		<event name="FlyingSquirrelRun">
+			<sound name="FlyingSquirrelRun"/>
+		</event>
+	</eventlibrary>
+
+<!--Libreria de sonidos. Los sonidos tienen asociados diferentes formas de escucharse,
+	cada una de acuerdo a un escenario o material que haga que se escuche.-->
+	<soundlibrary>	
+<!--FOLEY-->
+		<sound name="RabbitWalk">
+			<material key="GroundMat" value="../walk001.wav" />
+		</sound>
+		<sound name="RabbitJump">
+			<material key="GroundMat" value="../bounce.wav" />
+		</sound>
+		<sound name="SquirrelClap">
+			<material key="GroundMat" value="../squirrel.wav" />
+		</sound>
+		<sound name="SquirrelFlap">
+			<material key="GroundMat" value="../squirrel.wav" />
+		</sound>
+		<sound name="ChinchillaEat">
+			<material key="GroundMat" value="../chinchilla.wav" />
+		</sound>
+		<sound name="ChinchillaRun">
+			<material key="GroundMat" value="../chinchilla.wav" />
+		</sound>
+		<sound name="ButterflyFly">
+			<material key="GroundMat" value="../bird002.wav" />
+		</sound>
+		<sound name="BirdFlap">
+			<material key="GroundMat" value="../bird001.wav" />
+		</sound>
+		<sound name="FlyingSquirrelFlap">
+			<material key="GroundMat" value="../fsquirrel.wav" />
+		</sound>
+		<sound name="FlyingSquirrelRun">
+			<material key="GroundMat" value="../fsquirrel.wav" />
+		</sound>
+		<sound name="FlyingSquirrelRun">
+			<material key="GroundMat" value="../fsquirrel.wav" />
+		</sound>
+<!--Voice-->
+		<sound name="RabbitDefault" value="../walk001.wav" />
+		<sound name="SquirrelDefault" value="../squirrel.wav" />
+		<sound name="ChinchillaDefault" value="../chinchilla.wav" />
+		<sound name="ButterflyDefault" value="../bird002.wav" />
+		<sound name="BirdDefault" value="../bird001.wav" />
+		<sound name="FlyingSquirrelDefault" value="../fsquirrel.wav" />
+<!--Ambient-->
+		<!-- sound name="jazz" value="/var/www/pyl2/VideoGenerator/sound/MilkyWay01.mp3" />
+		<sound name="scenario01" value="/var/www/pyl5/ImageProcessing/SoundFilm/forest.wav" />
+		<sound name="scenario02" value="/var/www/pyl5/ImageProcessing/SoundFilm/sea002.wav" / -->
+<!--Emotion-->
+		<!-- sound name="happy" value="/var/www/pyl2/VideoGenerator/sound/happy.mp3" />
+		<sound name="sad" value="/var/www/pyl2/VideoGenerator/sound/sad.mp3" />
+		<sound name="afraid" value="/var/www/pyl2/VideoGenerator/sound/afraid.mp3" />
+		<sound name="angry" value="/var/www/pyl2/VideoGenerator/sound/angry.mp3" / -->
+	</soundlibrary>
+</objects>

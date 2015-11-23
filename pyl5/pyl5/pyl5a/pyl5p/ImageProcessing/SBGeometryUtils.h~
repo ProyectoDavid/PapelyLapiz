@@ -1,0 +1,21 @@
+#pragma once
+#include "SBDefinitions.h"
+using namespace std;
+class SBGeometryUtils
+{
+public:
+	SBGeometryUtils(void);
+	~SBGeometryUtils(void);
+
+static double GetDistanceBetween2Points(ImageType::IndexType point1, ImageType::IndexType point2);
+
+static double GetMinDistanceBetweenPointAndPointSet(ImageType::IndexType point, vector<ImageType::IndexType> pointSet);
+
+static double GetMinDistanceBetween2PointSets(vector<ImageType::IndexType> pointSet1, vector<ImageType::IndexType> pointSet2);
+
+static vector<ImageType::IndexType> GetBoundBoxPointSet(BoundingBoxType::Pointer boundingBox);
+
+static vector<ImageType::IndexType> GetBoundBoxPointSet(BoundingBoxType::Pointer boundingBox, unsigned int numberOfSegmentsPerSide);
+
+};
+

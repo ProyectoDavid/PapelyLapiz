@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Squirrel">
+        <sound value="/var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab/squirrel.wav.mp3" />
+        <point x="0.848655" y="0.287654" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab/chinchilla.wav.mp3" />
+        <point x="0.303812" y="0.247439" z="0" />
+    </actor>
+    <actor asset="Bird">
+        <sound value="/var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab/bird001.wav.mp3" />
+        <point x="0.418722" y="0.208248" z="0" />
+    </actor>
+    <actor asset="FlyingSquirrel">
+        <sound value="/var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab/fsquirrel.wav.mp3" />
+        <point x="0.497758" y="0.168289" z="0" />
+    </actor>
+</score>

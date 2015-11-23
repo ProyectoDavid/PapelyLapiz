@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="FlyingSquirrel" animation="CLINB" facing="" scaleOffset="1">
+                <position x="0.510833" z="0.388307" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

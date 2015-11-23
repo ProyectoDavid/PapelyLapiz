@@ -1,0 +1,36 @@
+#include "SBNoiseReduction.h"
+#include "SBFilterUtils.h"
+#include "SBFileUtils.h"
+
+
+void SBNoiseReduction::ReduceNoise() {
+	
+	//string log="";
+	int average = 0;
+	ImageType::Pointer image = sbShape->GetImage();
+	image=SBFilterUtils::RescaleImage(image, 0, MAX_GRAY_VALUE);
+
+	SBFileUtils::WriteImage(image, FEATURE_LOG + sbShape->GetName() + " F1. Rescale.png");
+	
+	image = SBFilterUtils::InvertImage(image);
+
+	SBFileUtils::WriteImage(image, FEATURE_LOG + sbShape->GetName() + " F2. Invert.png");
+	average = SBFilterUtils::GetGlobalMean(image);
+
+	image=SBFilterUtils::ThresholdImage(image, 0, 4*average, 0, MAX_GRAY_VALUE);
+
+	SBFileUtils::WriteImage(image, FEATURE_LOG + sbShape->GetName() + " F3. FirstThreshold.png");
+
+	//image=SBFilterUtils::GaussianSmoothImage(image, 3);
+	//average = SBFilterUtils::GetGlobalMean(image);
+	
+	//image=SBFilterUtils::ThresholdImage(image, 0, 2*average, 0, MAX_GRAY_VALUE);
+	sbShape->SetImage(image);
+
+}
+
+
+void SBNoiseReduction::SetSBShape(SBShape* pSBShape) {
+	sbShape = pSBShape;
+}
+

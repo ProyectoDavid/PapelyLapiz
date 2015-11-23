@@ -1,0 +1,12 @@
+<objects>
+  <object shape="Training/SS4/Conejo.png" asset="Rabbit" facing="" scaleOffset="" es="Conejo" en="Rabbit"/>
+  <object shape="Training/SS4/Ardilla.png" asset="Squirrel" facing="" scaleOffset="" es="Ardilla" en="Squirrel"/>
+  <object shape="Training/SS4/Camera.png" asset="SBCamera" facing="" scaleOffset="" es="Camara" en="Camera"/>
+  <object shape="Training/SS4/Chinchilla.png" asset="Chinchilla" facing="" scaleOffset="" es="Chinchilla" en="Chinchilla"/>
+  <object shape="Training/SS4/Mariposa.png" asset="Butterfly" facing="" scaleOffset="" es="Mariposa" en="Butterfly"/>
+  <object shape="Training/SS4/Pajaro.png" asset="Bird" facing="" scaleOffset="" es="Pajaro" en="Bird"/>
+  <object shape="Training/SS4/Manzana.png" asset="Apple" facing="" scaleOffset="" es="Manzana" en="Apple"/>
+  <object shape="Training/SS4/FlyingSquirrel.png" asset="FlyingSquirrel" facing="" scaleOffset="" es="Ardilla Voladora" en="Flying Squirrel"/>
+  
+  <object shape="Training/SS4/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset="" es="Rectangulo" en="Rectangle"/>
+</objects>

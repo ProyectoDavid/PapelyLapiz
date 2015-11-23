@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts
+END
+ALL_BUILD_cmakeRulesBuildPhase.makeRelease
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelease
+END
+ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel
+END
+Thesis_postBuildPhase.makeRelease
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/Thesis_postBuildPhase.makeRelease
+END
+Thesis_postBuildPhase.makeMinSizeRel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/Thesis_postBuildPhase.makeMinSizeRel
+END
+ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo
+END
+ALL_BUILD_cmakeRulesBuildPhase.makeDebug
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeDebug
+END
+Thesis_postBuildPhase.makeRelWithDebInfo
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/Thesis_postBuildPhase.makeRelWithDebInfo
+END
+ReRunCMake.make
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/ReRunCMake.make
+END
+Thesis_postBuildPhase.makeDebug
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/Thesis_postBuildPhase.makeDebug
+END
+XCODE_DEPEND_HELPER.make
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/imagine/pyl/!svn/ver/1/ImageProcessing/CMakeScripts/XCODE_DEPEND_HELPER.make
+END

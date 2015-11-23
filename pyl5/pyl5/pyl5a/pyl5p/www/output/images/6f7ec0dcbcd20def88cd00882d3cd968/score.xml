@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/walk001.wav.mp3" />
+        <point x="0.794922" y="0.231771" z="0" />
+    </actor>
+    <actor asset="FlyingSquirrel">
+        <sound value="../../www/output/images/6f7ec0dcbcd20def88cd00882d3cd968/fsquirrel.wav.mp3" />
+        <point x="0.46875" y="0.490885" z="0" />
+    </actor>
+</score>

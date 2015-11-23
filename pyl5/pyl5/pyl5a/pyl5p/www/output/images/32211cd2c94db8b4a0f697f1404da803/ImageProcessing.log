@@ -1,0 +1,84 @@
+Parameter 1: Processing_SquirrelRun.png
+Parameter 2: ../../www/output/images/32211cd2c94db8b4a0f697f1404da803
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Mon Feb  2 18:51:55 COT 2015
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_SquirrelRun.png
+Parameter 2 is: ../../www/output/images/32211cd2c94db8b4a0f697f1404da803
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution/Log/32211cd2c94db8b4a0f697f1404da803
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 6
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+##Etapa de busqueda de RECTANGULOS##
+
+4(0.135922Bird) 2(0.8788Chinchilla) 1(0.865836Squirrel) 0(0.951897Rabbit) 
+8(0.260593SBRectangle) 8(0.844SBRectangle) 8(0.94169SBRectangle) 8(0.988245SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.152577Rabbit) 2(0.6188Chinchilla) 0(0.89802Rabbit) 0(0.975107Rabbit) 
+0(0.144654Rabbit) 3(0.6832Butterfly) 0(0.87Rabbit) 8(0.972097SBRectangle) 
+0(0.150183Rabbit) 3(0.6904Butterfly) 3(0.917538Butterfly) 3(0.984811Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 1
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Label4.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# Type: Text
+# Text: Rmx;
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+4(0.135922Bird) 2(0.8788Chinchilla) 1(0.865836Squirrel) 0(0.951897Rabbit) 
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:0
+
+# Type: NotRecognized
+# Image: Label1.png
+# Label: 1
+# Bounds: (0.098214,0.165605,0.622768,0.853503)
+
+./ImageProcessing.sh: line 28:  2791 Segmentation fault      ./ImageProcessing "$1" "$2" "$3"
+
+Mon Feb  2 18:52:00 COT 2015

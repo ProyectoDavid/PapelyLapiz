@@ -1,0 +1,258 @@
+Parameter 1: Processing_SquirrelThrowNew.png
+Parameter 2: /var/www/pyl5/www/output/images/16aaf936c6a895641e8b3f9738754704
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Thu May 30 12:05:28 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_SquirrelThrowNew.png
+Parameter 2 is: /var/www/pyl5/www/output/images/16aaf936c6a895641e8b3f9738754704
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/16aaf936c6a895641e8b3f9738754704
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 30
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+# Verificando el label 8
+
+# Type: Noise
+# Image: Label8.png
+# Label: 8
+# Bounds: (0.840065,0.915937,0.840065,0.917688)
+
+# Verificando el label 9
+
+# Type: Noise
+# Image: Label9.png
+# Label: 9
+# Bounds: (0.995153,0.926445,0.998384,0.929947)
+
+# Verificando el label 10
+
+# Type: Noise
+# Image: Label10.png
+# Label: 10
+# Bounds: (0.982229,0.940455,0.982229,0.940455)
+
+# Verificando el label 11
+
+# Type: Noise
+# Image: Label11.png
+# Label: 11
+# Bounds: (0.988691,0.942207,0.990307,0.943958)
+
+# Verificando el label 12
+
+# Type: Noise
+# Image: Label12.png
+# Label: 12
+# Bounds: (0.956381,0.943958,0.956381,0.943958)
+
+# Verificando el label 13
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (0.919225,0.945709,0.920840,0.947461)
+
+# Verificando el label 14
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (0.953150,0.949212,0.953150,0.949212)
+
+# Verificando el label 15
+
+# Type: Noise
+# Image: Label15.png
+# Label: 15
+# Bounds: (0.988691,0.949212,0.988691,0.949212)
+
+# Verificando el label 16
+
+# Type: Noise
+# Image: Label16.png
+# Label: 16
+# Bounds: (0.936995,0.952715,0.940226,0.956217)
+
+# Verificando el label 17
+
+# Type: Noise
+# Image: Label17.png
+# Label: 17
+# Bounds: (0.856220,0.954466,0.856220,0.954466)
+
+# Verificando el label 18
+# Verificando el label 19
+
+# Type: Noise
+# Image: Label19.png
+# Label: 19
+# Bounds: (0.851373,0.956217,0.852989,0.956217)
+
+# Verificando el label 20
+
+# Type: Noise
+# Image: Label20.png
+# Label: 20
+# Bounds: (0.885299,0.961471,0.899838,0.975482)
+
+# Verificando el label 21
+
+# Type: Noise
+# Image: Label21.png
+# Label: 21
+# Bounds: (0.848142,0.971979,0.849758,0.971979)
+
+# Verificando el label 22
+
+# Type: Noise
+# Image: Label22.png
+# Label: 22
+# Bounds: (0.804523,0.973730,0.804523,0.973730)
+
+# Verificando el label 23
+
+# Type: Noise
+# Image: Label23.png
+# Label: 23
+# Bounds: (0.862682,0.973730,0.870759,0.978984)
+
+# Verificando el label 24
+
+# Type: Noise
+# Image: Label24.png
+# Label: 24
+# Bounds: (0.899838,0.975482,0.904685,0.978984)
+
+# Verificando el label 25
+
+# Type: Noise
+# Image: Label25.png
+# Label: 25
+# Bounds: (0.873990,0.980736,0.875606,0.980736)
+
+# Verificando el label 26
+
+# Type: Noise
+# Image: Label26.png
+# Label: 26
+# Bounds: (0.820679,0.982487,0.823910,0.985989)
+
+# Verificando el label 27
+
+# Type: Noise
+# Image: Label27.png
+# Label: 27
+# Bounds: (0.714055,0.996497,0.714055,0.998249)
+
+# Verificando el label 28
+
+# Type: Noise
+# Image: Label28.png
+# Label: 28
+# Bounds: (0.767367,0.996497,0.770598,0.998249)
+
+# Verificando el label 29
+
+# Type: Noise
+# Image: Label29.png
+# Label: 29
+# Bounds: (0.793215,0.998249,0.794830,0.998249)
+
+
+##Etapa de busqueda de RECTANGULOS##
+
+8(0.138655SBRectangle) 3(0.8668Chinchilla) 1(0.865836Squirrel) 0(0.95411Rabbit) 
+8(0.166234SBRectangle) 8(0.8316SBRectangle) 8(0.946148SBRectangle) 8(0.983185SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.181818Rabbit) 4(0.7432Butterfly) 4(0.913977Butterfly) 4(0.981149Butterfly) 
+0(0.153504Rabbit) 1(0.6416Squirrel) 8(0.9SBRectangle) 8(0.975713SBRectangle) 
+Actor: Label4==SBRectangle.png
+0(0.12666Rabbit) 4(0.6192Butterfly) 0(0.892297Rabbit) 4(0.975305Butterfly) 
+0(0.163934Rabbit) 6(0.7644Apple) 2(0.856822SBCamera) 2(0.96799SBCamera) 
+0(0.190041Rabbit) 4(0.6372Butterfly) 4(0.913977Butterfly) 4(0.985531Butterfly) 
+0(0.13739Rabbit) 1(0.6056Squirrel) 1(0.883381Squirrel) 1(0.976235Squirrel) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Label4==SBRectangle.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label4==SBRectangle.png
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Label6.png esta dentro de Label2==SBRectangle.png
+6 esta dentro de 2
+Label7.png esta dentro de Label2==SBRectangle.png
+7 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# un detectado es: 4
+# Type: Text
+# Text: THROW
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label18.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+5(0.12605Bird) 3(0.8668Chinchilla) 1(0.865836Squirrel) 0(0.95411Rabbit) 
+0(0.13739Rabbit) 1(0.6056Squirrel) 1(0.883381Squirrel) 1(0.976235Squirrel) 
+Actor: Label18==Squirrel.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:1
+
+# Type: NotRecognized
+# Image: Label1.png
+# Label: 1
+# Bounds: (0.056543,0.143608,0.869144,0.595447)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 18
+# Asset: Squirrel
+# Image: Label18==Squirrel.png
+# Bounds: (0.819063,0.954466,0.998384,0.998249)
+# Animation: THROW
+
+Execution time: 8.15 seconds.
+
+Thu May 30 12:05:51 COT 2013

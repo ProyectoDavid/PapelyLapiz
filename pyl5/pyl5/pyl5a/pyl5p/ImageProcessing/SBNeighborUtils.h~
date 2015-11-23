@@ -1,0 +1,26 @@
+#pragma once
+#include "SBDefinitions.h"
+#include "SBShape.h"
+
+class SBNeighborUtils
+{
+public:
+	SBNeighborUtils(void);
+	~SBNeighborUtils(void);
+
+	static int GetNumberOfForegroundNeighbors(ImageType::Pointer image, ImageType::IndexType index);
+
+	static bool HasForegroundPixels(ImageType::Pointer image);
+
+	static int GetTotalNumberOfForegroundPixels(ImageType::Pointer image);
+
+	static bool HasNeighborNonConnectivity(ImageType::Pointer image, ImageType::IndexType index);
+
+	static bool HasIntersections(ImageType::Pointer image);
+
+	static void AnalyzeInterestPoints(ImageType::Pointer image, int &numberOfEndPoints, int &numberOfIntersections);
+
+	static void CalculateInterestPoints(SBShape *sbShape);
+
+};
+

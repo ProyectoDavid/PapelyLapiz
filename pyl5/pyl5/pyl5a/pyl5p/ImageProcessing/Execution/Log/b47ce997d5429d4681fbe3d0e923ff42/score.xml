@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3" />
+        <point x="0.0519231" y="0.172941" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3" />
+        <point x="0.497837" y="0.233529" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3" />
+        <point x="0.1875" y="0.407647" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3" />
+        <point x="0.402404" y="0.788235" z="0" />
+    </actor>
+    <actor asset="Squirrel">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/squirrel.wav.mp3" />
+        <point x="0.327644" y="0.278529" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/chinchilla.wav.mp3" />
+        <point x="0.766106" y="0.0932353" z="0" />
+    </actor>
+    <actor asset="Bird">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/bird001.wav.mp3" />
+        <point x="0.740385" y="0.404412" z="0" />
+    </actor>
+    <actor asset="Bird">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/bird001.wav.mp3" />
+        <point x="0.472115" y="0.466765" z="0" />
+    </actor>
+    <actor asset="FlyingSquirrel">
+        <sound value="/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/fsquirrel.wav.mp3" />
+        <point x="0.852163" y="0.0552941" z="0" />
+    </actor>
+</score>

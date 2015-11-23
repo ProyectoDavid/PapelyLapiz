@@ -1,0 +1,234 @@
+/*bool isCorner1 = neighborValue1 == 0 && neighborValue2 == 0
+					&& neighborValue3 == 0 && neighborValue4 == 0
+					&& neighborValue5 == 0 && neighborValue6 == 255
+					&& neighborValue7 == 0 && neighborValue8 == 255;
+			bool isCorner2 = neighborValue1 == 0 && neighborValue2 == 0
+					&& neighborValue3 == 0 && neighborValue4 == 255
+					&& neighborValue5 == 0 && neighborValue6 == 255
+					&& neighborValue7 == 0 && neighborValue8 == 0;
+			bool isCorner3 = neighborValue1 == 0 && neighborValue2 == 255
+					&& neighborValue3 == 0 && neighborValue4 == 0
+					&& neighborValue5 == 0 && neighborValue6 == 0
+					&& neighborValue7 == 0 && neighborValue8 == 255;
+			bool isCorner4 = neighborValue1 == 0 && neighborValue2 == 255
+					&& neighborValue3 == 0 && neighborValue4 == 255
+					&& neighborValue5 == 0 && neighborValue6 == 0
+					&& neighborValue7 == 0 && neighborValue8 == 0;*/
+
+			/*bool isS1 = neighborValue1 == 0 && neighborValue2 == 0
+					&& neighborValue3 == 0 && neighborValue4 == 0
+					&& neighborValue5 == 255 && neighborValue6 == 255
+					&& neighborValue7 == 0 && neighborValue8 == 255;
+
+			bool isS2 = neighborValue1 == 0 && neighborValue2 == 0
+					&& neighborValue3 == 0 && neighborValue4 == 255
+					&& neighborValue5 == 0 && neighborValue6 == 255
+					&& neighborValue7 == 255 && neighborValue8 == 0;
+
+			bool isS3 = neighborValue1 == 0 && neighborValue2 == 255
+					&& neighborValue3 == 0 && neighborValue4 == 255
+					&& neighborValue5 == 255 && neighborValue6 == 0
+					&& neighborValue7 == 0 && neighborValue8 == 0;
+
+			bool isS4 = neighborValue1 == 0 && neighborValue2 == 0
+					&& neighborValue3 == 255 && neighborValue4 == 255
+					&& neighborValue5 == 0 && neighborValue6 == 255
+					&& neighborValue7 == 0 && neighborValue8 == 0;*/
+
+
+///////////////////////////////////////+-1 SHIFT///////////////////////////////////////////////////////
+/*for(int i=0; i<feature2.size(); i++) {
+			std::cout << "BeforeShift feature[" << i << "]: " << feature2[i] << std::endl;
+	}*/
+
+	
+	/*float lastElement=feature2[feature2.size()-1];
+	for(int i=feature2.size()-1; i>0; i--) {
+		feature2[i]=feature2[i-1];
+	}
+	feature2[0]=lastElement;
+
+	tempMetric=CompareFeatures(feature1, feature2);
+
+	if(tempMetric<metric) {
+		std::cout << "The metric was smallest in the shift to the right" << std::endl;
+		metric=tempMetric;
+	}
+
+	int count=0;
+
+	while(count<2) {
+		float firstElement=feature2[0];
+		for(int i=0; i<feature2.size()-1; i++) {
+			feature2[i]=feature2[i+1];
+		}
+		feature2[feature2.size()-1]=firstElement;
+		count++;
+	}
+
+	tempMetric=CompareFeatures(feature1, feature2);
+
+	if(tempMetric<metric) {
+		metric=tempMetric;
+		std::cout << "The metric was smallest in the shift to the left" << std::endl;
+	}*/
+	
+	/*for(int i=0; i<feature2.size(); i++) {
+			std::cout << "AfterShift feature[" << i << "]: " << feature2[i] << std::endl;
+	}*/
+
+
+
+///////////CORNERS AND Ss////////////////////////////////
+
+/*bool isCorner1 = neighborValue6 == 255 && neighborValue8 == 255;
+			bool isCorner2 = neighborValue4 == 255 && neighborValue6 == 255;
+			bool isCorner3 = neighborValue2 == 255 && neighborValue8 == 255;
+			bool isCorner4 = neighborValue2 == 255 && neighborValue4 == 255;*/
+
+	/*bool isS1 = neighborValue1==0 && neighborValue2==0 && neighborValue3==0 && neighborValue4==0 && neighborValue5 == 255 && neighborValue6 == 255 && neighborValue7==0 && neighborValue8 == 255;
+	bool isS2 = neighborValue1==0 && neighborValue2==0 && neighborValue3==0 && neighborValue4 == 255 && neighborValue5 == 0 && neighborValue6 == 255 && neighborValue7 == 255 && neighborValue8 == 0;
+	bool isS3 = neighborValue1==0 && neighborValue2 == 255 && neighborValue3==0 && neighborValue4 == 255 && neighborValue5 == 255 && neighborValue6 == 0 && neighborValue7 == 0 && neighborValue8 == 0;
+	bool isS4 = neighborValue1==0 && neighborValue2==0 && neighborValue3 == 255 && neighborValue4 == 255 && neighborValue5 == 0 && neighborValue6 == 255 && neighborValue7 == 0 && neighborValue8 == 0;*/
+
+
+/////////////////WRITING IMAGES TO DISK///////////////////////////////////////////////////
+
+/*void WriteImageToDisk(ImageType::Pointer &image, int inputLevelMin, int inputLevelMax, char *fileName) {
+
+	RescaleFilterType::Pointer rescaleFilterBeforeWriting = RescaleFilterType::New();
+	rescaleFilterBeforeWriting->SetOutputMinimum(inputLevelMin);
+	rescaleFilterBeforeWriting->SetOutputMaximum(inputLevelMax);
+	rescaleFilterBeforeWriting->SetInput(image);
+	rescaleFilterBeforeWriting->Update();
+
+	WriterType::Pointer writer = WriterType::New();
+	writer->SetFileName(fileName);
+	writer->SetInput(rescaleFilterBeforeWriting->GetOutput());
+	writer->Update();
+}*/
+
+
+//////////////////TEST ITERATE/////////////////////////
+
+void TestIterate(ImageType::Pointer &image) {
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+	
+	std::vector<int> labels;
+
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		
+		/*if(constIterator.Value()==255) {
+				
+			ImageType::IndexType index = constIterator.GetIndex();
+
+			image->SetPixel(index, 0);
+		}*/
+
+		if(!LabelExists(labels, constIterator.Value()))
+			labels.push_back(constIterator.Value());
+	}
+
+	for(int i=0; i<labels.size(); i++) {
+		std::cout << "Label[" << i << "]= " << labels[i] << std::endl;
+	}
+
+	/*for(int i=0; i<points.size(); i++) {
+		ImageType::IndexType index= points[i];
+		
+		image->SetPixel(index, 255);
+	}
+
+	std::cout << "Total number of tracked points:" << points.size() << std::endl;*/
+
+
+}
+
+
+
+
+
+
+/////////////////////////////////////////BinaryImageToShapeLabelMapFilter////////////////////////////////////////////////////////////////////
+#include "itkBinaryImageToShapeLabelMapFilter.h"
+
+/*typedef itk::BinaryImageToShapeLabelMapFilter<ImageType> BinaryImageToShapeLabelMapFilterType;
+		 
+		BinaryImageToShapeLabelMapFilterType::Pointer binaryImageToShapeLabelMapFilter = BinaryImageToShapeLabelMapFilterType::New();
+		binaryImageToShapeLabelMapFilter->SetInput(image);
+		binaryImageToShapeLabelMapFilter->FullyConnectedOn();
+		binaryImageToShapeLabelMapFilter->Update();
+		binaryImageToShapeLabelMapFilter-
+		// The output of this filter is an itk::ShapeLabelMap, which contains itk::ShapeLabelObject's
+		std::cout << "There are " << binaryImageToShapeLabelMapFilter->GetOutput()->GetNumberOfLabelObjects() << " objects." << std::endl;
+		std::cout << std::endl;
+
+		// Loop over all of the blobs
+		for(unsigned int i = 0; i < binaryImageToShapeLabelMapFilter->GetOutput()->GetNumberOfLabelObjects(); i++)
+		{
+			BinaryImageToShapeLabelMapFilterType::OutputImageType::LabelObjectType* labelObject = binaryImageToShapeLabelMapFilter->GetOutput()->GetNthLabelObject(i);
+		
+			// Output the bounding box (an example of one possible property) of the ith region
+			std::cout << "Object " << i << " has label " << labelObject->GetLabel() << std::endl;
+			//std::cout << "Object " << i << " has bounding box " << labelObject->GetRegion() << std::endl;
+			//std::cout << "Object " << i << " has centroid " << labelObject->GetCentroid() << std::endl;
+			//std::cout << std::endl;
+
+			/*ImageType::RegionType region=labelObject->GetRegion();
+			ImageType::Pointer newImage = ImageType::New();
+			newImage->SetRegions(region);
+			newImage->Allocate();*/
+
+			//int label=labelObject->GetLabel()
+			//TestIterate(labelImage, );
+			
+			
+			
+		//}
+
+
+////////////////////////////////////////////////RECOGNITION OF SHAPES/////////////////////
+
+int squares=0, triangles=0, circles=0, trees=0, trapezes=0;
+
+/*if(trainingShape.GetName().compare("square.png")==0)
+						squares++;
+					else
+						if(trainingShape.GetName().compare("triangle.png")==0)
+							triangles++;
+						else
+							if(trainingShape.GetName().compare("circle.png")==0)
+								circles++;
+							else
+								if(trainingShape.GetName().compare("tree.png")==0)
+									trees++;
+								else
+									if(trainingShape.GetName().compare("camera.png")==0)
+										trapezes++;
+										*/
+
+
+		std::cout<<"There are "<< squares << " squares" <<std::endl;
+		std::cout<<"There are "<< triangles << " triangles" <<std::endl;
+		std::cout<<"There are "<< circles << " circles" <<std::endl;
+		std::cout<<"There are "<< trees << " trees" <<std::endl;
+		std::cout<<"There are "<< trapezes << " trapezes" <<std::endl;
+
+		/*
+		for (int i=0; i<trainingFeatures.size(); i++) {
+			std::cout<<"Feature " << i << ": " <<std::endl;
+
+			vector<float> feature= trainingFeatures[i];
+			
+			for(int j=0; j<feature.size(); j++) {
+				std::cout<<feature[j]<<", ";
+			}
+
+			std::cout << std::endl;
+		}
+		*/
+
+///////////////////////////////////Missing tree line in the XML to test the G letter//////////////////////
+
+  <!--<object shape="Training/tree.png" asset="tree.3ds"/>-->

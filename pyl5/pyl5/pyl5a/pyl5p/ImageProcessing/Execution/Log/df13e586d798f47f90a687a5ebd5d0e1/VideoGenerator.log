@@ -1,0 +1,785 @@
+Parameter 1: False
+Parameter 2: True
+Parameter 3: /var/www/pyl5/www/output/images/df13e586d798f47f90a687a5ebd5d0e1
+Parameter 4: /var/www/pyl5/www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: /var/www/pyl5
+Parameter 8: /var/www/pyl5/www/output/images/df13e586d798f47f90a687a5ebd5d0e1/score.xml
+Thu Oct  3 18:10:00 COT 2013
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+Info: read library:  '/var/www/production/chars/butterfly.blend', '//..\..\chars\butterfly.blend'
+
+Info: read library:  '/var/www/production/chars/flyingsquirrel.blend', '//..\..\chars\flyingsquirrel.blend'
+
+Info: read library:  '/var/www/production/chars/rabbit.blend', '//..\..\chars\rabbit.blend'
+
+Info: read library:  '/var/www/production/chars/bird.blend', '//..\..\chars\bird.blend'
+
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Info: read library:  '/var/www/production/chars/chinchilla.blend', '//..\..\chars\chinchilla.blend'
+
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple1.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.002" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+Warning: material "apple1.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: material "apple_stem.001" skipped - to convert old game texface to material go to the Help menu.
+Warning: Texface conversion problem. Error in console
+read blend: /var/www/pyl5/VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat1' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_med' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_mix' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_small' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.003' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.012' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.013' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.014' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'grass_tall' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Material:'grass' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'birch_001' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_002' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_003' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_004' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Object:'field_flower_blue' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_pink' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'flowers_star1' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gidio' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'taddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'yellowtaddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gollum' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'smeagol' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp.001' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'oak_001' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_002' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_veryhighres_leave' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'apple_tree' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'apple_tree_trunk' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'rock_big_field' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'rock_big_field.001' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'shrooms_rodents' unread libblock missing from '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Object grass_tall.005 lost data.
+Object grasspatch_med lost data.
+Object grasspatch_mix lost data.
+Object grasspatch_quarter lost data.
+Object grasspatch_small lost data.
+Warning: Warning in console
+Parsing: /var/www/pyl5/www/output/images/df13e586d798f47f90a687a5ebd5d0e1/script.xml
+##### INICIO #####
+2013-10-03 23:10:09
+***loading Butterfly - DEFAULT***
+***loading FlyingSquirrel - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Butterfly - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Bird - DEFAULT***
+***loading Butterfly - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Apple - DEFAULT***
+***loading Apple - DEFAULT***
+***loading Bird - DEFAULT***
+***loading Bird - DEFAULT***
+***loading Apple - DEFAULT***
+***loading Rabbit - DEFAULT***
+***loading Chinchilla - DEFAULT***
+***loading Chinchilla - DEFAULT***
+***loading Chinchilla - DEFAULT***
+bb_min
+<Vector (0.8881, -7.0104, 0.0000)>
+bb_max
+<Vector (15.4216, -1.0207, 0.0000)>
+la camara quedo en 8.154853820800781, -16.01554298400879, 4.0
+Rotatin at:
+2013-10-03 23:14:26
+################################################################################
+Foleyin at:
+2013-10-03 23:14:26
+################################################################################
+Traceback (most recent call last):
+  File "/var/www/pyl5/VideoGenerator/VideoGenerator.py", line 637, in <module>
+    score = xml.dom.minidom.parse(SCORE_XML_FILENAME) # Creamos arbol XML score
+  File "/opt/blender/2.62/python/lib/python3.2/xml/dom/minidom.py", line 1939, in parse
+    return expatbuilder.parse(file)
+  File "/opt/blender/2.62/python/lib/python3.2/xml/dom/expatbuilder.py", line 922, in parse
+    fp = open(file, 'rb')
+IOError: [Errno 2] No such file or directory: '/var/www/pyl5/www/output/images/df13e586d798f47f90a687a5ebd5d0e1/score.xml'
+reconstruct len: 120 0x7f2342fd13f8
+reconstruct len: 120 0x7f2342fd14b8
+reconstruct len: 120 0x7f2342fd1578
+reconstruct len: 120 0x7f2342fd1638
+reconstruct len: 120 0x7f2342fd16f8
+reconstruct len: 120 0x7f2342fd17b8
+reconstruct len: 120 0x7f2342fd1878
+reconstruct len: 120 0x7f2342fd1938
+reconstruct len: 120 0x7f2342fd19f8
+reconstruct len: 120 0x7f2342fd1ab8
+reconstruct len: 120 0x7f2342fd1b78
+reconstruct len: 120 0x7f2342fd1c38
+reconstruct len: 120 0x7f2342fd1cf8
+reconstruct len: 120 0x7f2342fd1db8
+reconstruct len: 120 0x7f2342fd1e78
+Data from AC len: 56 0x7f23417b93b8
+Data from AC len: 56 0x7f23417b9438
+reconstruct len: 120 0x7f2342fd1f38
+Data from AC len: 56 0x7f23417b94b8
+Data from AC len: 56 0x7f23417b9538
+reconstruct len: 120 0x7f2342fd1ff8
+Data from AC len: 56 0x7f23417b95b8
+Data from AC len: 56 0x7f23417b9638
+reconstruct len: 120 0x7f2342fd20b8
+Data from AC len: 56 0x7f23417b96b8
+Data from AC len: 56 0x7f23417b9738
+reconstruct len: 120 0x7f2342fd2178
+Data from AC len: 56 0x7f23417b97b8
+Data from AC len: 56 0x7f23417b9838
+reconstruct len: 120 0x7f2342fd2238
+Data from AC len: 56 0x7f23417b98b8
+Data from AC len: 56 0x7f23417b9938
+reconstruct len: 120 0x7f2342fd22f8
+Data from AC len: 56 0x7f23417b99b8
+Data from AC len: 56 0x7f23417b9a38
+reconstruct len: 120 0x7f2342fd23b8
+Data from AC len: 56 0x7f23417b9ab8
+Data from AC len: 56 0x7f23417b9b38
+reconstruct len: 120 0x7f2342fd2478
+Data from AC len: 56 0x7f23417b9bb8
+Data from AC len: 56 0x7f23417b9c38
+reconstruct len: 120 0x7f2342fd2538
+Data from AC len: 56 0x7f23417b9cb8
+Data from AC len: 56 0x7f23417b9d38
+reconstruct len: 120 0x7f2342fd25f8
+reconstruct len: 120 0x7f2342fd26b8
+reconstruct len: 120 0x7f2342fd2778
+reconstruct len: 120 0x7f2342fd2838
+reconstruct len: 120 0x7f2342fd28f8
+reconstruct len: 120 0x7f2342fd29b8
+reconstruct len: 120 0x7f2342fd2a78
+reconstruct len: 120 0x7f2342fd2b38
+reconstruct len: 120 0x7f2342fd2bf8
+reconstruct len: 120 0x7f2342fd2cb8
+reconstruct len: 120 0x7f2342fd2d78
+reconstruct len: 120 0x7f2342fd2e38
+reconstruct len: 120 0x7f2342fd2ef8
+reconstruct len: 120 0x7f2342fd2fb8
+reconstruct len: 120 0x7f2342fd3078
+reconstruct len: 120 0x7f2342fd3138
+reconstruct len: 120 0x7f2342fd31f8
+reconstruct len: 120 0x7f2342fd32b8
+reconstruct len: 120 0x7f2342fd3378
+reconstruct len: 120 0x7f2342fd3438
+reconstruct len: 120 0x7f2342fd34f8
+reconstruct len: 120 0x7f2342fd35b8
+reconstruct len: 120 0x7f2342fd3678
+reconstruct len: 120 0x7f2342fd3738
+reconstruct len: 120 0x7f2342fd37f8
+reconstruct len: 120 0x7f2342fd38b8
+reconstruct len: 120 0x7f2342fd3978
+reconstruct len: 120 0x7f2342fd3a38
+reconstruct len: 120 0x7f2342fd3af8
+reconstruct len: 120 0x7f2342fd3bb8
+reconstruct len: 120 0x7f2342fd3c78
+reconstruct len: 120 0x7f2342fd3d38
+reconstruct len: 120 0x7f2342fd3df8
+reconstruct len: 120 0x7f2342fd3eb8
+reconstruct len: 120 0x7f2342fd3f78
+reconstruct len: 120 0x7f23417bd0f8
+reconstruct len: 120 0x7f23417bd1b8
+reconstruct len: 120 0x7f23417bd278
+reconstruct len: 120 0x7f23417bd338
+reconstruct len: 120 0x7f23417bd3f8
+reconstruct len: 120 0x7f23417bd4b8
+reconstruct len: 120 0x7f23417bd578
+reconstruct len: 120 0x7f23417bd638
+reconstruct len: 120 0x7f23417bd6f8
+reconstruct len: 120 0x7f23417bd7b8
+reconstruct len: 120 0x7f23417bd878
+reconstruct len: 120 0x7f23417bd938
+reconstruct len: 120 0x7f23417bd9f8
+reconstruct len: 120 0x7f23417bdab8
+reconstruct len: 120 0x7f23417bdb78
+reconstruct len: 120 0x7f23417bdc38
+reconstruct len: 120 0x7f23417bdcf8
+reconstruct len: 120 0x7f23417bddb8
+reconstruct len: 120 0x7f23417bde78
+reconstruct len: 120 0x7f23417bdf38
+reconstruct len: 120 0x7f23417bdff8
+reconstruct len: 120 0x7f23417be0b8
+reconstruct len: 120 0x7f23417be178
+reconstruct len: 120 0x7f23417be238
+reconstruct len: 120 0x7f23417be2f8
+reconstruct len: 120 0x7f23417be3b8
+reconstruct len: 120 0x7f23417be478
+reconstruct len: 120 0x7f23417be538
+reconstruct len: 120 0x7f23417be5f8
+reconstruct len: 120 0x7f23417be6b8
+reconstruct len: 120 0x7f23417be778
+reconstruct len: 120 0x7f23417be838
+reconstruct len: 120 0x7f23417be8f8
+reconstruct len: 120 0x7f23417be9b8
+reconstruct len: 120 0x7f23417bea78
+reconstruct len: 120 0x7f23417becb8
+reconstruct len: 120 0x7f23417bed78
+reconstruct len: 120 0x7f23417bee38
+reconstruct len: 120 0x7f23417beef8
+reconstruct len: 120 0x7f23417bf138
+reconstruct len: 120 0x7f23417bf1f8
+reconstruct len: 120 0x7f23417bf2b8
+reconstruct len: 120 0x7f23417bf378
+reconstruct len: 120 0x7f23417bf438
+reconstruct len: 120 0x7f23417bf4f8
+reconstruct len: 120 0x7f23417bf5b8
+reconstruct len: 120 0x7f23417bf678
+reconstruct len: 120 0x7f23417bfa38
+reconstruct len: 120 0x7f23417bfaf8
+reconstruct len: 120 0x7f23417bfbb8
+reconstruct len: 120 0x7f23417bfc78
+reconstruct len: 120 0x7f23417bfd38
+reconstruct len: 120 0x7f23417bfdf8
+reconstruct len: 120 0x7f23417bfeb8
+reconstruct len: 120 0x7f23417bff78
+reconstruct len: 120 0x7f23417c00f8
+reconstruct len: 120 0x7f23417c01b8
+reconstruct len: 120 0x7f23417c0278
+reconstruct len: 120 0x7f23417c0338
+reconstruct len: 120 0x7f23417c03f8
+reconstruct len: 120 0x7f23417c04b8
+reconstruct len: 120 0x7f23417c0578
+reconstruct len: 120 0x7f23417c0638
+reconstruct len: 120 0x7f23417c06f8
+reconstruct len: 120 0x7f23417c07b8
+reconstruct len: 120 0x7f23417c0878
+reconstruct len: 120 0x7f23417c0938
+reconstruct len: 120 0x7f23417c09f8
+reconstruct len: 120 0x7f23417c0ab8
+reconstruct len: 120 0x7f23417c0b78
+reconstruct len: 120 0x7f23417c0c38
+reconstruct len: 120 0x7f23417c0cf8
+reconstruct len: 120 0x7f23417c0db8
+reconstruct len: 120 0x7f23417c0e78
+reconstruct len: 120 0x7f23417c0f38
+reconstruct len: 120 0x7f23417c0ff8
+reconstruct len: 120 0x7f23417c10b8
+reconstruct len: 120 0x7f23417c1178
+reconstruct len: 120 0x7f23417c1238
+reconstruct len: 120 0x7f23417c12f8
+reconstruct len: 120 0x7f23417c13b8
+reconstruct len: 120 0x7f23417c1478
+reconstruct len: 120 0x7f23417c1538
+reconstruct len: 120 0x7f23417c15f8
+reconstruct len: 120 0x7f23417c16b8
+reconstruct len: 120 0x7f23417c1778
+reconstruct len: 120 0x7f2340f2d3b8
+reconstruct len: 120 0x7f2340f2d478
+reconstruct len: 120 0x7f2340f2d538
+reconstruct len: 120 0x7f2340f2d5f8
+reconstruct len: 120 0x7f2340f2d6b8
+reconstruct len: 120 0x7f2340f2d778
+reconstruct len: 120 0x7f2340f2d838
+reconstruct len: 120 0x7f2340f2d8f8
+reconstruct len: 120 0x7f2340f2d9b8
+reconstruct len: 120 0x7f2340f2da78
+reconstruct len: 120 0x7f2340f2db38
+reconstruct len: 120 0x7f2340f2dbf8
+reconstruct len: 120 0x7f2340f2dcb8
+reconstruct len: 120 0x7f2340f2dd78
+reconstruct len: 120 0x7f2340f2de38
+reconstruct len: 120 0x7f2340f2def8
+reconstruct len: 120 0x7f2340f2dfb8
+reconstruct len: 120 0x7f2340f2e078
+reconstruct len: 120 0x7f2340f2e138
+reconstruct len: 120 0x7f2340f2e1f8
+reconstruct len: 120 0x7f2340f2e2b8
+reconstruct len: 120 0x7f2340f2e378
+reconstruct len: 120 0x7f2340f2e438
+reconstruct len: 120 0x7f2340f2e4f8
+reconstruct len: 120 0x7f2340f2e5b8
+reconstruct len: 120 0x7f2340f2e678
+reconstruct len: 120 0x7f2340f2e738
+reconstruct len: 120 0x7f2340f2e7f8
+reconstruct len: 120 0x7f2340f2e8b8
+reconstruct len: 120 0x7f2340f2e978
+reconstruct len: 120 0x7f2340f2ea38
+reconstruct len: 120 0x7f2340f2eaf8
+reconstruct len: 120 0x7f2340f2ebb8
+reconstruct len: 120 0x7f2340f2ec78
+reconstruct len: 120 0x7f2340f2ed38
+reconstruct len: 120 0x7f2340f2edf8
+reconstruct len: 120 0x7f2340f2eeb8
+reconstruct len: 120 0x7f2340f2ef78
+reconstruct len: 120 0x7f2340f3f0f8
+reconstruct len: 120 0x7f2340f3f1b8
+reconstruct len: 120 0x7f2340f3f278
+reconstruct len: 120 0x7f2340f3f338
+reconstruct len: 120 0x7f2340f3f3f8
+reconstruct len: 120 0x7f2340f3f4b8
+reconstruct len: 120 0x7f2340f3f578
+Data from AC len: 56 0x7f2340f42db8
+Data from AC len: 56 0x7f2340f42e38
+reconstruct len: 120 0x7f2340f3f638
+Data from AC len: 56 0x7f2340f42eb8
+Data from AC len: 56 0x7f2340f42f38
+reconstruct len: 120 0x7f2340f3f6f8
+Data from AC len: 56 0x7f2340f42fb8
+Data from AC len: 56 0x7f2340f43038
+reconstruct len: 120 0x7f2340f3f7b8
+Data from AC len: 56 0x7f2340f430b8
+Data from AC len: 56 0x7f2340f43138
+reconstruct len: 120 0x7f2340f3f878
+Data from AC len: 56 0x7f2340f431b8
+Data from AC len: 56 0x7f2340f43238
+reconstruct len: 120 0x7f2340f3f938
+Data from AC len: 56 0x7f2340f432b8
+Data from AC len: 56 0x7f2340f43338
+reconstruct len: 120 0x7f2340f3f9f8
+Data from AC len: 56 0x7f2340f433b8
+Data from AC len: 56 0x7f2340f43438
+reconstruct len: 120 0x7f2340f3fab8
+Data from AC len: 56 0x7f2340f434b8
+Data from AC len: 56 0x7f2340f43538
+reconstruct len: 120 0x7f2340f3fb78
+Data from AC len: 56 0x7f2340f435b8
+Data from AC len: 56 0x7f2340f43638
+reconstruct len: 120 0x7f2340f3fc38
+Data from AC len: 56 0x7f2340f436b8
+Data from AC len: 56 0x7f2340f43738
+reconstruct len: 120 0x7f2340f3fcf8
+reconstruct len: 120 0x7f2340f3fdb8
+reconstruct len: 120 0x7f2340f3fe78
+reconstruct len: 120 0x7f2340f3ff38
+reconstruct len: 120 0x7f2340f3fff8
+reconstruct len: 120 0x7f2340f400b8
+reconstruct len: 120 0x7f2340f40178
+reconstruct len: 120 0x7f2340f40238
+reconstruct len: 120 0x7f2340f402f8
+reconstruct len: 120 0x7f2340f403b8
+reconstruct len: 120 0x7f2340f40478
+reconstruct len: 120 0x7f2340f40538
+reconstruct len: 120 0x7f2340f405f8
+reconstruct len: 120 0x7f2340f406b8
+reconstruct len: 120 0x7f2340f40778
+reconstruct len: 120 0x7f2340f40838
+reconstruct len: 120 0x7f2340f408f8
+reconstruct len: 120 0x7f2340f409b8
+reconstruct len: 120 0x7f2340f40a78
+reconstruct len: 120 0x7f2340f40b38
+reconstruct len: 120 0x7f2340f40bf8
+reconstruct len: 120 0x7f2342b56938
+Data from AC len: 56 0x7f23429961b8
+reconstruct len: 120 0x7f2342b57778
+reconstruct len: 120 0x7f2342b57838
+reconstruct len: 120 0x7f2342b578f8
+reconstruct len: 120 0x7f2342b579b8
+reconstruct len: 120 0x7f2342b57a78
+reconstruct len: 120 0x7f2342b57b38
+reconstruct len: 120 0x7f2342b57bf8
+reconstruct len: 120 0x7f2342b57cb8
+reconstruct len: 120 0x7f2342b57d78
+reconstruct len: 120 0x7f2342b57e38
+reconstruct len: 120 0x7f2342b57ef8
+reconstruct len: 120 0x7f2342b57fb8
+reconstruct len: 120 0x7f2342b58078
+reconstruct len: 120 0x7f2342b58138
+reconstruct len: 120 0x7f2342b581f8
+reconstruct len: 120 0x7f2342b582b8
+reconstruct len: 120 0x7f2342b58378
+reconstruct len: 120 0x7f2342b58438
+reconstruct len: 120 0x7f2342b584f8
+reconstruct len: 120 0x7f2342b585b8
+reconstruct len: 120 0x7f2342b58678
+reconstruct len: 120 0x7f2342b58738
+reconstruct len: 120 0x7f2342b587f8
+reconstruct len: 120 0x7f2342b588b8
+reconstruct len: 120 0x7f2342b58978
+reconstruct len: 120 0x7f2342b58a38
+reconstruct len: 120 0x7f2342b58af8
+reconstruct len: 120 0x7f2342b58bb8
+reconstruct len: 120 0x7f2342b58c78
+reconstruct len: 120 0x7f2342b58d38
+reconstruct len: 120 0x7f2342b58df8
+reconstruct len: 120 0x7f2342b58eb8
+reconstruct len: 120 0x7f2342b58f78
+reconstruct len: 120 0x7f233dbd60f8
+reconstruct len: 120 0x7f233dbd61b8
+reconstruct len: 120 0x7f233dbd6278
+reconstruct len: 120 0x7f233dbd6338
+reconstruct len: 120 0x7f233dbd63f8
+reconstruct len: 120 0x7f233dbd64b8
+reconstruct len: 120 0x7f233dbd6578
+reconstruct len: 120 0x7f233dbd6638
+reconstruct len: 120 0x7f233dbd66f8
+reconstruct len: 120 0x7f233dbd67b8
+reconstruct len: 120 0x7f233dbd6878
+reconstruct len: 120 0x7f233dbd6938
+reconstruct len: 120 0x7f233dbd69f8
+reconstruct len: 120 0x7f233dbd6ab8
+reconstruct len: 120 0x7f233dbd6b78
+reconstruct len: 120 0x7f233dbd6c38
+reconstruct len: 120 0x7f233dbd6cf8
+reconstruct len: 120 0x7f233dbd6db8
+reconstruct len: 120 0x7f233dbd6e78
+reconstruct len: 120 0x7f233dbd6f38
+reconstruct len: 120 0x7f233dbd6ff8
+reconstruct len: 120 0x7f233dbd70b8
+reconstruct len: 120 0x7f233dbd7178
+reconstruct len: 120 0x7f233dbd7238
+reconstruct len: 120 0x7f233dbd72f8
+reconstruct len: 120 0x7f233dbd73b8
+reconstruct len: 120 0x7f233dbd7478
+reconstruct len: 120 0x7f233dbd7538
+reconstruct len: 120 0x7f233dbd75f8
+reconstruct len: 120 0x7f233dbd76b8
+reconstruct len: 120 0x7f233dbd7778
+reconstruct len: 120 0x7f233dbd7838
+reconstruct len: 120 0x7f233dbd78f8
+reconstruct len: 120 0x7f233dbd79b8
+reconstruct len: 120 0x7f233dbd7a78
+reconstruct len: 120 0x7f233dbd7cb8
+reconstruct len: 120 0x7f233dbd7d78
+reconstruct len: 120 0x7f233dbd7e38
+reconstruct len: 120 0x7f233dbd7ef8
+reconstruct len: 120 0x7f233dbd7fb8
+reconstruct len: 120 0x7f233dbd8078
+reconstruct len: 120 0x7f233dbd8138
+reconstruct len: 120 0x7f233dbd81f8
+reconstruct len: 120 0x7f233dbd8438
+reconstruct len: 120 0x7f233dbd84f8
+reconstruct len: 120 0x7f233dbd85b8
+reconstruct len: 120 0x7f233dbd8678
+reconstruct len: 120 0x7f233dbd8738
+reconstruct len: 120 0x7f233dbd87f8
+reconstruct len: 120 0x7f233dbd88b8
+reconstruct len: 120 0x7f233dbd8978
+reconstruct len: 120 0x7f233cb85978
+reconstruct len: 120 0x7f233cb85a38
+reconstruct len: 120 0x7f233cb85af8
+reconstruct len: 120 0x7f2342d53578
+reconstruct len: 120 0x7f2342d53f38
+reconstruct len: 120 0x7f2342d53878
+reconstruct len: 120 0x7f233af38a38
+reconstruct len: 120 0x7f2342d53938
+reconstruct len: 120 0x7f233af38af8
+reconstruct len: 120 0x7f2342d539f8
+reconstruct len: 120 0x7f2342d53ab8
+reconstruct len: 120 0x7f233af38bb8
+reconstruct len: 120 0x7f2342d53b78
+reconstruct len: 120 0x7f233af38c78
+reconstruct len: 120 0x7f2342d53c38
+reconstruct len: 120 0x7f233af38d38
+reconstruct len: 120 0x7f2342d53cf8
+reconstruct len: 120 0x7f2342d53db8
+reconstruct len: 120 0x7f233af38df8
+reconstruct len: 120 0x7f233af38eb8
+reconstruct len: 120 0x7f233af38f78
+reconstruct len: 120 0x7f233af460f8
+reconstruct len: 120 0x7f233af461b8
+reconstruct len: 120 0x7f233af46278
+reconstruct len: 120 0x7f233af46338
+reconstruct len: 120 0x7f233af463f8
+reconstruct len: 120 0x7f233af464b8
+reconstruct len: 120 0x7f233af46578
+reconstruct len: 120 0x7f233af46638
+reconstruct len: 120 0x7f233af466f8
+reconstruct len: 120 0x7f233af467b8
+reconstruct len: 120 0x7f233af46878
+reconstruct len: 120 0x7f233af46938
+reconstruct len: 120 0x7f233af469f8
+reconstruct len: 120 0x7f233af46ab8
+reconstruct len: 120 0x7f233af46b78
+reconstruct len: 120 0x7f233af46c38
+reconstruct len: 120 0x7f233af46cf8
+reconstruct len: 120 0x7f233af46db8
+reconstruct len: 120 0x7f233af46e78
+reconstruct len: 120 0x7f233af46f38
+reconstruct len: 120 0x7f233af46ff8
+reconstruct len: 120 0x7f233af470b8
+reconstruct len: 120 0x7f2342d53ff8
+reconstruct len: 120 0x7f233af47178
+reconstruct len: 120 0x7f233af47838
+reconstruct len: 120 0x7f233af478f8
+reconstruct len: 120 0x7f233af479b8
+reconstruct len: 120 0x7f233af47a78
+reconstruct len: 120 0x7f233af47b38
+reconstruct len: 120 0x7f233af47bf8
+reconstruct len: 120 0x7f233af47cb8
+reconstruct len: 120 0x7f233af47d78
+reconstruct len: 120 0x7f233af47e38
+reconstruct len: 120 0x7f233af47ef8
+reconstruct len: 120 0x7f233af47fb8
+reconstruct len: 120 0x7f233af48078
+reconstruct len: 120 0x7f233af48138
+reconstruct len: 120 0x7f233af481f8
+reconstruct len: 120 0x7f233af482b8
+reconstruct len: 120 0x7f233af48378
+reconstruct len: 120 0x7f233af48438
+reconstruct len: 120 0x7f233af484f8
+reconstruct len: 120 0x7f233af485b8
+reconstruct len: 120 0x7f233af48678
+reconstruct len: 120 0x7f233af48738
+reconstruct len: 120 0x7f233af487f8
+reconstruct len: 120 0x7f233af488b8
+reconstruct len: 120 0x7f233af48978
+reconstruct len: 120 0x7f233af48a38
+reconstruct len: 120 0x7f233af48af8
+reconstruct len: 120 0x7f233af48bb8
+reconstruct len: 120 0x7f233af48c78
+reconstruct len: 120 0x7f233af48d38
+reconstruct len: 120 0x7f233af48df8
+reconstruct len: 120 0x7f233af48eb8
+reconstruct len: 120 0x7f233af48f78
+reconstruct len: 120 0x7f233af750f8
+reconstruct len: 120 0x7f233af751b8
+reconstruct len: 120 0x7f233af75278
+reconstruct len: 120 0x7f233af75338
+reconstruct len: 120 0x7f233af753f8
+reconstruct len: 120 0x7f233af754b8
+reconstruct len: 120 0x7f233af75578
+reconstruct len: 120 0x7f233af75638
+reconstruct len: 120 0x7f233af756f8
+reconstruct len: 120 0x7f233af757b8
+reconstruct len: 120 0x7f233af75878
+reconstruct len: 120 0x7f233af75938
+reconstruct len: 120 0x7f233af759f8
+reconstruct len: 120 0x7f233af75ab8
+reconstruct len: 120 0x7f233af75b78
+reconstruct len: 120 0x7f233af75c38
+reconstruct len: 120 0x7f233af75cf8
+reconstruct len: 120 0x7f233af75db8
+reconstruct len: 120 0x7f233af75e78
+reconstruct len: 120 0x7f233af75f38
+reconstruct len: 120 0x7f233af75ff8
+reconstruct len: 120 0x7f233af760b8
+reconstruct len: 120 0x7f233af76178
+reconstruct len: 120 0x7f233af76238
+reconstruct len: 120 0x7f233af762f8
+reconstruct len: 120 0x7f233af763b8
+reconstruct len: 120 0x7f233af76478
+reconstruct len: 120 0x7f233af76538
+reconstruct len: 120 0x7f233af765f8
+reconstruct len: 120 0x7f233af766b8
+reconstruct len: 120 0x7f233279e3b8
+reconstruct len: 120 0x7f233279e478
+reconstruct len: 120 0x7f233279e538
+reconstruct len: 120 0x7f233279e5f8
+reconstruct len: 120 0x7f233279e6b8
+reconstruct len: 120 0x7f233279e778
+reconstruct len: 120 0x7f233279e838
+reconstruct len: 120 0x7f233279e8f8
+reconstruct len: 120 0x7f233279eb38
+reconstruct len: 120 0x7f233279ebf8
+reconstruct len: 120 0x7f233279ecb8
+reconstruct len: 120 0x7f233279ed78
+reconstruct len: 120 0x7f233279ee38
+reconstruct len: 120 0x7f233279eef8
+reconstruct len: 120 0x7f233279efb8
+reconstruct len: 120 0x7f233279f078
+Error: Not freed memory blocks: 469
+
+Blender quit
+
+Thu Oct  3 18:14:37 COT 2013

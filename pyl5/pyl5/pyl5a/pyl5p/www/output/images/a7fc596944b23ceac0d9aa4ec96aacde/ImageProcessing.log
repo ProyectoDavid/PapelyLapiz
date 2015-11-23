@@ -1,0 +1,10 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/a7fc596944b23ceac0d9aa4ec96aacde
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Fri Sep 25 15:28:03 COT 2015
+
+./ImageProcessing.sh: line 22: ./ImageProcessing: cannot execute binary file
+
+Fri Sep 25 15:28:03 COT 2015

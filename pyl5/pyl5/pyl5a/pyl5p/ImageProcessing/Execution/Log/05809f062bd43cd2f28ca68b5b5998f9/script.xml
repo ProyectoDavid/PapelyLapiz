@@ -1,0 +1,69 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Apple" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.489394" z="0.367059" />
+            </actor>
+            <actor asset="Bird" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.508636" z="0.319804" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.479848" z="0.638235" />
+            </actor>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.21" z="0.715098" />
+            </actor>
+            <actor asset="Butterfly" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.254545" z="0.756667" />
+                <trajectory>
+                    <point x="0.272424" z="0.798431" />
+                    <point x="0.272424" z="0.798824" />
+                    <point x="0.272727" z="0.799216" />
+                    <point x="0.272727" z="0.799608" />
+                    <point x="0.27303" z="0.8" />
+                    <point x="0.27303" z="0.800392" />
+                    <point x="0.273333" z="0.800784" />
+                    <point x="0.273636" z="0.801176" />
+                    <point x="0.273636" z="0.801569" />
+                    <point x="0.273636" z="0.801961" />
+                    <point x="0.273939" z="0.802353" />
+                    <point x="0.273939" z="0.802745" />
+                    <point x="0.274242" z="0.803137" />
+                    <point x="0.274242" z="0.803529" />
+                    <point x="0.274242" z="0.803922" />
+                    <point x="0.274545" z="0.804314" />
+                    <point x="0.274848" z="0.804706" />
+                    <point x="0.275152" z="0.805098" />
+                    <point x="0.275152" z="0.80549" />
+                    <point x="0.275152" z="0.805882" />
+                    <point x="0.275152" z="0.806275" />
+                    <point x="0.275455" z="0.806667" />
+                    <point x="0.275455" z="0.807059" />
+                    <point x="0.275758" z="0.807059" />
+                    <point x="0.275758" z="0.807451" />
+                    <point x="0.275758" z="0.807843" />
+                    <point x="0.275758" z="0.808235" />
+                    <point x="0.276061" z="0.808627" />
+                    <point x="0.276061" z="0.80902" />
+                    <point x="0.276364" z="0.809412" />
+                    <point x="0.276364" z="0.809804" />
+                    <point x="0.276364" z="0.810196" />
+                    <point x="0.276667" z="0.810588" />
+                    <point x="0.276667" z="0.81098" />
+                    <point x="0.276667" z="0.811373" />
+                    <point x="0.27697" z="0.811765" />
+                    <point x="0.27697" z="0.812157" />
+                    <point x="0.27697" z="0.812549" />
+                    <point x="0.277273" z="0.812941" />
+                    <point x="0.277273" z="0.813333" />
+                    <point x="0.277273" z="0.813725" />
+                    <point x="0.277273" z="0.814118" />
+                    <point x="0.277273" z="0.81451" />
+                </trajectory>
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.356515" z="0.733922" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

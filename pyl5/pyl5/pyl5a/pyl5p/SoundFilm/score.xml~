@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Pajaro">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/bird001.wav.mp3" />
+        <point x="0.805" y="0.185" z="0.1" />
+    </actor>
+    <actor asset="Pajaro">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/bird001.wav.mp3" />
+        <point x="0.205" y="0.265" z="0.1" />
+        <foley value="/var/www/pyl3/ImageProcessing/SoundFilm/bird001.wav.mp3" />
+    </actor>
+    <actor asset="Arbol">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/forest.wav.mp3" />
+        <point x="-1" y="1" z="0" />
+    </actor>
+    <actor asset="Arbol">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/forest.wav.mp3" />
+        <point x="-1" y="1" z="0" />
+    </actor>
+    <actor asset="Mar">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/sea002.wav.mp3" />
+        <point x="10" y="-10" z="0" />
+    </actor>
+    <actor asset="Mar">
+        <sound value="/var/www/pyl3/ImageProcessing/SoundFilm/sea002.wav.mp3" />
+        <point x="10" y="-10" z="0" />
+    </actor>
+</score>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/d67bdfa8f4245dcaeccff6a5561cefaf/walk001.wav.mp3" />
+        <point x="0.147461" y="0.249349" z="0" />
+        <foley>
+            <foley value="../../www/output/images/d67bdfa8f4245dcaeccff6a5561cefaf/bounce.wav.mp3" frame="1" />
+        </foley>
+    </actor>
+</score>

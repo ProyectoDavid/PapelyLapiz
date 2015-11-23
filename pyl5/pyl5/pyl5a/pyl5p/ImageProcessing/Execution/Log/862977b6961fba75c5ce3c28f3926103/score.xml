@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/862977b6961fba75c5ce3c28f3926103/walk001.wav.mp3" />
+        <point x="0.83252" y="0.233073" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/862977b6961fba75c5ce3c28f3926103/walk001.wav.mp3" />
+        <point x="0.180176" y="0.657552" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="../../www/output/images/862977b6961fba75c5ce3c28f3926103/chinchilla.wav.mp3" />
+        <point x="0.677246" y="0.769531" z="0" />
+    </actor>
+</score>

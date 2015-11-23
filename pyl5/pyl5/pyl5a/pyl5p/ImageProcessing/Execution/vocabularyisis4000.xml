@@ -1,0 +1,117 @@
+<!--
+#
+#Papel y Lapiz - Software para la creacion de pequeños cortos.
+#Copyright (C) 2015  Universidad de Los Andes - Proyecto DAVID.   
+#This program is free software; you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by 
+#the Free Software Foundation; either version 2 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License along
+#with this program; if not, write to the Free Software Foundation,
+#Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+#
+-->
+<objects>
+  <object shape="Training/SS2/Hombre.png" asset="hombre" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step01">
+				<frame number="5"/>
+				<frame number="50"/>
+				<frame number="120"/>
+			</event>
+		</events>
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Mujer.png" asset="mujer" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step02">
+				<frame number="20"/>
+				<frame number="100"/>
+				<frame number="160"/>
+			</event>
+		</events>
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Carro.png" asset="carro" facing="front" scaleOffset="0.2">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step01">
+				<frame number="72"/>
+				<frame number="160"/>
+				<frame number="240"/>
+			</event>
+		</events>
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Balon.png" asset="balon" facing="back" scaleOffset="0.3">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step03">
+				<frame number="40"/>
+				<frame number="90"/>
+				<frame number="140"/>
+				<frame number="190"/>
+			</event>
+		</events>
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Casa.png" asset="casa" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Luna.png" asset="luna" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Sol.png" asset="sol" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+
+<!--
+	Objeto scene
+-->
+	<scene material="GroundMat" ambientSound="jazz"/>
+<!--
+	Libreria de sonidos.
+	Los sonidos tienen asociados diferentes formas de escucharse,
+	cada una de acuerdo a un escenario o material que haga que se escuche.
+-->
+	<soundlibrary>
+		<sound name="soundStep01">
+			<material key="GroundMat" value="/var/www/pyl2/VideoGenerator/sound/MyStep01.mp3" />
+		</sound>
+		<sound name="soundStep02">
+			<material key="GroundMat" value="/var/www/pyl2/VideoGenerator/sound/MyStep02.mp3" />
+		</sound>
+		<sound name="soundStep03">
+			<material key="GroundMat" value="/var/www/pyl2/VideoGenerator/sound/bounce.mp3" />
+		</sound>
+		<ambientSound name="jazz" value="/var/www/pyl2/VideoGenerator/sound/MilkyWay01.mp3" />
+	</soundlibrary>
+
+<!--
+	Libreria de eventos.
+	Los eventos tienen asociados sonidos que se escuchan al ocurrir el evento
+-->
+	<eventlibrary>
+		<event name="step01">
+			<sound name="soundStep01"/>
+		</event>
+		<event name="step02">
+			<sound name="soundStep02"/>
+		</event>
+		<event name="step03">
+			<sound name="soundStep03"/>
+		</event>
+	</eventlibrary>
+</objects>

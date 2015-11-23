@@ -1,0 +1,568 @@
+Tue Oct 15 09:13:59 COT 2013
+Parameter 1: /var/www/pyl5/ImageProcessing/Execution/vocabulary.xml
+Parameter 2: /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/script.xml
+Parameter 3: /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/score.xml
+Parameter 4: /var/www/pyl5/ImageProcessing
+Parameter 5: /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/SoundFilm.log
+Parameter 6: 
+Parameter 7: 
+
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:03.91, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0x9fa6b60] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=       4kB time=00:00:00.21 bitrate= 160.5kbits/s    size=       8kB time=00:00:00.44 bitrate= 143.3kbits/s    size=      16kB time=00:00:00.94 bitrate= 135.2kbits/s    size=      23kB time=00:00:01.43 bitrate= 132.7kbits/s    size=      31kB time=00:00:01.93 bitrate= 131.5kbits/s    size=      38kB time=00:00:02.40 bitrate= 130.8kbits/s    size=      46kB time=00:00:02.90 bitrate= 130.4kbits/s    size=      50kB time=00:00:03.13 bitrate= 130.2kbits/s    size=      55kB time=00:00:03.44 bitrate= 130.0kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    
+video:0kB audio:62kB subtitle:0 global headers:0kB muxing overhead 0.716198%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:03.91, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0xa904b60] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=       7kB time=00:00:00.36 bitrate= 146.6kbits/s    size=      14kB time=00:00:00.81 bitrate= 136.4kbits/s    size=      20kB time=00:00:01.20 bitrate= 133.7kbits/s    size=      27kB time=00:00:01.67 bitrate= 132.1kbits/s    size=      35kB time=00:00:02.19 bitrate= 131.1kbits/s    size=      38kB time=00:00:02.40 bitrate= 130.8kbits/s    size=      44kB time=00:00:02.77 bitrate= 130.5kbits/s    size=      51kB time=00:00:03.24 bitrate= 130.1kbits/s    size=      57kB time=00:00:03.60 bitrate= 129.9kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    
+video:0kB audio:62kB subtitle:0 global headers:0kB muxing overhead 0.716198%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:03.91, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0xb09db60] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=       7kB time=00:00:00.41 bitrate= 144.3kbits/s    size=      12kB time=00:00:00.73 bitrate= 137.3kbits/s    size=      16kB time=00:00:00.94 bitrate= 135.2kbits/s    size=      20kB time=00:00:01.22 bitrate= 133.6kbits/s    size=      26kB time=00:00:01.62 bitrate= 132.2kbits/s    size=      38kB time=00:00:02.40 bitrate= 130.8kbits/s    size=      44kB time=00:00:02.77 bitrate= 130.5kbits/s    size=      49kB time=00:00:03.10 bitrate= 130.2kbits/s    size=      56kB time=00:00:03.50 bitrate= 129.9kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    
+video:0kB audio:62kB subtitle:0 global headers:0kB muxing overhead 0.716198%
+Hello, SBI!
+temporal = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+el script es valido
+el vocabulario es valido
+listo para los objetos
+el objeto que da es Rabbit
+el objeto que da es Rabbit
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el objeto que da es Rabbit
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es RabbitDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::WALK::
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::JUMP::
+el actor que da es Rabbit
+el objeto que da es Rabbit
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es RabbitDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::WALK::
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::JUMP::
+el actor que da es Squirrel
+el actor que da es Rabbit
+el objeto que da es Rabbit
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es RabbitDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::WALK::
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::JUMP::
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el objeto que da es Rabbit
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es RabbitDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47cffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:03.91, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0xa0b1b60] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/walk001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=      11kB time=00:00:00.68 bitrate= 138.0kbits/s    size=      18kB time=00:00:01.09 bitrate= 134.2kbits/s    size=      27kB time=00:00:01.67 bitrate= 132.1kbits/s    size=      33kB time=00:00:02.03 bitrate= 131.3kbits/s    size=      40kB time=00:00:02.53 bitrate= 130.7kbits/s    size=      51kB time=00:00:03.24 bitrate= 130.1kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    
+video:0kB audio:62kB subtitle:0 global headers:0kB muxing overhead 0.716198%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0xa3ba660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:06.90, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0xa422420] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/squirrel.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=       6kB time=00:00:00.31 bitrate= 149.7kbits/s    size=      17kB time=00:00:01.01 bitrate= 134.7kbits/s    size=      25kB time=00:00:01.54 bitrate= 132.4kbits/s    size=      38kB time=00:00:02.37 bitrate= 130.9kbits/s    size=      50kB time=00:00:03.16 bitrate= 130.2kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    size=      70kB time=00:00:04.44 bitrate= 129.5kbits/s    size=      81kB time=00:00:05.12 bitrate= 129.3kbits/s    size=      94kB time=00:00:05.93 bitrate= 129.1kbits/s    size=     102kB time=00:00:06.50 bitrate= 129.0kbits/s    size=     109kB time=00:00:06.92 bitrate= 129.0kbits/s    
+video:0kB audio:109kB subtitle:0 global headers:0kB muxing overhead 0.406559%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0xb546660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : mono
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:07.35, bitrate: 705 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[graph 0 input from stream 0:0 @ 0xb54c900] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x4
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/chinchilla.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, mono, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=      25kB time=00:00:01.56 bitrate= 132.3kbits/s    size=      41kB time=00:00:02.58 bitrate= 130.6kbits/s    size=      81kB time=00:00:05.12 bitrate= 129.3kbits/s    size=     112kB time=00:00:07.13 bitrate= 129.0kbits/s    size=     116kB time=00:00:07.36 bitrate= 128.9kbits/s    
+video:0kB audio:116kB subtitle:0 global headers:0kB muxing overhead 0.382138%
+e997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/walk001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::WALK::
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::JUMP::
+el actor que da es SBCamera
+el objeto que da es Squirrel
+el objeto que da es Squirrel
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el objeto que da es Squirrel
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es SquirrelDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/squirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/squirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/squirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/squirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/squirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Squirrel::
+la animacion del actor es ::-default-::
+la de la acciones ::CLAP::
+el actor es ::Squirrel::
+la animacion del actor es ::-default-::
+la de la acciones ::FLAP::
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es Chinchilla
+el objeto que da es Chinchilla
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el objeto que da es Chinchilla
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es ChinchillaDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/chinchilla.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/chinchilla.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/chinchilla.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/chinchilla.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/chinchilla.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Chinchilla::
+la animacion del actor es ::-default-::
+la de la acciones ::EAT::
+el actor es ::Chinchilla::
+la animacion del actor es ::-default-::
+la de la acciones ::RUN::
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es Butterfly
+el objeto que da es Butterfly
+listffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0xabbe660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : mono
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:13.07, bitrate: 705 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[graph 0 input from stream 0:0 @ 0xabc4900] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x4
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/bird001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, mono, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=      32kB time=00:00:01.98 bitrate= 131.4kbits/s    size=      69kB time=00:00:04.38 bitrate= 129.6kbits/s    size=     101kB time=00:00:06.42 bitrate= 129.1kbits/s    size=     119kB time=00:00:07.55 bitrate= 128.9kbits/s    size=     135kB time=00:00:08.56 bitrate= 128.8kbits/s    size=     152kB time=00:00:09.69 bitrate= 128.7kbits/s    size=     168kB time=00:00:10.71 bitrate= 128.6kbits/s    size=     186kB time=00:00:11.86 bitrate= 128.6kbits/s    size=     203kB time=00:00:12.93 bitrate= 128.5kbits/s    size=     205kB time=00:00:13.08 bitrate= 128.5kbits/s    
+video:0kB audio:205kB subtitle:0 global headers:0kB muxing overhead 0.215428%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0xb41e660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : mono
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:13.07, bitrate: 705 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[graph 0 input from stream 0:0 @ 0xb424900] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x4
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/bird001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, mono, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=      16kB time=00:00:00.94 bitrate= 135.2kbits/s    size=      32kB time=00:00:02.01 bitrate= 131.4kbits/s    size=      63kB time=00:00:03.97 bitrate= 129.7kbits/s    size=      98kB time=00:00:06.24 bitrate= 129.1kbits/s    size=     127kB time=00:00:08.04 bitrate= 128.8kbits/s    size=     157kB time=00:00:10.00 bitrate= 128.7kbits/s    size=     190kB time=00:00:12.09 bitrate= 128.6kbits/s    size=     205kB time=00:00:13.08 bitrate= 128.5kbits/s    
+video:0kB audio:205kB subtitle:0 global headers:0kB muxing overhead 0.215428%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0xa0a0660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmpgarage.wav':
+  Duration: 00:00:05.99, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0xa108420] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '/var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/fsquirrel.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=       7kB time=00:00:00.41 bitrate= 144.3kbits/s    size=      20kB time=00:00:01.20 bitrate= 133.7kbits/s    size=      33kB time=00:00:02.03 bitrate= 131.3kbits/s    size=      41kB time=00:00:02.56 bitrate= 130.7kbits/s    size=      48kB time=00:00:03.00 bitrate= 130.3kbits/s    size=      61kB time=00:00:03.86 bitrate= 129.8kbits/s    size=      77kB time=00:00:04.88 bitrate= 129.4kbits/s    size=      91kB time=00:00:05.74 bitrate= 129.2kbits/s    size=      95kB time=00:00:06.00 bitrate= 129.1kbits/s    
+video:0kB audio:94kB subtitle:0 global headers:0kB muxing overhead 0.468161%
+o para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el objeto que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es Bird
+el objeto que da es Bird
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el objeto que da es Bird
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es BirdDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Bird::
+la animacion del actor es ::-default-::
+la de la acciones ::FLAP::
+el actor que da es Bird
+el objeto que da es Bird
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es BirdDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/bird001.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::Bird::
+la animacion del actor es ::-default-::
+la de la acciones ::FLAP::
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es FlyingSquirrelDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/fsquirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_1.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/fsquirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_2.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/fsquirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_3.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/fsquirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_4.wav
+copiando /var/www/pyl5/ImageProcessing/SoundFilm/fsquirrel.wav en /var/www/pyl5/www/output/images/b47ce997d5429d4681fbe3d0e923ff42/tmp_5.wav
+tu
+el actor es ::FlyingSquirrel::
+la animacion del actor es ::-default-::
+la de la acciones ::FLAP::
+el actor es ::FlyingSquirrel::
+la animacion del actor es ::-default-::
+la de la acciones ::RUN::
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es Apple
+el objeto que da es Apple
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el objeto que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es SBCamera
+el objeto que da es SBCamera
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+el objeto que da es SBCamera
+el objeto que da es SBRectangle
+el objeto que da es SBRectangle
+listo para los actores
+el actor que da es FlyingSquirrel
+el actor que da es Butterfly
+el actor que da es Chinchilla
+el actor que da es Rabbit
+el actor que da es Rabbit
+el actor que da es Squirrel
+el actor que da es Rabbit
+el actor que da es Bird
+el actor que da es Bird
+el actor que da es Apple
+el actor que da es Rabbit
+el actor que da es SBCamera
+sayonara, SBI!
+
+Tue Oct 15 09:14:44 COT 2013

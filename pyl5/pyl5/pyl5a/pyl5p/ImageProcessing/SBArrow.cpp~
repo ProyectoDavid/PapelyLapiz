@@ -1,0 +1,31 @@
+#include "SBArrow.h"
+
+
+SBArrow::SBArrow(void)
+{
+}
+
+
+SBArrow::~SBArrow(void)
+{
+}
+
+Path SBArrow::GetPath()
+{
+	return path;
+}
+
+void SBArrow::SetPath(Path pPath)
+{
+	path=pPath;
+}
+
+int SBArrow::GetLabel()
+{
+	return label;
+}
+
+void SBArrow::SetLabel(int pLabel)
+{
+	label=pLabel;
+}

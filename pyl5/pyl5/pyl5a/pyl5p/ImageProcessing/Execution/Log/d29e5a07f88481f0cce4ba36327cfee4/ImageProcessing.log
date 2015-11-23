@@ -1,0 +1,138 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/d29e5a07f88481f0cce4ba36327cfee4
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 19:01:01 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/d29e5a07f88481f0cce4ba36327cfee4
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/d29e5a07f88481f0cce4ba36327cfee4
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 6
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.223881Rabbit) 3(0.8304Butterfly) 0(0.901511Rabbit) 0(0.978023Rabbit) 
+0(0.132075Rabbit) 2(0.914Chinchilla) 2(0.892297Chinchilla) 2(0.967092Chinchilla) 
+0(0.165354Rabbit) 1(0.9024Squirrel) 0(0.907805Rabbit) 0(0.977334Rabbit) 
+4(0.118519Bird) 1(0.9Squirrel) 3(0.9Butterfly) 3(0.961289Butterfly) 
+4(0.118605Bird) 2(0.8148Chinchilla) 6(0.893699Apple) 6(0.968204Apple) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label3.png is an arrow...nope.
+Lets see if Label4.png is an arrow...nope.
+Lets see if Label5.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.223881Rabbit) 3(0.8304Butterfly) 0(0.901511Rabbit) 0(0.978023Rabbit) 
+Actor: Label1==Rabbit.png
+0(0.132075Rabbit) 2(0.914Chinchilla) 2(0.892297Chinchilla) 2(0.967092Chinchilla) 
+Actor: Label2==Chinchilla.png
+0(0.165354Rabbit) 1(0.9024Squirrel) 0(0.907805Rabbit) 0(0.977334Rabbit) 
+Actor: Label3==Rabbit.png
+4(0.118519Bird) 1(0.9Squirrel) 3(0.9Butterfly) 3(0.961289Butterfly) 
+Actor: Label4==Butterfly.png
+4(0.118605Bird) 2(0.8148Chinchilla) 6(0.893699Apple) 6(0.968204Apple) 
+Actor: Label5==Apple.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:5
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.259766,0.035156,0.333008,0.156250)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Chinchilla
+# Image: Label2==Chinchilla.png
+# Bounds: (0.039062,0.236979,0.329102,0.539062)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: Rabbit
+# Image: Label3==Rabbit.png
+# Bounds: (0.382812,0.292969,0.579102,0.610677)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Butterfly
+# Image: Label4==Butterfly.png
+# Bounds: (0.601562,0.294271,0.889648,0.497396)
+# Animation: 
+
+# Type: Actor
+# Label: 5
+# Asset: Apple
+# Image: Label5==Apple.png
+# Bounds: (0.138672,0.743490,0.182617,0.837240)
+# Animation: 
+
+Execution time: 6.3 seconds.
+
+Wed Jul  2 19:01:07 COT 2014

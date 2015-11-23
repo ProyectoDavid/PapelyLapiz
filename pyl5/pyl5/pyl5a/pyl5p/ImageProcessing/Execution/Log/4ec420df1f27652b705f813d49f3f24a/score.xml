@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/4ec420df1f27652b705f813d49f3f24a/chinchilla.wav.mp3" />
+        <point x="0.539122" y="0.345666" z="0" />
+    </actor>
+</score>

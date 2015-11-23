@@ -1,0 +1,42 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Butterfly" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.0333998" z="0.486133" />
+            </actor>
+            <actor asset="FlyingSquirrel" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.241775" z="0.209746" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.706381" z="0.217065" />
+            </actor>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.367647" z="0.351502" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.59995" z="0.353428" />
+            </actor>
+            <actor asset="Apple" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.491525" z="0.488251" />
+            </actor>
+            <actor asset="Rabbit" animation="wn~h~lEi2\\\" facing="" scaleOffset="1">
+                <position x="0.861665" z="0.49923" />
+            </actor>
+            <actor asset="Apple" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.67672" z="0.508475" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.269192" z="0.628082" />
+            </actor>
+            <actor asset="Butterfly" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.189182" z="0.792373" />
+            </actor>
+            <actor asset="Bird" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.770439" z="0.8047" />
+            </actor>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.0476072" z="0.947419" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

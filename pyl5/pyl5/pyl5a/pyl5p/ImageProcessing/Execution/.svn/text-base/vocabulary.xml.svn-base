@@ -1,0 +1,65 @@
+<objects>
+  <object shape="Training/SS2/Hombre.png" asset="hombre" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step01">
+				<frame number="5"/>
+				<frame number="10"/>
+			</event>
+		</events>
+      </action>      
+    </actions>
+  </object>
+  <object shape="Training/SS2/Mujer.png" asset="mujer" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      	<events>
+			<event name="step02">
+				<frame number="5"/>
+				<frame number="10"/>
+			</event>
+		</events>
+      </action>      
+    </actions>
+  </object>
+  <object shape="Training/SS2/Carro.png" asset="carro" facing="front" scaleOffset="0.2"/>
+  <object shape="Training/SS2/Balon.png" asset="balon" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Casa.png" asset="casa" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Luna.png" asset="luna" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Sol.png" asset="sol" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+  
+<!-- 
+	Objeto scene
+-->
+	<scene material="GroundMat" ambientSound="jazz"/>
+<!-- 
+	Libreria de sonidos.
+	Los sonidos tienen asociados diferentes formas de escucharse,
+	cada una de acuerdo a un escenario o material que haga que se escuche.
+-->
+	<soundlibrary>
+		<sound name="soundStep01">
+			<material key="GroundMat" value="/Users/barcodepandora/Sites/VideoGenerator/sound/MyStep01.mp3" />
+		</sound>
+		<sound name="soundStep02">
+			<material key="GroundMat" value="/Users/barcodepandora/Sites/VideoGenerator/sound/MyStep02.mp3" />
+		</sound>
+		<ambientSound name="jazz" value="/Users/barcodepandora/Sites/VideoGenerator/sound/MilkyWay01.mp3" />
+	</soundlibrary> 
+	
+<!-- 
+	Libreria de eventos. 
+	Los eventos tienen asociados sonidos que se escuchan al ocurrir el evento
+-->
+	<eventlibrary>
+		<event name="step01">
+			<sound name="soundStep01"/>
+		</event>
+		<event name="step02">
+			<sound name="soundStep02"/>
+		</event>
+	</eventlibrary>  
+</objects>

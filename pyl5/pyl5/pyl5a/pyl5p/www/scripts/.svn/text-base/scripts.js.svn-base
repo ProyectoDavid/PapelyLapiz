@@ -1,0 +1,107 @@
+
+function cambiarTamanoImagen()
+{
+	// Si el tamano es el original coloco '700px', sino, coloco el original
+	if ($('#imagen').width() == 700)
+		$('#imagen').width('');
+	else
+		$('#imagen').width('700px');
+	
+	$('#recuadro').css('visibility', 'hidden');
+}
+
+function mostrarRecuadro(left, top, right, bottom)
+{
+	var image_top = $('#imagen').position().top;
+	var image_left = $('#imagen').position().left;
+	var image_width = $('#imagen').width();
+	var image_height = $('#imagen').height();
+
+	var scroll_top = $('#scroll').scrollTop();
+	var scroll_left = $('#scroll').position().left;
+
+	var new_top = image_top - scroll_top + Math.floor(top * image_height);
+	var new_left = image_left - scroll_left + Math.floor(left * image_width);
+	var new_width = Math.floor((right - left) * image_width);
+	var new_height = Math.floor((bottom - top) * image_height);
+
+	$('#recuadro').css('top', new_top + 'px');
+	$('#recuadro').css('left', new_left + 'px');
+	$('#recuadro').css('width', Math.max(20, new_width) + 'px');
+	$('#recuadro').css('height', Math.max(20, new_height) + 'px');
+
+	$('#recuadro').css('visibility', 'visible');
+}
+
+function cambiarCursor(nuevoCursor)
+{
+	document.body.style.cursor = nuevoCursor;
+}
+
+function printTimeElapsed(elapsed)
+{
+	return parseInt(elapsed / 60000) + ' minutes ' + parseInt((elapsed / 1000) % 60) + ' seconds';
+}
+
+function executeVideoGenerator(calidad, video, imagefolder)
+{
+        jQuery.ajax( {
+                url : "cgi-bin/VideoGenerator.pl?render_low_quality="+calidad+"&render_video="+video+ "&imagefolder=" + imagefolder ,
+                success : function(html)
+                {
+                        $(video=="False" ? "#videoResponse2" : "#videoResponse3").html(html);
+                }
+        } );
+
+        $(video=="False" ? "#videoResponse2" : "#videoResponse3").html(
+                "<span class='success'><IMG src='images/loading' width='50'/><br/>Please wait, the content is being generated ...</span>"
+        );
+}
+
+function executeImageProcessing(imagefolder, imagename)
+{
+        var startTime = new Date();
+
+        jQuery.ajax( {
+                url : "cgi-bin/ImageProcessing.pl?imagename=" + imagename + "&imagefolder=" + imagefolder,
+                success : function(html)
+                {
+                        var elapsedTime = new Date() - startTime.getTime();
+
+                        $("#executeResponse").html("<span class=success>Image processed successfully !!<br/>(Thanks for waiting)<br/>Time elapsed: "+printTimeElapsed(elapsedTime)+"</span>");
+                        $("#executeResponse2").html(html);
+
+                        $("#videoResponse").css('display', 'block');
+                        $("#videoResponse").css('visibility', 'visible');
+                }
+        } );
+
+        $("#executeResponse").html("<span class='success'><IMG src='images/loading' width='50'/><br/>Please wait, the image is being processed ...</span>");
+}
+
+function toggleSectionVisibility(div_name)
+{
+        $("#" + div_name).toggle('slow');
+
+	if ($("#" + div_name + "_arrow").attr('src') == 'images/collapse')
+		$("#" + div_name + "_arrow").attr('src', 'images/expand');
+	else
+		$("#" + div_name + "_arrow").attr('src', 'images/collapse');
+}
+
+function executeSoundFilm()
+{
+        var startTime = new Date();
+
+        jQuery.ajax( {
+                url : "cgi-bin/SoundFilm.pl",
+                success : function(html)
+                {
+                        var elapsedTime = new Date() - startTime.getTime();
+
+                        $("#executeResponse").html("<span class=success>Se ha agregado sonido !!<br/>(Thanks for waiting)<br/>Time elapsed: "+printTimeElapsed(elapsedTime)+"</span>");
+                        $("#executeResponse2").html(html);
+                }
+        } );
+}
+

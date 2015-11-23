@@ -1,0 +1,8 @@
+<actors>
+	<actor asset="Arbol" animation="" facing="" scaleOffset="1">
+		<position x="-1" y="1" z="0" />
+	</actor>
+	<actor asset="Mar" animation="" facing="" scaleOffset="1">
+		<position x="10" y="-10" z="0" />
+	</actor>
+</actors>

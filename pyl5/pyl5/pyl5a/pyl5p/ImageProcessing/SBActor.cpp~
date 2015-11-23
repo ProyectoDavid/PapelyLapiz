@@ -1,0 +1,70 @@
+#include "SBActor.h"
+
+
+SBActor::SBActor(SBShape& sbShape)
+{
+	boundingBox = sbShape.GetBoundingBox();
+	animationSet = sbShape.GetPossibleAnimations();
+	asset = sbShape.GetAsset();
+	label = sbShape.GetLabel();
+	facing = sbShape.GetFacing();
+	scaleOffset = sbShape.GetScaleOffSet();
+	imageName = sbShape.GetName();
+}
+
+
+BoundingBoxType::Pointer SBActor::GetBoundingBox()
+{
+	return boundingBox;
+}
+
+	
+string SBActor::GetAsset()
+{
+	return asset;
+}
+
+string SBActor::GetImageName()
+{
+	return imageName;
+}
+
+std::map<string, string> SBActor::GetAnimationSet()
+{
+	return animationSet;
+}
+
+string SBActor::GetAnimation()
+{
+	return animation;
+}
+
+void SBActor::SetAnimation(string pAnimation)
+{
+	animation = pAnimation;
+}
+
+SBArrow SBActor::GetTrajectory()
+{
+	return trajectory;
+}
+
+void SBActor::SetTrajectory(SBArrow trajectory)
+{
+	this->trajectory = trajectory;
+}
+
+int SBActor::GetLabel()
+{
+	return label;
+}
+
+string SBActor::GetFacing()
+{
+	return facing;
+}
+
+double SBActor::GetScaleOffSet()
+{
+	return scaleOffset;
+}

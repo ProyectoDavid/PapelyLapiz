@@ -1,0 +1,21 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Apple" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.532787" z="0.649364" />
+            </actor>
+            <actor asset="Rabbit" animation="WALK" facing="" scaleOffset="1">
+                <position x="0.10929" z="0.660222" />
+            </actor>
+            <actor asset="Butterfly" animation="FLY" facing="" scaleOffset="1">
+                <position x="0.879326" z="0.702066" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.309199" z="0.689354" />
+            </actor>
+            <actor asset="Butterfly" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.683288" z="0.703125" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

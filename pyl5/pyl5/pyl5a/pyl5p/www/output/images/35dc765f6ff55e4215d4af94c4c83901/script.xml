@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Rabbit" animation="JUMP" facing="" scaleOffset="1">
+                <position x="0.306641" z="0.399089" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

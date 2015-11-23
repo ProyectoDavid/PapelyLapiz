@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/2fdf2dd420c59caca0718afedce42c89/walk001.wav.mp3" />
+        <point x="0.203613" y="0.292969" z="0" />
+    </actor>
+    <actor asset="Squirrel">
+        <sound value="../../www/output/images/2fdf2dd420c59caca0718afedce42c89/squirrel.wav.mp3" />
+        <point x="0.455566" y="0.266927" z="0" />
+    </actor>
+    <actor asset="Squirrel">
+        <sound value="../../www/output/images/2fdf2dd420c59caca0718afedce42c89/squirrel.wav.mp3" />
+        <point x="0.198242" y="0.769531" z="0" />
+    </actor>
+    <actor asset="Bird">
+        <sound value="../../www/output/images/2fdf2dd420c59caca0718afedce42c89/bird001.wav.mp3" />
+        <point x="0.615234" y="0.513672" z="0" />
+    </actor>
+</score>

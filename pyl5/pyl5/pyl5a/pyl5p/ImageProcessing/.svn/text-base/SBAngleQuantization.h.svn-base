@@ -1,0 +1,35 @@
+#pragma once
+#include "SBShape.h"
+
+class SBAngleQuantization
+{
+	SBShape *sbShape;
+	
+	//Number of bins to use for the angle quantization
+	int k;
+
+	//The step for the selected points from the original points of sbShape
+	int step;
+
+	std::vector<float> bins;
+	std::vector<int> feature;
+
+	//Classifies the angle in its correspondent bin (angle range)
+	void ClassifyAngleInBin(float angle);
+
+public:
+	SBAngleQuantization(void);
+	~SBAngleQuantization(void);
+
+	void SetSBShape(SBShape *pSBShape);
+
+	void SetK(int pK);
+
+	void SetStep(int pStep);
+
+	//Calculates the normalized feature of the sbShape
+    //void CalculateFeature();
+
+	void CalculateAdvancedFeature();
+};
+

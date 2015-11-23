@@ -1,0 +1,88 @@
+Thu Aug  6 14:44:03 COT 2015
+Parameter 1: ../../ImageProcessing/Execution/vocabulary.xml
+Parameter 2: ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/script.xml
+Parameter 3: ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/score.xml
+Parameter 4: ../../ImageProcessing
+Parameter 5: ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/SoundFilm.log
+Parameter 6: ../../SoundFilm/
+Parameter 7: ../../SoundFilm/bin
+
+../sox-14.3.0/src/sox: line 136: /var/www/pyl5/pyl5p/SoundFilm/sox-14.3.0/src/.libs/lt-sox: cannot execute binary file
+../sox-14.3.0/src/sox: line 136: /var/www/pyl5/pyl5p/SoundFilm/sox-14.3.0/src/.libs/lt-sox: Success
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmpgarage.wav: No such file or directory
+Hello, SBI!
+temporal = ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/
+el script es valido
+el vocabulario es valido
+listo para los objetos
+el objeto que da es Rabbit
+el objeto que da es Rabbit
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es Squirrel
+el objeto que da es Squirrel
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es Chinchilla
+el objeto que da es Chinchilla
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es Butterfly
+el objeto que da es Butterfly
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es Bird
+el objeto que da es Bird
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es FlyingSquirrelDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/
+copiando ../fsquirrel.wav en ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmp_1.wav
+copiando ../fsquirrel.wav en ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmp_2.wav
+copiando ../fsquirrel.wav en ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmp_3.wav
+copiando ../fsquirrel.wav en ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmp_4.wav
+copiando ../fsquirrel.wav en ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmp_5.wav
+../ffmpeg -y -i ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/tmpgarage.wav -ab 128k -ar 44100 ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/fsquirrel.wav.mp3   tu
+el actor es ::FlyingSquirrel::
+la animacion del actor es ::FLY::
+la de la acciones ::FLAP::
+el actor es ::FlyingSquirrel::
+la animacion del actor es ::FLY::
+la de la acciones ::RUN::
+el objeto que da es Apple
+el objeto que da es Apple
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es SBCamera
+el objeto que da es SBCamera
+listo para los actores
+el actor que da es FlyingSquirrel
+el objeto que da es SBRectangle
+el objeto que da es SBRectangle
+listo para los actores
+el actor que da es FlyingSquirrel
+sayonara, SBI!
+
+Thu Aug  6 14:44:03 COT 2015

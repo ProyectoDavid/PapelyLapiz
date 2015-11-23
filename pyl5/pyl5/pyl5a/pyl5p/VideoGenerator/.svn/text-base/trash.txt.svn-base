@@ -1,0 +1,20 @@
+
+# temporales
+
+# cvs
+SCRIPT_XML_FILENAME = "/Users/dwilches/DWilches/Code/ImageProcessing/Execution/script.xml"
+RENDER_PATH = "/Users/dwilches/Desktop/"
+MODELS_PATH = "/Users/dwilches/Dropbox/Uniandes/Doctorado/blender-python/"
+SCORE_XML_FILENAME = "/Users/dwilches/DWilches/Code/ImageProcessing/Execution/score.xml"
+
+# daniel
+SCRIPT_XML_FILENAME = "/Users/dwilches/DWilches/Code/ImageProcessing/Execution/script.xml"
+RENDER_PATH = "/Users/dwilches/Desktop/"
+MODELS_PATH = "/Users/dwilches/Dropbox/Uniandes/Doctorado/blender-python/"
+SCORE_XML_FILENAME = "/Users/dwilches/DWilches/Code/ImageProcessing/Execution/score.xml"
+
+# jmm imac
+SCRIPT_XML_FILENAME = "/Users/barcodepandora/Documents/ImageProcessing/Execution/script.xml"
+RENDER_PATH = "/Users/barcodepandora/Desktop/"
+MODELS_PATH = "/Users/barcodepandora/Documents/VideoGenerator/"
+SCORE_XML_FILENAME = "/Users/barcodepandora/Documents/ImageProcessing/Execution/score.xml"

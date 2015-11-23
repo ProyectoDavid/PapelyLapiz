@@ -1,0 +1,223 @@
+Parameter 1: Processing_ButterflyFlyNew1.png
+Parameter 2: ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Tue Jan 27 00:24:40 COT 2015
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_ButterflyFlyNew1.png
+Parameter 2 is: ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution/Log/6283cd3505c34c0a899bf5752fa18af5
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 23
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+
+# Type: Noise
+# Image: Label3.png
+# Label: 3
+# Bounds: (0.751323,0.166948,0.753086,0.172007)
+
+# Verificando el label 4
+
+# Type: Noise
+# Image: Label4.png
+# Label: 4
+# Bounds: (0.756614,0.210793,0.761905,0.220911)
+
+# Verificando el label 5
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.765432,0.232715,0.767196,0.234401)
+
+# Verificando el label 6
+
+# Type: Noise
+# Image: Label6.png
+# Label: 6
+# Bounds: (0.768959,0.264755,0.770723,0.268128)
+
+# Verificando el label 7
+
+# Type: Noise
+# Image: Label7.png
+# Label: 7
+# Bounds: (0.770723,0.271501,0.770723,0.271501)
+
+# Verificando el label 8
+
+# Type: Noise
+# Image: Label8.png
+# Label: 8
+# Bounds: (0.774250,0.301855,0.777778,0.310287)
+
+# Verificando el label 9
+# Verificando el label 10
+# Verificando el label 11
+
+# Type: Noise
+# Image: Label11.png
+# Label: 11
+# Bounds: (0.705467,0.440135,0.705467,0.440135)
+
+# Verificando el label 12
+# Verificando el label 13
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (0.675485,0.625632,0.679012,0.629005)
+
+# Verificando el label 14
+# Verificando el label 15
+# Verificando el label 16
+# Verificando el label 17
+
+# Type: Noise
+# Image: Label17.png
+# Label: 17
+# Bounds: (0.774250,0.913997,0.779541,0.917369)
+
+# Verificando el label 18
+
+# Type: Noise
+# Image: Label18.png
+# Label: 18
+# Bounds: (0.627866,0.917369,0.641975,0.924115)
+
+# Verificando el label 19
+
+# Type: Noise
+# Image: Label19.png
+# Label: 19
+# Bounds: (0.654321,0.917369,0.657848,0.922428)
+
+# Verificando el label 20
+
+# Type: Noise
+# Image: Label20.png
+# Label: 20
+# Bounds: (0.514991,0.920742,0.516755,0.922428)
+
+# Verificando el label 21
+
+# Type: Noise
+# Image: Label21.png
+# Label: 21
+# Bounds: (0.523810,0.920742,0.534392,0.924115)
+
+# Verificando el label 22
+
+# Type: Noise
+# Image: Label22.png
+# Label: 22
+# Bounds: (0.663139,0.920742,0.668430,0.924115)
+
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.189266Rabbit) 5(0.7032FlyingSquirrel) 7(0.789762SBCamera) 0(0.963035Rabbit) 
+3(0.167665Butterfly) 2(0.892Chinchilla) 3(0.80201Butterfly) 3(0.964269Butterfly) 
+4(0.229167Bird) 1(0.8916Squirrel) 4(0.865836Bird) 4(0.96432Bird) 
+0(0.193838Rabbit) 3(0.696Butterfly) 3(0.844437Butterfly) 3(0.969256Butterfly) 
+0(0.193651Rabbit) 8(0.8396SBRectangle) 8(0.943431SBRectangle) 8(0.98056SBRectangle) 
+Actor: Label12==SBRectangle.png
+0(0.16609Rabbit) 3(0.7524Butterfly) 7(0.886863SBCamera) 7(0.96921SBCamera) 
+0(0.156089Rabbit) 8(0.75SBRectangle) 5(0.72926FlyingSquirrel) 8(0.945904SBRectangle) 
+Actor: Label15==SBRectangle.png
+0(0.180702Rabbit) 2(0.7524Chinchilla) 2(0.82Chinchilla) 0(0.95905Rabbit) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label14.png esta dentro de Label12==SBRectangle.png
+14 esta dentro de 12
+Label15==SBRectangle.png esta dentro de Label12==SBRectangle.png
+15 esta dentro de 12
+*Se ha removido falso rectangulo del log: Log/Actors/Label15==SBRectangle.png
+Label16.png esta dentro de Label12==SBRectangle.png
+16 esta dentro de 12
+Tesseract Open Source OCR Engine
+# un detectado es: 12
+# un detectado es: 15
+# Type: Text
+# Text: VL}!
+# Inside Label: 12
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label9.png is an arrow...0
+nope.
+Lets see if Label10.png is an arrow...yep.
+# Type: Arrow
+# Image: Label10.png
+# Label: 10
+# Bounds: (0.620811,0.327150,0.652557,0.352445)
+------------------------------------------------
+## Total FLECHAS Encontradas: 1
+
+# Etapa de busqueda de ACTORES #
+
+0(0.189266Rabbit) 5(0.7032FlyingSquirrel) 7(0.789762SBCamera) 0(0.963035Rabbit) 
+Actor: Label1==Rabbit.png
+3(0.167665Butterfly) 2(0.892Chinchilla) 3(0.80201Butterfly) 3(0.964269Butterfly) 
+Actor: Label2==Butterfly.png
+4(0.229167Bird) 1(0.8916Squirrel) 4(0.865836Bird) 4(0.96432Bird) 
+Actor: Label9==Bird.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:3
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.171076,0.096121,0.215168,0.544688)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Butterfly
+# Image: Label2==Butterfly.png
+# Bounds: (0.197531,0.109612,0.825397,0.576728)
+# Animation: VL}!
+
+# Type: Actor
+# Label: 9
+# Asset: Bird
+# Image: Label9==Bird.png
+# Bounds: (0.199295,0.327150,0.462081,0.563238)
+# Animation: 
+
+Execution time: 10.66 seconds.
+
+Tue Jan 27 00:24:48 COT 2015

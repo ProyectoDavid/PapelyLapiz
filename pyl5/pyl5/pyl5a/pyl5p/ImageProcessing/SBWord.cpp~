@@ -1,0 +1,52 @@
+#include "SBWord.h"
+
+
+SBWord::SBWord(void)
+{
+	text="";
+}
+
+
+SBWord::~SBWord(void)
+{
+}
+
+ImageType::Pointer SBWord::GetImage() {
+	return image;
+}
+
+void SBWord::SetImage(ImageType::Pointer pImage) {
+	image=pImage;
+}
+	
+int SBWord::GetContainerLabel() {
+	return containerLabel;
+}
+
+void SBWord::SetContainerLabel(int pContainerLabel) {
+	containerLabel=pContainerLabel;
+}
+
+vector<int> SBWord::GetLetterLabels() {
+	return letterLabels;
+}
+
+void SBWord::SetLetterLabels(vector<int> pLetterLabels) {
+	letterLabels=pLetterLabels;
+}
+
+string SBWord::GetText() {
+	return text;
+}
+
+void SBWord::SetText(string pText) {
+	text=pText;
+}
+
+BoundingBoxType::Pointer SBWord::GetBoundingBox() {
+	return boundingBox;
+}
+
+void SBWord::SetBoundingBox(BoundingBoxType::Pointer pBoundingBox) {
+	boundingBox=pBoundingBox;
+}

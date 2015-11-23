@@ -1,0 +1,13 @@
+Wed Jun  4 12:06:19 COT 2014
+Parameter 1: /var/www/pyl5/ImageProcessing/Execution/vocabulary.xml
+Parameter 2: /var/www/pyl5/www/output/images/319fef9d80403583dde2f0d8bb69b7c2/script.xml
+Parameter 3: /var/www/pyl5/www/output/images/319fef9d80403583dde2f0d8bb69b7c2/score.xml
+Parameter 4: /var/www/pyl5/ImageProcessing
+Parameter 5: /var/www/pyl5/www/output/images/319fef9d80403583dde2f0d8bb69b7c2/SoundFilm.log
+Parameter 6: 
+Parameter 7: 
+
+./SoundFilm.sh: line 18: cd: /var/www/pyl5/ImageProcessing/SoundFilm: No such file or directory
+./SoundFilm.sh: line 19: /var/www/pyl5/ImageProcessing/SoundFilm/MySoundFilm: No such file or directory
+
+Wed Jun  4 12:06:19 COT 2014

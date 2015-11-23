@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/656fa82b1cbb8f8f9d7ec38b67290230/walk001.wav.mp3" />
+        <point x="0.10929" y="0.660222" z="0" />
+        <foley>
+            <foley value="/var/www/pyl5/www/output/images/656fa82b1cbb8f8f9d7ec38b67290230/walk001.wav.mp3" frame="1" />
+        </foley>
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/656fa82b1cbb8f8f9d7ec38b67290230/chinchilla.wav.mp3" />
+        <point x="0.309199" y="0.689354" z="0" />
+    </actor>
+</score>

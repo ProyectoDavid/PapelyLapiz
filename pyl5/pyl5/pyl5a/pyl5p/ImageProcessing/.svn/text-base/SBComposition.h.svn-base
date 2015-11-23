@@ -1,0 +1,16 @@
+#pragma once
+#include "SBActor.h"
+
+using namespace std;
+class SBComposition
+{
+	vector<SBActor*> actors;
+
+public:
+	SBComposition(void);
+	~SBComposition(void);
+
+	vector<SBActor*> GetActors();
+	void AddActor(SBActor* actor);
+};
+

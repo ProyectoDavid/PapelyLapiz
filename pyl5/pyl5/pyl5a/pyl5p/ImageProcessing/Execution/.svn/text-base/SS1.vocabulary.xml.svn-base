@@ -1,0 +1,20 @@
+<objects>
+  <object shape="Training/SS1/square.png" asset="medievalChurch.mesh" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS1/triangle.png" asset="elvenHouse.mesh" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS1/car.png" asset="desertTruck.mesh" facing="front" scaleOffset="0.2"/>
+  <object shape="Training/SS1/ninja.png" asset="ninja.mesh" facing="back" scaleOffset="0.3">
+    <actions>
+      <action text="WALK" animation="Walk"/>
+      <action text="JUMP" animation="Jump"/>
+    </actions>
+  </object>
+  <object shape="Training/SS1/robot.png" asset="robot.mesh" facing="right" scaleOffset="0.7">
+    <actions>
+      <action text="WALK" animation="Walk"/>
+      <action text="SHOOT" animation="Shoot"/>
+    </actions>
+  </object>
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <!--object shape="Training/Default/SBSquare.png" asset="SBSquare" facing="" scaleOffset=""/-->
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+</objects>

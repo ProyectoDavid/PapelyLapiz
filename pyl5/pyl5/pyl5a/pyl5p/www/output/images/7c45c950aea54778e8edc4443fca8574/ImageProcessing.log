@@ -1,0 +1,103 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/7c45c950aea54778e8edc4443fca8574
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 20:49:13 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/7c45c950aea54778e8edc4443fca8574
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/7c45c950aea54778e8edc4443fca8574
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 3
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+
+##Etapa de busqueda de RECTANGULOS##
+
+8(0.14658SBRectangle) 8(0.8476SBRectangle) 3(0.893699Butterfly) 3(0.973565Butterfly) 
+Actor: Label1==SBRectangle.png
+3(0.105919Butterfly) 2(0.8376Chinchilla) 3(0.91456Butterfly) 3(0.97715Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 1
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1==SBRectangle.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.140065Rabbit) 2(0.8408Chinchilla) 3(0.893699Butterfly) 3(0.973565Butterfly) 
+Actor: Label1==Butterfly.png
+3(0.105919Butterfly) 2(0.8376Chinchilla) 3(0.91456Butterfly) 3(0.97715Butterfly) 
+Actor: Label2==Butterfly.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:2
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Butterfly
+# Image: Label1==Butterfly.png
+# Bounds: (0.119141,0.230469,0.323242,0.539062)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Butterfly
+# Image: Label2==Butterfly.png
+# Bounds: (0.681641,0.510417,0.867188,0.835938)
+# Animation: 
+
+Execution time: 4.24 seconds.
+
+Wed Jul  2 20:49:16 COT 2014

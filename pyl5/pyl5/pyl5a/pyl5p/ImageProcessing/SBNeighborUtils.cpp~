@@ -1,0 +1,185 @@
+#include "SBNeighborUtils.h"
+
+
+
+int SBNeighborUtils::GetNumberOfForegroundNeighbors(ImageType::Pointer image, ImageType::IndexType index) {
+	
+	int numberOfForegroundNeighbors = 0;
+	
+	for (int x = index[0] - 1; x <= index[0] + 1; x++) {
+		for (int y = index[1] - 1; y <= index[1] + 1; y++) {
+			if (x != index[0] || y != index[1]) {
+				ImageType::IndexType neighborIndex;
+				neighborIndex[0] = x;
+				neighborIndex[1] = y;
+				ImageType::PixelType neighborValue = image->GetPixel(neighborIndex);
+
+				if (neighborValue == MAX_GRAY_VALUE) {
+					numberOfForegroundNeighbors++;
+				}
+			}
+		}
+	}
+	return numberOfForegroundNeighbors;
+}
+
+
+bool SBNeighborUtils::HasForegroundPixels(ImageType::Pointer image) {
+
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		if (constIterator.Value() == MAX_GRAY_VALUE) {
+			return true;
+		}
+	}
+	return false;
+}
+
+int SBNeighborUtils::GetTotalNumberOfForegroundPixels(ImageType::Pointer image) {
+	
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+	
+	int counter=0;
+	
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		if (constIterator.Value() == MAX_GRAY_VALUE)
+			counter++;
+	}
+	return counter;
+}
+
+bool SBNeighborUtils::HasNeighborNonConnectivity(ImageType::Pointer image, ImageType::IndexType index) {
+
+	int x = index[0], y = index[1];
+	
+	ImageType::IndexType neighborIndex;
+	neighborIndex[0] = x - 1;
+	neighborIndex[1] = y - 1;
+	ImageType::PixelType xm1_ym1 = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x;
+	neighborIndex[1] = y - 1;
+	ImageType::PixelType x_ym1 = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x + 1;
+	neighborIndex[1] = y - 1;
+	ImageType::PixelType xp1_ym1 = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x - 1;
+	neighborIndex[1] = y;
+	ImageType::PixelType xm1_y = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x + 1;
+	neighborIndex[1] = y;
+	ImageType::PixelType xp1_y = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x - 1;
+	neighborIndex[1] = y + 1;
+	ImageType::PixelType xm1_yp1 = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x;
+	neighborIndex[1] = y + 1;
+	ImageType::PixelType x_yp1 = image->GetPixel(neighborIndex);
+
+	neighborIndex[0] = x + 1;
+	neighborIndex[1] = y + 1;
+	ImageType::PixelType xp1_yp1 = image->GetPixel(neighborIndex);
+
+	/**
+	 * Ask around the 3x3 window for non connectivity
+	 * _______
+	 * |a|b|c|
+	 * |h| |d|
+	 * |g|f|e|
+	 * -------
+	 */
+	bool res = (xm1_ym1 == MAX_GRAY_VALUE ? x_ym1 == 0 && xm1_y == 0 : true);
+	res = res && (x_ym1 == MAX_GRAY_VALUE ? xm1_ym1 == 0 && xp1_ym1 == 0 : true);
+	res = res && (xp1_ym1 == MAX_GRAY_VALUE ? x_ym1 == 0 && xp1_y == 0 : true);
+	res = res && (xp1_y == MAX_GRAY_VALUE ? xp1_ym1 == 0 && xp1_yp1 == 0 : true);
+	res = res && (xp1_yp1 == MAX_GRAY_VALUE ? xp1_y == 0 && x_yp1 == 0 : true);
+	res = res && (x_yp1 == MAX_GRAY_VALUE ? xp1_yp1 == 0 && xm1_yp1 == 0 : true);
+	res = res && (xm1_yp1 == MAX_GRAY_VALUE ? x_yp1 == 0 && xm1_y == 0 : true);
+	res = res && (xm1_y == MAX_GRAY_VALUE ? xm1_yp1 == 0 && xm1_ym1 == 0 : true);
+
+	return res;
+}
+
+bool SBNeighborUtils::HasIntersections(ImageType::Pointer image) {
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		
+		if (constIterator.Value() == MAX_GRAY_VALUE) {
+			ImageType::IndexType index = constIterator.GetIndex();
+			int count = GetNumberOfForegroundNeighbors(image, index);
+
+			if (count >= 3) {
+				
+				if (HasNeighborNonConnectivity(image, index))
+					return true;
+			}
+		}
+	}
+
+	return false;
+}
+
+void SBNeighborUtils::AnalyzeInterestPoints(ImageType::Pointer image, int &numberOfEndPoints, int &numberOfIntersections) {
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		
+		if (constIterator.Value() == MAX_GRAY_VALUE) {
+			ImageType::IndexType index = constIterator.GetIndex();
+			int count = GetNumberOfForegroundNeighbors(image, index);
+			
+			if (count == 1) {
+				numberOfEndPoints++;
+			}
+
+			if (count >= 3) {
+				
+				if (HasNeighborNonConnectivity(image, index))
+					numberOfIntersections++;
+			}
+		}
+	}
+
+	
+}
+
+void SBNeighborUtils::CalculateInterestPoints(SBShape *sbShape) {
+	ImageType::Pointer image=sbShape->GetImage();
+	
+
+	ConstIteratorType constIterator(image, image->GetLargestPossibleRegion());
+	IteratorType iterator(image, image->GetLargestPossibleRegion());
+
+	for (iterator.GoToBegin(), constIterator.GoToBegin(); !iterator.IsAtEnd(); ++iterator, ++constIterator) {
+		
+		if (constIterator.Value() == MAX_GRAY_VALUE) {
+			ImageType::IndexType index = constIterator.GetIndex();
+			int count = GetNumberOfForegroundNeighbors(image, index);
+			
+			vector<ImageType::IndexType> endPoints=sbShape->GetEndPoints();
+			vector<ImageType::IndexType> intersectionPoints=sbShape->GetIntersectionPoints();
+			if (count == 1) {
+				endPoints.push_back(index);
+				sbShape->SetEndPoints(endPoints);
+			}
+
+			if (count >= 3) {
+				if (HasNeighborNonConnectivity(image, index)) {
+					intersectionPoints.push_back(index);
+					sbShape->SetIntersectionPoints(intersectionPoints);
+				}
+			}
+		}
+	}
+}

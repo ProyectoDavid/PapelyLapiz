@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Bird" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.395996" z="0.393229" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

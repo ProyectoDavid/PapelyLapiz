@@ -1,0 +1,13 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2
+Parameter 4: ../../www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: ../../../..
+Parameter 8: ../../www/output/images/319fef9d80403583dde2f0d8bb69b7c2/score.xml
+Thu Aug  6 14:44:03 COT 2015
+
+./VideoGenerator.sh: line 26: /opt/blender/blender: No such file or directory
+
+Thu Aug  6 14:44:03 COT 2015

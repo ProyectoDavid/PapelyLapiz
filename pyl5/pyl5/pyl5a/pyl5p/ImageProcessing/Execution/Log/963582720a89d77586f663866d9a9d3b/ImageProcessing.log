@@ -1,0 +1,124 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/963582720a89d77586f663866d9a9d3b
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 20:17:45 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/963582720a89d77586f663866d9a9d3b
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/963582720a89d77586f663866d9a9d3b
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 7
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.197309Rabbit) 8(0.8708SBRectangle) 8(0.946148SBRectangle) 8(0.983688SBRectangle) 
+Actor: Label1==SBRectangle.png
+8(0.160584SBRectangle) 8(0.8228SBRectangle) 8(0.858579SBRectangle) 8(0.976311SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.162736Rabbit) 5(0.8136FlyingSquirrel) 5(0.868471FlyingSquirrel) 0(0.969047Rabbit) 
+0(0.253211Rabbit) 8(0.7612SBRectangle) 0(0.883381Rabbit) 0(0.981077Rabbit) 
+0(0.105263Rabbit) 2(0.9084Chinchilla) 4(0.865836Bird) 2(0.957009Chinchilla) 
+0(0.28Rabbit) 2(0.9308Chinchilla) 1(0.80895Squirrel) 8(0.950267SBRectangle) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label2==SBRectangle.png esta dentro de Label1==SBRectangle.png
+2 esta dentro de 1
+*Se ha removido falso rectangulo del log: Log/Actors/Label2==SBRectangle.png
+Label3.png esta dentro de Label1==SBRectangle.png
+3 esta dentro de 1
+Label4.png esta dentro de Label1==SBRectangle.png
+4 esta dentro de 1
+Tesseract Open Source OCR Engine
+# un detectado es: 1
+# un detectado es: 2
+# Type: Text
+# Text: QU/V
+# Inside Label: 1
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label5.png is an arrow...nope.
+Lets see if Label6.png is an arrow...Label6.png looked like an arrow, but its head was too big: (73,65,705)
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.105263Rabbit) 2(0.9084Chinchilla) 4(0.865836Bird) 2(0.957009Chinchilla) 
+Actor: Label5==Chinchilla.png
+0(0.28Rabbit) 2(0.9308Chinchilla) 1(0.80895Squirrel) 4(0.94716Bird) 
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:1
+
+# Type: NotRecognized
+# Image: Label6.png
+# Label: 6
+# Bounds: (0.337891,0.292969,0.873047,0.712240)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 5
+# Asset: Chinchilla
+# Image: Label5==Chinchilla.png
+# Bounds: (0.103516,0.281250,0.381836,0.579427)
+# Animation: QU/V
+
+Execution time: 6.62 seconds.
+
+Wed Jul  2 20:17:51 COT 2014

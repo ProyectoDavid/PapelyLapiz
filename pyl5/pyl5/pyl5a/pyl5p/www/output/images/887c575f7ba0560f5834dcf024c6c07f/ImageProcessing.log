@@ -1,0 +1,137 @@
+Parameter 1: Processing_imagen2.png
+Parameter 2: ../../www/output/images/887c575f7ba0560f5834dcf024c6c07f
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Thu Jul  3 13:20:08 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_imagen2.png
+Parameter 2 is: ../../www/output/images/887c575f7ba0560f5834dcf024c6c07f
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/887c575f7ba0560f5834dcf024c6c07f
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 8
+# Verificando el label 1
+# Verificando el label 0
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.191919Rabbit) 3(0.7784Butterfly) 7(0.793845SBCamera) 0(0.941477Rabbit) 
+8(0.243119SBRectangle) 8(0.8448SBRectangle) 8(0.95SBRectangle) 8(0.98768SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.166202Rabbit) 3(0.6Butterfly) 0(0.893699Rabbit) 3(0.982312Butterfly) 
+0(0.163536Rabbit) 8(0.6444SBRectangle) 8(0.89SBRectangle) 8(0.977014SBRectangle) 
+Actor: Label4==SBRectangle.png
+0(0.199005Rabbit) 2(0.6136Chinchilla) 0(0.913977Rabbit) 0(0.984767Rabbit) 
+0(0.0891089Rabbit) 2(0.878Chinchilla) 5(0.923842FlyingSquirrel) 5(0.969849FlyingSquirrel) 
+0(0.159624Rabbit) 2(0.8784Chinchilla) 1(0.87Squirrel) 3(0.965228Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Label4==SBRectangle.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label4==SBRectangle.png
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# un detectado es: 4
+# Type: Text
+# Text: RUN
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...0
+nope.
+Lets see if Label6.png is an arrow...0
+nope.
+Lets see if Label7.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.191919Rabbit) 3(0.7784Butterfly) 7(0.793845SBCamera) 0(0.941477Rabbit) 
+Actor: Label1==Rabbit.png
+0(0.0891089Rabbit) 2(0.878Chinchilla) 5(0.923842FlyingSquirrel) 5(0.969849FlyingSquirrel) 
+Actor: Label6==FlyingSquirrel.png
+0(0.159624Rabbit) 2(0.8784Chinchilla) 1(0.87Squirrel) 3(0.965228Butterfly) 
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:2
+
+# Type: NotRecognized
+# Image: Label7.png
+# Label: 7
+# Bounds: (0.526563,0.193750,0.984375,0.357812)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.000000,0.000000,0.009375,0.518750)
+# Animation: 
+
+# Type: Actor
+# Label: 6
+# Asset: FlyingSquirrel
+# Image: Label6==FlyingSquirrel.png
+# Bounds: (0.045312,0.104688,0.520312,0.457813)
+# Animation: RUN
+
+Execution time: 4.43 seconds.
+
+Thu Jul  3 13:20:12 COT 2014

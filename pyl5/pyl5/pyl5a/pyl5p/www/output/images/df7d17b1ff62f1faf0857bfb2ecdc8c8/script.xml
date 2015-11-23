@@ -1,0 +1,24 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Butterfly" animation="" facing="" scaleOffset="1">
+                <position x="0.429329" z="0.0698758" />
+            </actor>
+            <actor asset="Apple" animation="" facing="" scaleOffset="1">
+                <position x="0.570671" z="0.107919" />
+            </actor>
+            <actor asset="FlyingSquirrel" animation="RUN" facing="" scaleOffset="1">
+                <position x="0.454064" z="0.330745" />
+            </actor>
+            <actor asset="Rabbit" animation="" facing="" scaleOffset="1">
+                <position x="0.570671" z="0.173137" />
+            </actor>
+            <actor asset="Butterfly" animation="" facing="" scaleOffset="1">
+                <position x="0.602473" z="0.190217" />
+            </actor>
+            <actor asset="FlyingSquirrel" animation="" facing="" scaleOffset="1">
+                <position x="0.676678" z="0.21972" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

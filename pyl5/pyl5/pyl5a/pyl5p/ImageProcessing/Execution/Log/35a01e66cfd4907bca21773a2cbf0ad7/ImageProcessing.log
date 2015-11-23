@@ -1,0 +1,106 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/35a01e66cfd4907bca21773a2cbf0ad7
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Mon Jan 26 22:47:28 COT 2015
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/35a01e66cfd4907bca21773a2cbf0ad7
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/ImageProcessing/Execution/Log/35a01e66cfd4907bca21773a2cbf0ad7
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 5
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.132075Rabbit) 2(0.914Chinchilla) 2(0.892297Chinchilla) 2(0.967092Chinchilla) 
+0(0.165354Rabbit) 1(0.9024Squirrel) 0(0.907805Rabbit) 0(0.977334Rabbit) 
+4(0.118519Bird) 1(0.9Squirrel) 3(0.9Butterfly) 3(0.961289Butterfly) 
+4(0.118605Bird) 2(0.8148Chinchilla) 6(0.893699Apple) 6(0.968204Apple) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label3.png is an arrow...nope.
+Lets see if Label4.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.132075Rabbit) 2(0.914Chinchilla) 2(0.892297Chinchilla) 2(0.967092Chinchilla) 
+Actor: Label1==Chinchilla.png
+0(0.165354Rabbit) 1(0.9024Squirrel) 0(0.907805Rabbit) 0(0.977334Rabbit) 
+Actor: Label2==Rabbit.png
+4(0.118519Bird) 1(0.9Squirrel) 3(0.9Butterfly) 3(0.961289Butterfly) 
+Actor: Label3==Butterfly.png
+4(0.118605Bird) 2(0.8148Chinchilla) 6(0.893699Apple) 6(0.968204Apple) 
+Actor: Label4==Apple.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:4
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Chinchilla
+# Image: Label1==Chinchilla.png
+# Bounds: (0.039062,0.236979,0.329102,0.539062)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Rabbit
+# Image: Label2==Rabbit.png
+# Bounds: (0.382812,0.292969,0.579102,0.610677)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: Butterfly
+# Image: Label3==Butterfly.png
+# Bounds: (0.601562,0.294271,0.889648,0.497396)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Apple
+# Image: Label4==Apple.png
+# Bounds: (0.138672,0.743490,0.182617,0.837240)
+# Animation: 
+
+Execution time: 6.67 seconds.
+
+Mon Jan 26 22:47:34 COT 2015

@@ -1,0 +1,125 @@
+<!--
+#
+#Papel y Lapiz - Software para la creacion de pequeños cortos.
+#Copyright (C) 2015  Universidad de Los Andes - Proyecto DAVID.   
+#This program is free software; you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by 
+#the Free Software Foundation; either version 2 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License along
+#with this program; if not, write to the Free Software Foundation,
+#Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+#
+-->
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="73" z="46" />
+            </actor>
+            <actor asset="robot.mesh" animation="Shoot" facing="right" scaleOffset="0.7">
+                <position x="411" z="89" />
+            </actor>
+            <actor asset="robot.mesh" animation="Shoot" facing="right" scaleOffset="0.7">
+                <position x="619" z="93" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="79" z="146" />
+            </actor>
+            <actor asset="robot.mesh" animation="Shoot" facing="right" scaleOffset="0.7">
+                <position x="415" z="231" />
+            </actor>
+            <actor asset="robot.mesh" animation="Shoot" facing="right" scaleOffset="0.7">
+                <position x="623" z="235" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="653" z="388" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="440" z="389" />
+            </actor>
+            <actor asset="Ardilla" animation="" facing="right" scaleOffset="0.7">
+                <position x="696" z="458" />
+                <trajectory>
+                    <point x="726" z="467" />
+                    <point x="726" z="466" />
+                    <point x="726" z="465" />
+                    <point x="726" z="464" />
+                    <point x="726" z="463" />
+                    <point x="726" z="462" />
+                    <point x="725" z="461" />
+                    <point x="725" z="460" />
+                    <point x="725" z="459" />
+                    <point x="725" z="458" />
+                    <point x="725" z="457" />
+                    <point x="725" z="456" />
+                    <point x="725" z="455" />
+                    <point x="725" z="454" />
+                    <point x="725" z="453" />
+                    <point x="725" z="452" />
+                    <point x="724" z="451" />
+                </trajectory>
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="483" z="459" />
+                <trajectory>
+                    <point x="513" z="468" />
+                    <point x="513" z="467" />
+                    <point x="513" z="466" />
+                    <point x="513" z="465" />
+                    <point x="513" z="464" />
+                    <point x="513" z="463" />
+                    <point x="512" z="462" />
+                    <point x="512" z="461" />
+                    <point x="512" z="460" />
+                    <point x="512" z="459" />
+                    <point x="512" z="458" />
+                    <point x="512" z="457" />
+                    <point x="512" z="456" />
+                    <point x="512" z="455" />
+                    <point x="512" z="454" />
+                    <point x="512" z="453" />
+                    <point x="511" z="452" />
+                </trajectory>
+            </actor>
+            <actor asset="robot.mesh" animation="Shoot" facing="right" scaleOffset="0.7">
+                <position x="438" z="546" />
+            </actor>
+            <actor asset="robot.mesh" animation="" facing="right" scaleOffset="0.7">
+                <position x="645" z="550" />
+                <trajectory>
+                    <point x="749" z="624" />
+                    <point x="749" z="623" />
+                    <point x="749" z="622" />
+                    <point x="749" z="621" />
+                    <point x="749" z="620" />
+                    <point x="749" z="619" />
+                    <point x="749" z="618" />
+                    <point x="749" z="617" />
+                    <point x="749" z="616" />
+                    <point x="749" z="615" />
+                    <point x="749" z="614" />
+                    <point x="749" z="613" />
+                    <point x="749" z="612" />
+                    <point x="748" z="611" />
+                    <point x="748" z="610" />
+                </trajectory>
+            </actor>
+            <actor asset="ninja.mesh" animation="Jump" facing="back" scaleOffset="0.3">
+                <position x="235" z="554" />
+            </actor>
+            <actor asset="SBCamera" animation="" facing="" scaleOffset="1">
+                <position x="169" z="771" />
+            </actor>
+            <actor asset="Arbol" animation="" facing="" scaleOffset="1">
+                <position x="1" z="1" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

@@ -1,0 +1,120 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/35dc765f6ff55e4215d4af94c4c83901
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 21:01:28 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/35dc765f6ff55e4215d4af94c4c83901
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/35dc765f6ff55e4215d4af94c4c83901
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 7
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.132812Rabbit) 2(0.8548Chinchilla) 0(0.897044Rabbit) 0(0.968275Rabbit) 
+8(0.108787SBRectangle) 8(0.8596SBRectangle) 8(0.935969SBRectangle) 8(0.974445SBRectangle) 
+Actor: Label2==SBRectangle.png
+8(0.111111SBRectangle) 8(0.8448SBRectangle) 1(0.807646Squirrel) 8(0.945812SBRectangle) 
+Actor: Label3==SBRectangle.png
+8(0.123644SBRectangle) 8(0.7956SBRectangle) 3(0.837212Butterfly) 8(0.972318SBRectangle) 
+Actor: Label4==SBRectangle.png
+0(0.178357Rabbit) 2(0.784Chinchilla) 2(0.87Chinchilla) 2(0.96988Chinchilla) 
+3(0.114447Butterfly) 3(0.7704Butterfly) 3(0.88Butterfly) 3(0.969754Butterfly) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 3
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3==SBRectangle.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label3==SBRectangle.png
+Label4==SBRectangle.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label4==SBRectangle.png
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Label6.png esta dentro de Label2==SBRectangle.png
+6 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# un detectado es: 3
+# un detectado es: 4
+# Type: Text
+# Text: JUMP
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 2
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.132812Rabbit) 2(0.8548Chinchilla) 0(0.897044Rabbit) 0(0.968275Rabbit) 
+Actor: Label1==Rabbit.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:1
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.193359,0.216146,0.419922,0.582031)
+# Animation: JUMP
+
+Execution time: 4.21 seconds.
+
+Wed Jul  2 21:01:32 COT 2014

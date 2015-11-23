@@ -1,0 +1,78 @@
+found bundled python: /opt/blender/2.62/python
+alloc video stream 0x7f14f273ce00
+Fra:1 Mem:8.76M (0.10M, peak 8.87M) | Preparing Scene data
+Fra:1 Mem:8.98M (0.10M, peak 9.09M) | Preparing Scene data
+Fra:1 Mem:8.98M (0.10M, peak 9.09M) | Creating Shadowbuffers
+Fra:1 Mem:8.98M (0.10M, peak 9.09M) | Raytree.. preparing
+Fra:1 Mem:9.11M (0.10M, peak 9.20M) | Raytree.. building
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) | Raytree finished
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) | Creating Environment maps
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) | Caching Point Densities
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) Sce: Scene Ve:577 Fa:938 La:0
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) | Loading voxel datasets
+Fra:1 Mem:9.11M (0.10M, peak 9.42M) Sce: Scene Ve:577 Fa:938 La:0
+Fra:1 Mem:9.12M (0.10M, peak 9.42M) | SSS preprocessing
+Fra:1 Mem:9.12M (0.10M, peak 9.42M) | Volume preprocessing
+Fra:1 Mem:9.12M (0.10M, peak 9.42M) Sce: Scene Ve:577 Fa:938 La:0
+Fra:1 Mem:9.12M (0.10M, peak 9.42M) Sce: Scene Ve:577 Fa:938 La:0
+Fra:1 Mem:9.13M (10.15M, peak 19.88M) | Scene, Part 1-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 2-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 3-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 4-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 5-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 6-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 7-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 8-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 9-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 10-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 11-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 12-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 13-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 14-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 15-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 16-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 17-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 18-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 19-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 20-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 21-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 22-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 23-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 24-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 25-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 26-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 27-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 28-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 29-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 30-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 31-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 32-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 33-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 34-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 35-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 36-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 37-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 38-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 39-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 40-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 41-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 42-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 43-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 44-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 45-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 46-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 47-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 48-64
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 49-64
+
+Sent an internal break event. Press ^C again to kill Blender
+Fra:1 Mem:9.13M (10.15M, peak 19.89M) | Scene, Part 50-64
+Fra:1 Mem:8.76M (9.98M, peak 19.89M) Sce: Scene Ve:577 Fa:938 La:0
+Launchin: 
+Parsing: script.xml
+encontre una ardilla
+hay una camara
+zero video stream 0x7f14f273ce00
+read blend: /var/www/pyl2/VideoGenerator/empty_scene.blend
+
+Blender quit

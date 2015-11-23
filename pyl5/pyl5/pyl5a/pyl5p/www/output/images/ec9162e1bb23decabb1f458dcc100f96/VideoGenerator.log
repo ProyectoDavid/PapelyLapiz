@@ -1,0 +1,398 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: ../../www/output/images/ec9162e1bb23decabb1f458dcc100f96
+Parameter 4: ../../www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: ../../../..
+Parameter 8: ../../www/output/images/ec9162e1bb23decabb1f458dcc100f96/score.xml
+Wed Jul  2 18:28:09 COT 2014
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+Info: read library:  '/var/www/production/chars/butterfly.blend', '//..\..\chars\butterfly.blend'
+
+Info: read library:  '/var/www/production/chars/bird.blend', '//..\..\chars\bird.blend'
+
+Info: read library:  '/var/www/production/chars/rabbit.blend', '//..\..\chars\rabbit.blend'
+
+Fra:1 Mem:101.90M (0.10M, peak 121.31M) | Preparing Scene data
+Fra:1 Mem:130.04M (0.10M, peak 158.73M) | Preparing Scene data
+Fra:1 Mem:202.08M (0.10M, peak 352.62M) | Preparing Scene data
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) | Preparing Scene data
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) | Creating Shadowbuffers
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) | Caching Point Densities
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) Sce: Scene Ve:1329472 Fa:1794856 La:13
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) | Loading voxel datasets
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) Sce: Scene Ve:1329472 Fa:1794856 La:13
+Fra:1 Mem:202.58M (0.10M, peak 352.62M) Sce: Scene Ve:1329472 Fa:1794856 La:13
+Fra:1 Mem:210.77M (1434.89M, peak 2037.22M) | Scene, Part 1-1
+Fra:1 Mem:101.44M (1425.00M, peak 2037.22M) Sce: Scene Ve:1329472 Fa:1794856 La:13
+Saved: output.png Time: 00:19.89
+read blend: /var/www/pyl5/www/output/images/ec9162e1bb23decabb1f458dcc100f96/../../../../VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat1' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_med' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_mix' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter2' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_small' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.001' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.003' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.002' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.012' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.013' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.014' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'grass_tall' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Material:'grass' unread libblock missing from '/var/www/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'birch_001' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_002' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_003' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_004' unread libblock missing from '/var/www/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Object:'field_flower_blue' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_pink' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'flowers_star1' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gidio' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'taddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'yellowtaddeo' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gollum' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'smeagol' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp.001' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purple' unread libblock missing from '/var/www/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'oak_001' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_002' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_veryhighres_leave' unread libblock missing from '/var/www/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'apple_tree' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'apple_tree_trunk' unread libblock missing from '/var/www/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'rock_big_field' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'rock_big_field.001' unread libblock missing from '/var/www/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'shrooms_rodents' unread libblock missing from '/var/www/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Object grass_tall.005 lost data.
+Object grasspatch_med lost data.
+Object grasspatch_mix lost data.
+Object grasspatch_quarter lost data.
+Object grasspatch_small lost data.
+Warning: Warning in console
+Parsing: ../../../../www/output/images/ec9162e1bb23decabb1f458dcc100f96/script.xml
+##### INICIO #####
+2014-07-02 23:28:09
+***loading Butterfly - DEFAULT***
+***loading Bird - DEFAULT***
+***loading Rabbit - DEFAULT***
+bb_min
+<Vector (4.7656, -5.6771, 0.0000)>
+bb_max
+<Vector (7.9141, -1.3125, 0.0000)>
+la camara quedo en 6.339848041534424, -15.49478816986084, 4.0
+Rotatin at:
+2014-07-02 23:28:13
+################################################################################
+Ambientin at:
+2014-07-02 23:28:13
+################################################################################
+##### FIN #####
+2014-07-02 23:28:33
+reconstruct len: 120 0x7f18ff7fca78
+reconstruct len: 120 0x7f18ff7fd438
+reconstruct len: 120 0x7f18ff7fcd78
+reconstruct len: 120 0x7f18fdc4dff8
+reconstruct len: 120 0x7f18ff7fce38
+reconstruct len: 120 0x7f18fdc4e0b8
+reconstruct len: 120 0x7f18ff7fcef8
+reconstruct len: 120 0x7f18ff7fcfb8
+reconstruct len: 120 0x7f18fdc4e178
+reconstruct len: 120 0x7f18ff7fd078
+reconstruct len: 120 0x7f18fdc4e238
+reconstruct len: 120 0x7f18ff7fd138
+reconstruct len: 120 0x7f18fdc4e2f8
+reconstruct len: 120 0x7f18ff7fd1f8
+reconstruct len: 120 0x7f18ff7fd2b8
+reconstruct len: 120 0x7f18fdc4e3b8
+reconstruct len: 120 0x7f18fdc4e478
+reconstruct len: 120 0x7f18fdc4e538
+reconstruct len: 120 0x7f18fdc4e5f8
+reconstruct len: 120 0x7f18fdc4e6b8
+reconstruct len: 120 0x7f18fdc4e778
+reconstruct len: 120 0x7f18fdc4e838
+reconstruct len: 120 0x7f18fdc4e8f8
+reconstruct len: 120 0x7f18fdc4e9b8
+reconstruct len: 120 0x7f18fdc4ea78
+reconstruct len: 120 0x7f18fdc4eb38
+reconstruct len: 120 0x7f18fdc4ebf8
+reconstruct len: 120 0x7f18fdc4ecb8
+reconstruct len: 120 0x7f18fdc4ed78
+reconstruct len: 120 0x7f18fdc4ee38
+reconstruct len: 120 0x7f18fdc4eef8
+reconstruct len: 120 0x7f18fdc4efb8
+reconstruct len: 120 0x7f18fdc4f078
+reconstruct len: 120 0x7f18fdc4f138
+reconstruct len: 120 0x7f18fdc4f1f8
+reconstruct len: 120 0x7f18fdc4f2b8
+reconstruct len: 120 0x7f18fdc4f378
+reconstruct len: 120 0x7f18fdc4f438
+reconstruct len: 120 0x7f18fdc4f4f8
+reconstruct len: 120 0x7f18fdc4f5b8
+reconstruct len: 120 0x7f18ff7fd4f8
+reconstruct len: 120 0x7f18fdc4f678
+reconstruct len: 120 0x7f18fdc4fd38
+reconstruct len: 120 0x7f18fdc4fdf8
+reconstruct len: 120 0x7f18fdc4feb8
+reconstruct len: 120 0x7f18fdc4ff78
+reconstruct len: 120 0x7f18fdc830f8
+reconstruct len: 120 0x7f18fdc831b8
+reconstruct len: 120 0x7f18fdc83278
+reconstruct len: 120 0x7f18fdc83338
+reconstruct len: 120 0x7f18fdc833f8
+reconstruct len: 120 0x7f18fdc834b8
+reconstruct len: 120 0x7f18fdc83578
+reconstruct len: 120 0x7f18fdc83638
+reconstruct len: 120 0x7f18fdc836f8
+reconstruct len: 120 0x7f18fdc837b8
+reconstruct len: 120 0x7f18fdc83878
+reconstruct len: 120 0x7f18fdc83938
+reconstruct len: 120 0x7f18fdc839f8
+reconstruct len: 120 0x7f18fdc83ab8
+reconstruct len: 120 0x7f18fdc83b78
+reconstruct len: 120 0x7f18fdc83c38
+reconstruct len: 120 0x7f18fdc83cf8
+reconstruct len: 120 0x7f18fdc83db8
+reconstruct len: 120 0x7f18fdc83e78
+reconstruct len: 120 0x7f18fdc83f38
+reconstruct len: 120 0x7f18fdc83ff8
+reconstruct len: 120 0x7f18fdc840b8
+reconstruct len: 120 0x7f18fdc84178
+reconstruct len: 120 0x7f18fdc84238
+reconstruct len: 120 0x7f18fdc842f8
+reconstruct len: 120 0x7f18fdc843b8
+reconstruct len: 120 0x7f18fdc84478
+reconstruct len: 120 0x7f18fdc84538
+reconstruct len: 120 0x7f18fdc845f8
+reconstruct len: 120 0x7f18fdc846b8
+reconstruct len: 120 0x7f18fdc84778
+reconstruct len: 120 0x7f18fdc84838
+reconstruct len: 120 0x7f18fdc848f8
+reconstruct len: 120 0x7f18fdc849b8
+reconstruct len: 120 0x7f18fdc84a78
+reconstruct len: 120 0x7f18fdc84b38
+reconstruct len: 120 0x7f18fdc84bf8
+reconstruct len: 120 0x7f18fdc84cb8
+reconstruct len: 120 0x7f18fdc84d78
+reconstruct len: 120 0x7f18fdc84e38
+reconstruct len: 120 0x7f18fdc84ef8
+reconstruct len: 120 0x7f18fdc84fb8
+reconstruct len: 120 0x7f18fdc85078
+reconstruct len: 120 0x7f18fdc85138
+reconstruct len: 120 0x7f18fdc851f8
+reconstruct len: 120 0x7f18fdc852b8
+reconstruct len: 120 0x7f18fdc85378
+reconstruct len: 120 0x7f18fdc85438
+reconstruct len: 120 0x7f18fdc854f8
+reconstruct len: 120 0x7f18fdc855b8
+reconstruct len: 120 0x7f18fdc85678
+reconstruct len: 120 0x7f18fdc85738
+reconstruct len: 120 0x7f18fdc857f8
+reconstruct len: 120 0x7f18fdc858b8
+reconstruct len: 120 0x7f18fdc85978
+reconstruct len: 120 0x7f18fdc85a38
+reconstruct len: 120 0x7f18fdc85af8
+reconstruct len: 120 0x7f18fdc85bb8
+reconstruct len: 120 0x7f18fbff4a38
+Data from AC len: 56 0x7f18fff88a38
+reconstruct len: 120 0x7f18fbff5938
+reconstruct len: 120 0x7f18fbff59f8
+reconstruct len: 120 0x7f18fbff5ab8
+reconstruct len: 120 0x7f18fbff5b78
+reconstruct len: 120 0x7f18fbff5c38
+reconstruct len: 120 0x7f18fbff5cf8
+reconstruct len: 120 0x7f18fbff5db8
+reconstruct len: 120 0x7f18fbff5e78
+reconstruct len: 120 0x7f18fbff5f38
+reconstruct len: 120 0x7f18fbff5ff8
+reconstruct len: 120 0x7f18fbff60b8
+reconstruct len: 120 0x7f18fbff6178
+reconstruct len: 120 0x7f18fbff6238
+reconstruct len: 120 0x7f18fbff62f8
+reconstruct len: 120 0x7f18fbff63b8
+reconstruct len: 120 0x7f18fbff6478
+reconstruct len: 120 0x7f18fbff6538
+reconstruct len: 120 0x7f18fbff65f8
+reconstruct len: 120 0x7f18fbff66b8
+reconstruct len: 120 0x7f18fbff6778
+reconstruct len: 120 0x7f18fbff6838
+reconstruct len: 120 0x7f18fbff68f8
+reconstruct len: 120 0x7f18fbff69b8
+reconstruct len: 120 0x7f18fbff6a78
+reconstruct len: 120 0x7f18fbff6b38
+reconstruct len: 120 0x7f18fbff6bf8
+reconstruct len: 120 0x7f18fbff6cb8
+reconstruct len: 120 0x7f18fbff6d78
+reconstruct len: 120 0x7f18fbff6e38
+reconstruct len: 120 0x7f18fbff6ef8
+reconstruct len: 120 0x7f18fbff6fb8
+reconstruct len: 120 0x7f18fbff7078
+reconstruct len: 120 0x7f18fbff7138
+reconstruct len: 120 0x7f18fbff71f8
+reconstruct len: 120 0x7f18fbff72b8
+reconstruct len: 120 0x7f18fbff7378
+reconstruct len: 120 0x7f18fbff7438
+reconstruct len: 120 0x7f18fbff74f8
+reconstruct len: 120 0x7f18fbff75b8
+reconstruct len: 120 0x7f18fbff7678
+reconstruct len: 120 0x7f18fbff7738
+reconstruct len: 120 0x7f18fbff77f8
+reconstruct len: 120 0x7f18fbff78b8
+reconstruct len: 120 0x7f18fbff7978
+reconstruct len: 120 0x7f18fbff7a38
+reconstruct len: 120 0x7f18fbff7af8
+reconstruct len: 120 0x7f18fbff7bb8
+reconstruct len: 120 0x7f18fbff7c78
+reconstruct len: 120 0x7f18fbff7d38
+reconstruct len: 120 0x7f18fbff7df8
+reconstruct len: 120 0x7f18fbff7eb8
+reconstruct len: 120 0x7f18fbff7f78
+reconstruct len: 120 0x7f18f9ef60f8
+reconstruct len: 120 0x7f18f9ef61b8
+reconstruct len: 120 0x7f18f9ef6278
+reconstruct len: 120 0x7f18f9ef6338
+reconstruct len: 120 0x7f18f9ef63f8
+reconstruct len: 120 0x7f18f9ef64b8
+reconstruct len: 120 0x7f18f9ef6578
+reconstruct len: 120 0x7f18f9ef6638
+reconstruct len: 120 0x7f18f9ef66f8
+reconstruct len: 120 0x7f18f9ef67b8
+reconstruct len: 120 0x7f18f9ef6878
+reconstruct len: 120 0x7f18f9ef6938
+reconstruct len: 120 0x7f18f9ef69f8
+reconstruct len: 120 0x7f18f9ef6ab8
+reconstruct len: 120 0x7f18f9ef6b78
+reconstruct len: 120 0x7f18f9ef6c38
+reconstruct len: 120 0x7f18f9ef6e78
+reconstruct len: 120 0x7f18f9ef6f38
+reconstruct len: 120 0x7f18f9ef6ff8
+reconstruct len: 120 0x7f18f9ef70b8
+reconstruct len: 120 0x7f18f9ef7178
+reconstruct len: 120 0x7f18f9ef7238
+reconstruct len: 120 0x7f18f9ef72f8
+reconstruct len: 120 0x7f18f9ef73b8
+reconstruct len: 120 0x7f18f9ef75f8
+reconstruct len: 120 0x7f18f9ef76b8
+reconstruct len: 120 0x7f18f9ef7778
+reconstruct len: 120 0x7f18f9ef7838
+reconstruct len: 120 0x7f18f9ef78f8
+reconstruct len: 120 0x7f18f9ef79b8
+reconstruct len: 120 0x7f18f9ef7a78
+reconstruct len: 120 0x7f18f9ef7b38
+reconstruct len: 120 0x7f18f7e63b38
+reconstruct len: 120 0x7f18f7e63bf8
+reconstruct len: 120 0x7f18f7e63cb8
+Error: Not freed memory blocks: 193
+
+Blender quit
+
+Wed Jul  2 18:28:34 COT 2014

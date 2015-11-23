@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Butterfly" animation="FT?" facing="" scaleOffset="1">
+                <position x="0.44469" z="0.314978" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

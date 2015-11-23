@@ -1,0 +1,12 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.0046875" z="0.498498" />
+            </actor>
+            <actor asset="FlyingSquirrel" animation="RUN" facing="" scaleOffset="1">
+                <position x="0.282813" z="0.540541" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

@@ -1,0 +1,319 @@
+Parameter 1: Processing_BunnyRunNew.png
+Parameter 2: /var/www/pyl5/www/output/images/e9c23c3fa4aee929bb84b20e84fd242d
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Thu May 30 11:23:18 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_BunnyRunNew.png
+Parameter 2 is: /var/www/pyl5/www/output/images/e9c23c3fa4aee929bb84b20e84fd242d
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/e9c23c3fa4aee929bb84b20e84fd242d
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 34
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+
+# Type: Noise
+# Image: Label3.png
+# Label: 3
+# Bounds: (0.014019,0.759099,0.018692,0.760832)
+
+# Verificando el label 4
+
+# Type: Noise
+# Image: Label4.png
+# Label: 4
+# Bounds: (0.016355,0.766031,0.018692,0.767764)
+
+# Verificando el label 5
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.147196,0.766031,0.149533,0.767764)
+
+# Verificando el label 6
+
+# Type: Noise
+# Image: Label6.png
+# Label: 6
+# Bounds: (0.642523,0.769497,0.644860,0.769497)
+
+# Verificando el label 7
+
+# Type: Noise
+# Image: Label7.png
+# Label: 7
+# Bounds: (0.278037,0.772964,0.278037,0.772964)
+
+# Verificando el label 8
+
+# Type: Noise
+# Image: Label8.png
+# Label: 8
+# Bounds: (0.154206,0.774697,0.156542,0.774697)
+
+# Verificando el label 9
+
+# Type: Noise
+# Image: Label9.png
+# Label: 9
+# Bounds: (0.420561,0.778163,0.422897,0.778163)
+
+# Verificando el label 10
+
+# Type: Noise
+# Image: Label10.png
+# Label: 10
+# Bounds: (0.792056,0.786828,0.796729,0.792028)
+
+# Verificando el label 11
+
+# Type: Noise
+# Image: Label11.png
+# Label: 11
+# Bounds: (0.053738,0.788562,0.056075,0.790295)
+
+# Verificando el label 12
+
+# Type: Noise
+# Image: Label12.png
+# Label: 12
+# Bounds: (0.565421,0.788562,0.567757,0.790295)
+
+# Verificando el label 13
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (0.577103,0.788562,0.579439,0.790295)
+
+# Verificando el label 14
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (0.035047,0.790295,0.035047,0.790295)
+
+# Verificando el label 15
+
+# Type: Noise
+# Image: Label15.png
+# Label: 15
+# Bounds: (0.142523,0.790295,0.142523,0.790295)
+
+# Verificando el label 16
+
+# Type: Noise
+# Image: Label16.png
+# Label: 16
+# Bounds: (0.250000,0.797227,0.252336,0.798960)
+
+# Verificando el label 17
+
+# Type: Noise
+# Image: Label17.png
+# Label: 17
+# Bounds: (0.752336,0.798960,0.766355,0.818024)
+
+# Verificando el label 18
+
+# Type: Noise
+# Image: Label18.png
+# Label: 18
+# Bounds: (0.168224,0.800693,0.170561,0.802426)
+
+# Verificando el label 19
+
+# Type: Noise
+# Image: Label19.png
+# Label: 19
+# Bounds: (0.121495,0.802426,0.151869,0.818024)
+
+# Verificando el label 20
+
+# Type: Noise
+# Image: Label20.png
+# Label: 20
+# Bounds: (0.670561,0.804159,0.672897,0.805893)
+
+# Verificando el label 21
+
+# Type: Noise
+# Image: Label21.png
+# Label: 21
+# Bounds: (0.245327,0.805893,0.247664,0.805893)
+
+# Verificando el label 22
+
+# Type: Noise
+# Image: Label22.png
+# Label: 22
+# Bounds: (0.252336,0.805893,0.257009,0.805893)
+
+# Verificando el label 23
+
+# Type: Noise
+# Image: Label23.png
+# Label: 23
+# Bounds: (0.401869,0.807626,0.404206,0.809359)
+
+# Verificando el label 24
+
+# Type: Noise
+# Image: Label24.png
+# Label: 24
+# Bounds: (0.656542,0.807626,0.661215,0.812825)
+
+# Verificando el label 25
+
+# Type: Noise
+# Image: Label25.png
+# Label: 25
+# Bounds: (0.675234,0.809359,0.675234,0.809359)
+
+# Verificando el label 26
+
+# Type: Noise
+# Image: Label26.png
+# Label: 26
+# Bounds: (0.682243,0.811092,0.686916,0.812825)
+
+# Verificando el label 27
+
+# Type: Noise
+# Image: Label27.png
+# Label: 27
+# Bounds: (0.768692,0.812825,0.778037,0.816291)
+
+# Verificando el label 28
+
+# Type: Noise
+# Image: Label28.png
+# Label: 28
+# Bounds: (0.950935,0.821490,0.950935,0.821490)
+
+# Verificando el label 29
+
+# Type: Noise
+# Image: Label29.png
+# Label: 29
+# Bounds: (0.904206,0.831889,0.906542,0.833622)
+
+# Verificando el label 30
+
+# Type: Noise
+# Image: Label30.png
+# Label: 30
+# Bounds: (0.915888,0.833622,0.918224,0.833622)
+
+# Verificando el label 31
+
+# Type: Noise
+# Image: Label31.png
+# Label: 31
+# Bounds: (0.925234,0.871750,0.932243,0.876950)
+
+# Verificando el label 32
+
+# Type: Noise
+# Image: Label32.png
+# Label: 32
+# Bounds: (0.892523,0.885615,0.892523,0.885615)
+
+# Verificando el label 33
+
+# Type: Noise
+# Image: Label33.png
+# Label: 33
+# Bounds: (0.969626,0.890815,0.978972,0.901213)
+
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.0988372Rabbit) 3(0.8252Chinchilla) 0(0.891833Rabbit) 8(0.972903SBRectangle) 
+0(0.135298Rabbit) 1(0.432Squirrel) 0(0.891833Rabbit) 0(0.980538Rabbit) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.0988372Rabbit) 3(0.8252Chinchilla) 0(0.891833Rabbit) 0(0.961733Rabbit) 
+Actor: Label1==Rabbit.png
+0(0.135298Rabbit) 1(0.432Squirrel) 0(0.891833Rabbit) 0(0.980538Rabbit) 
+Actor: Label2==Rabbit.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:2
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.240654,0.086655,0.808411,0.592721)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Rabbit
+# Image: Label2==Rabbit.png
+# Bounds: (0.000000,0.646447,0.997664,0.998267)
+# Animation: 
+
+Execution time: 35.81 seconds.
+
+Thu May 30 11:24:30 COT 2013

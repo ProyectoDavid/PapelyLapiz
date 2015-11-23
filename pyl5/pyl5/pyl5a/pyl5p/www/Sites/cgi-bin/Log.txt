@@ -1,0 +1,68 @@
+Parameters: /home/dwilches/pyl/ImageProcessing/Execution/Log/Processing_SS2.Test2.png /home/dwilches/public_html/sbi/output/ImageProcessing.log
+--== STARTING PROCESS ==--
+Current working directory is: /home/dwilches/pyl/ImageProcessing/bin
+Now the working directory is: /home/dwilches/pyl/ImageProcessing/Execution
+Using image: Test.png
+
+Loading vocabulary file ...
+DONE.
+Preprocessing image ...
+... scaling
+... inverting
+... equalizing
+... thresholding
+... filtering noise
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+-1(0.584416) 10(0.8456casa) 10(0.9casa) 8(0.954026balon) 
+Actor: Label1==casa.png
+6(0.540541carro) 13(0.8356SBRectangle) 6(0.9carro) 6(0.985541carro) 
+Actor: Label2==carro.png
+-1(0.633971) -1(0.2252) 0(0.864hombre) 0(0.972943hombre) 
+Actor: Label3==hombre.png
+-1(0.638961) -1(0.3196) 8(0.884balon) 8(0.96626balon) 
+Actor: Label4==balon.png
+-1(0.642606) -1(0.2288) -1(0.244) 6(0.943134carro) 
+a
+Label5.pngz 0
+Label5.pngx 0
+Label5.png 0
+Label5.png 3
+Label5.png 0
+BEF AP
+AFT AP
+a
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: casa
+# Image: Label1==casa.png
+# Bounds: (787.00,967.00,53.00,213.00)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: carro
+# Image: Label2==carro.png
+# Bounds: (509.00,764.00,119.00,217.00)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: hombre
+# Image: Label3==hombre.png
+# Bounds: (84.00,148.00,150.00,260.00)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: balon
+# Image: Label4==balon.png
+# Bounds: (364.00,412.00,160.00,202.00)
+# Animation: 
+
+Execution time: 23.22 seconds.

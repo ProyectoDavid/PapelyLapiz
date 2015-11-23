@@ -1,0 +1,50 @@
+
+
+pre {
+    color: maroon;
+    margin-left: 1em;
+}
+
+body {
+    color: #4466AA;
+    margin-left: 1em;
+	font-family: arial,sans-serif;
+}
+
+h1 {
+    color: #4466AA;
+    #margin-left: 1em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+p {
+	#text-align: center;
+}
+
+p.error {
+    color: #DD6644;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.footer {
+	text-align: center;
+}
+
+@CHARSET "UTF-8";
+
+.scrollableArea {
+	overflow: auto;
+	border-width: 2px;
+	border-color: 000000;
+	border-style: dotted;
+	#background-image: url("../images/f0f0f0.png");
+}

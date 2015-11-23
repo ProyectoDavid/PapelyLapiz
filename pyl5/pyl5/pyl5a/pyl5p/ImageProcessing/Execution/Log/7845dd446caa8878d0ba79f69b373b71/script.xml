@@ -1,0 +1,15 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Rabbit" animation="" facing="" scaleOffset="1">
+                <position x="0.478175" z="0.218299" />
+            </actor>
+            <actor asset="Rabbit" animation="" facing="" scaleOffset="1">
+                <position x="0.764881" z="0.156501" />
+            </actor>
+            <actor asset="SBCamera" animation="FLY" facing="" scaleOffset="1">
+                <position x="0.790675" z="0.32504" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

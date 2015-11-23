@@ -1,0 +1,175 @@
+TSoundFilm
+v7
+r0
+t358556213.374859
+cCheck dependencies
+cCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal x86_64 c com.apple.compilers.llvmgcc42
+cCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal ppc c com.apple.compilers.llvmgcc42
+cLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm normal ppc
+cLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm normal x86_64
+cLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm normal i386
+cCreateUniversalBinary /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm.dSYM /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm
+
+N/Developer-3.2.3/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer-3.2.3/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm
+t1336863413
+s37516
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm.dSYM
+t1336863413
+s102
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm
+t1336863413
+s8992
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm.LinkFileList
+c000000004FAEEAB40000000000000083
+t1336863412
+s131
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/main.o
+t1336863412
+s1900
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm
+t1336863413
+s8844
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm.LinkFileList
+c000000004FAEEAB40000000000000082
+t1336863412
+s130
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/main.o
+t1336863412
+s2168
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm
+t1336863413
+s9072
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm.LinkFileList
+c000000004FAEEAB40000000000000085
+t1336863412
+s133
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/main.o
+t1336863412
+s2392
+
+N/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c
+c000000004FAEEA680000000000000089
+t1336863336
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies358556212#358556212#0(0"0(0#1#0"17252090624#0"0#
+
+CCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal i386 c com.apple.compilers.llvmgcc42
+s358556212.211134
+e358556212.862669
+r1
+xCompileC
+xbuild/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/main.o
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c358556212#358556212#0(0"0(0#0#64"/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c4547350112#1609"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv LANG en_US.US-ASCII    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-generated-files.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-own-target-headers.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-all-target-headers.hmap -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-project-headers.hmap -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/include -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources/i386 -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -c /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal ppc c com.apple.compilers.llvmgcc42
+s358556212.211762
+e358556212.861732
+r1
+xCompileC
+xbuild/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/main.o
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c358556212#358556212#0(0"0(0#0#64"/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c4547350112#1616"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv LANG en_US.US-ASCII    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-generated-files.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-own-target-headers.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-all-target-headers.hmap -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-project-headers.hmap -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/include -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources/ppc -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -c /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/main.o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c normal x86_64 c com.apple.compilers.llvmgcc42
+s358556212.178915
+e358556212.862522
+r1
+xCompileC
+xbuild/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/main.o
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c358556212#358556212#0(0"0(0#0#64"/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c17251763200#1615"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv LANG en_US.US-ASCII    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-generated-files.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-own-target-headers.hmap -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-all-target-headers.hmap -iquote /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/SoundFilm-project-headers.hmap -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/include -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources/x86_64 -I/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/DerivedSources -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -c /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/main.c -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/main.o0#
+
+CCreateUniversalBinary /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm normal "x86_64 i386 ppc"
+s358556213.299743
+e358556213.323922
+r1
+xCreateUniversalBinary
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@70"CreateUniversalBinary build/Release/SoundFilm normal "x86_64 i386 ppc"358556213#358556213#0(0"0(0#0#73"/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/x86_64 i386 ppc4547350112#584"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    /usr/bin/lipo -create /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm -output /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm0#
+
+CGenerateDSYMFile /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm.dSYM /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm
+s358556213.323981
+e358556213.374774
+r1
+xGenerateDSYMFile
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm.dSYM
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm
+lSLF07#2@69"GenerateDSYMFile build/Release/SoundFilm.dSYM build/Release/SoundFilm358556213#358556213#0(0"0(0#0#81"/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm4547350112#275"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    /Developer-3.2.3/usr/bin/dsymutil /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release/SoundFilm.dSYM0#
+
+CLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm normal i386
+s358556212.863161
+e358556213.299148
+r1
+xLd
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm
+xnormal
+xi386
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found
+lSLF07#2@138"Link /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm358556212#358556213#0(240"ld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not foundld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found2(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found358556213#0#120#0(6@0"358556213#0#0#0#0#0"0(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found358556213#120#120#0(6@0"358556213#0#0#0#0#0"0(0#0#0"4547350112#674"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -L/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -filelist /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm.LinkFileList -mmacosx-version-min=10.6 -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/i386/SoundFilm0#
+
+CLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm normal ppc
+s358556212.861812
+e358556213.299632
+r1
+xLd
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm
+xnormal
+xppc
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found
+lSLF07#2@137"Link /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm358556212#358556213#0(240"ld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not foundld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found2(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found358556213#0#120#0(6@0"358556213#0#0#0#0#0"0(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found358556213#120#120#0(6@0"358556213#0#0#0#0#0"0(0#0#0"4547350112#671"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -arch ppc -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -L/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -filelist /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm.LinkFileList -mmacosx-version-min=10.6 -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/ppc/SoundFilm0#
+
+CLd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm normal x86_64
+s358556212.862721
+e358556213.299466
+r1
+xLd
+x/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm
+xnormal
+xx86_64
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found
+old: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found
+lSLF07#2@140"Link /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm358556212#358556213#0(240"ld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not foundld: warning: directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found2(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -L not found358556213#0#120#0(6@0"358556213#0#0#0#0#0"0(22@106"Directory '/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release' following -F not found358556213#120#120#0(6@0"358556213#0#0#0#0#0"0(0#0#0"4547350112#680"    cd /Users/barcodepandora/Documents/ImageProcessing/SoundFilm    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-3.2.3/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer-3.2.3/SDKs/MacOSX10.6.sdk -L/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -F/Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/Release -filelist /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm.LinkFileList -mmacosx-version-min=10.6 -o /Users/barcodepandora/Documents/ImageProcessing/SoundFilm/build/SoundFilm.build/Release/SoundFilm.build/Objects-normal/x86_64/SoundFilm0#
+

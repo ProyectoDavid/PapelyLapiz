@@ -1,0 +1,93 @@
+Parameter 1: Processing_BunnyEat.png
+Parameter 2: /var/www/pyl5/www/output/images/ab53dff0db529e70a8a9fcbecd25fd0a
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Tue Jun 11 17:53:29 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_BunnyEat.png
+Parameter 2 is: /var/www/pyl5/www/output/images/ab53dff0db529e70a8a9fcbecd25fd0a
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/ab53dff0db529e70a8a9fcbecd25fd0a
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 6
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.130233Rabbit) 3(0.868Chinchilla) 0(0.907805Rabbit) 8(0.969863SBRectangle) 
+8(0.143251SBRectangle) 8(0.8308SBRectangle) 8(0.94169SBRectangle) 8(0.979055SBRectangle) 
+Actor: Label2==SBRectangle.png
+0(0.210797Rabbit) 6(0.818Apple) 2(0.899501SBCamera) 2(0.968099SBCamera) 
+8(0.151625SBRectangle) 8(0.78SBRectangle) 0(0.859643Rabbit) 0(0.964944Rabbit) 
+Actor: Label4==SBRectangle.png
+6(0.1146Apple) 1(0.7384Squirrel) 1(0.879584Squirrel) 1(0.96818Squirrel) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Label4==SBRectangle.png esta dentro de Label2==SBRectangle.png
+4 esta dentro de 2
+*Se ha removido falso rectangulo del log: Log/Actors/Label4==SBRectangle.png
+Label5.png esta dentro de Label2==SBRectangle.png
+5 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# un detectado es: 4
+# Type: Text
+# Text: EAT
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.130233Rabbit) 3(0.868Chinchilla) 0(0.907805Rabbit) 0(0.965917Rabbit) 
+Actor: Label1==Rabbit.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:1
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.152809,0.039724,0.802247,0.720207)
+# Animation: EAT
+
+Execution time: 4.6 seconds.
+
+Tue Jun 11 17:53:34 COT 2013

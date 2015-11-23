@@ -1,0 +1,43 @@
+#pragma once
+
+#include "SBDefinitions.h"
+#include "SBArrow.h"
+#include "SBShape.h"
+
+class SBActor
+{
+	string imageName;
+	BoundingBoxType::Pointer boundingBox;
+	string asset;
+	std::map<string, string> animationSet;
+	string animation;
+	SBArrow trajectory;
+	int label;
+	string facing;
+	double scaleOffset;
+	
+public:
+	SBActor(SBShape&);
+
+	BoundingBoxType::Pointer GetBoundingBox();
+	void SetBoundingBox(BoundingBoxType::Pointer pBoundingBox);
+	
+	string GetAsset();
+	
+	string GetImageName();
+
+	map<string, string> GetAnimationSet();
+
+	string GetAnimation();
+	void SetAnimation(string pAnimation);
+	
+	SBArrow GetTrajectory();
+	void SetTrajectory(SBArrow);
+
+	int GetLabel();
+
+	string GetFacing();
+
+	double GetScaleOffSet();
+};
+

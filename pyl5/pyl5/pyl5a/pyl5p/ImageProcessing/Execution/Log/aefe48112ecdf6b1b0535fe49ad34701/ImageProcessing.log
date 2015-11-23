@@ -1,0 +1,140 @@
+Parameter 1: Processing_Example1.png
+Parameter 2: ../../www/output/images/aefe48112ecdf6b1b0535fe49ad34701
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Thu Jul  3 16:30:03 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Example1.png
+Parameter 2 is: ../../www/output/images/aefe48112ecdf6b1b0535fe49ad34701
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/aefe48112ecdf6b1b0535fe49ad34701
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 9
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+# Verificando el label 8
+
+##Etapa de busqueda de RECTANGULOS##
+
+6(0.153846Apple) 6(0.754Apple) 6(0.927199Apple) 6(0.982645Apple) 
+0(0.17852Rabbit) 8(0.7324SBRectangle) 0(0.935969Rabbit) 0(0.985101Rabbit) 
+0(0.195426Rabbit) 1(0.8Squirrel) 4(0.946148Bird) 4(0.981487Bird) 
+0(0.233422Rabbit) 6(0.8196Apple) 7(0.901511SBCamera) 7(0.970745SBCamera) 
+0(0.232877Rabbit) 3(0.8376Butterfly) 1(0.865836Squirrel) 3(0.972171Butterfly) 
+0(0.0869565Rabbit) 2(0.888Chinchilla) 2(0.78Chinchilla) 8(0.931509SBRectangle) 
+4(0.122066Bird) 8(0.734SBRectangle) 1(0.892297Squirrel) 1(0.9679Squirrel) 
+0(0.179916Rabbit) 8(0.7896SBRectangle) 7(0.929289SBCamera) 7(0.979476SBCamera) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label3.png is an arrow...nope.
+Lets see if Label4.png is an arrow...yep.
+# Type: Arrow
+# Image: Label4.png
+# Label: 4
+# Bounds: (0.539474,0.088583,0.581140,0.202756)
+Lets see if Label5.png is an arrow...yep.
+# Type: Arrow
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.752193,0.094488,0.855263,0.125984)
+Lets see if Label6.png is an arrow...yep.
+# Type: Arrow
+# Image: Label6.png
+# Label: 6
+# Bounds: (0.138158,0.100394,0.375000,0.236220)
+Lets see if Label7.png is an arrow...nope.
+Lets see if Label8.png is an arrow...0
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 3
+
+# Etapa de busqueda de ACTORES #
+
+6(0.153846Apple) 6(0.754Apple) 6(0.927199Apple) 6(0.982645Apple) 
+Actor: Label1==Apple.png
+0(0.17852Rabbit) 5(0.7028FlyingSquirrel) 0(0.935969Rabbit) 0(0.985101Rabbit) 
+Actor: Label2==Rabbit.png
+0(0.195426Rabbit) 1(0.8Squirrel) 4(0.946148Bird) 4(0.981487Bird) 
+Actor: Label3==Bird.png
+4(0.122066Bird) 2(0.7336Chinchilla) 1(0.892297Squirrel) 1(0.9679Squirrel) 
+Actor: Label7==Squirrel.png
+0(0.179916Rabbit) 2(0.7772Chinchilla) 7(0.929289SBCamera) 7(0.979476SBCamera) 
+Actor: Label8==SBCamera.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:5
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Apple
+# Image: Label1==Apple.png
+# Bounds: (0.640351,0.051181,0.712719,0.135827)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Rabbit
+# Image: Label2==Rabbit.png
+# Bounds: (0.392544,0.061024,0.478070,0.141732)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: Bird
+# Image: Label3==Bird.png
+# Bounds: (0.859649,0.062992,0.951754,0.145669)
+# Animation: 
+
+# Type: Actor
+# Label: 7
+# Asset: Squirrel
+# Image: Label7==Squirrel.png
+# Bounds: (0.493421,0.216535,0.581140,0.275591)
+# Animation: 
+
+# Type: Actor
+# Label: 8
+# Asset: SBCamera
+# Image: Label8==SBCamera.png
+# Bounds: (0.462719,0.891732,0.541667,0.962598)
+# Animation: 
+
+Execution time: 4.07 seconds.
+
+Thu Jul  3 16:30:06 COT 2014

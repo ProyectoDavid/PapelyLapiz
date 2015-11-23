@@ -1,0 +1,30 @@
+
+
+pre {
+    color: maroon;
+    margin-left: 1em;
+}
+
+
+.error {
+	color: #DD6644;
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+}
+
+.success
+{
+	color: #449922;
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+}
+
+.scrollableArea {
+	overflow: auto;
+	border-width: 2px;
+	border-color: 000000;
+	border-style: dotted;
+	#background-image: url("images/f0f0f0.png");
+}

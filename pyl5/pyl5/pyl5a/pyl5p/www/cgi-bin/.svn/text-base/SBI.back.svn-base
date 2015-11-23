@@ -1,0 +1,166 @@
+#!/usr/bin/perl
+
+#use strict;
+use CGI;
+use CGI::Carp qw ( fatalsToBrowser );
+use File::Basename;
+use Data::Dumper;
+use File::Copy;
+
+require 'template.pl';
+require 'functions.pl';
+
+$| = 1;
+
+my $query = new CGI;
+my $imagetype = $query->param("imagetype");
+my $imagename = $query->param("imagename");
+
+my $THESIS_DIR = '/home/dwilches/pyl/ImageProcessing';
+my $GENERATED_DIR = '/home/dwilches/pyl/ImageProcessing/Execution/Log';
+my $IMAGE_TEST = '/home/dwilches/public_html/sbi/images/prueba';
+my $UPLOAD_DIR = '/tmp';
+
+# copiar al directorio accesible por Apache la imagen que el usuario subio
+copy "$UPLOAD_DIR/$imagename", "$GENERATED_DIR/Processing_$imagename";
+
+BeginPage("You can click on the section titles to hide/show the contents");
+
+BeginSection("Choosen image", "choosen_image_div");
+
+print "
+	<IMG SRC='images/recuadro.gif' WIDTH='0' HEIGHT='0' id='recuadro'
+		name='recuadro' style='position:relative;
+		top: 0px; left: 0px; z-index: 3; opacity:0.4;' />
+
+<div id='scroll'>
+	<center>
+	<A onClick='cambiarTamanoImagen()'>
+		<IMG SRC='output/images/Processing_$imagename' id='imagen' name='imagen'
+			style='position:relative; top: 0px; left: 0px; z-index: 1;'
+			/>
+	</A>
+	</center>
+</div>
+	
+	<IMG SRC='output/images/Processing_$imagename' id='oculta' name='oculta'
+		style='position:absolute; top: 0px; left: 0px; z-index: 1; visibility:hidden;' />
+
+	<script type='text/javascript'>
+		cambiarTamanoImagen();
+	</script>
+";
+
+EndSection();
+
+BeginSection("Symbol set in use", "symbolset_div", "fullwidth_div");
+
+PrintSymbolSet();
+
+EndSection();
+
+BeginSection("1. Image processing", "sect_1_div");
+
+print "
+<script type='text/javascript'>
+function executeVideoGenerator(calidad, video)
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{
+		// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		// code for IE6, IE5
+		xmlhttp=new ActiveXObject('Microsoft.XMLHTTP');
+	}
+
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			document.getElementById(video=='False' ? 'videoResponse2' : 'videoResponse3').innerHTML = xmlhttp.responseText;
+		}
+	}
+
+
+	document.getElementById(video=='False' ? 'videoResponse2' : 'videoResponse3').innerHTML = '<span class=\\'success\\'><IMG src=\\'images/loading\\' width=\\'50\\'/><br/>Please wait, the content is being generated ...</span>';
+	xmlhttp.open('GET','cgi-bin/VideoGenerator.pl?render_low_quality='+calidad+'&render_video='+video,true);
+	xmlhttp.send();
+
+}
+
+function executeImageProcessing()
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{
+		// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		// code for IE6, IE5
+		xmlhttp=new ActiveXObject('Microsoft.XMLHTTP');
+	}
+
+	var startTime = new Date();
+	xmlhttp.onreadystatechange=function()
+	{
+		var elapsedTime = new Date() - startTime.getTime();
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			document.getElementById('executeResponse').innerHTML = '<span class=success>Image processed successfully !!<br/>(Thanks for waiting)<br/>Time elapsed: '+printTimeElapsed(elapsedTime)+'</span>';
+			document.getElementById('executeResponse2').innerHTML = xmlhttp.responseText;
+			document.getElementById('videoResponse').style.visibility = 'visible';
+		}
+	}
+
+
+	document.getElementById('executeResponse').innerHTML = '<span class=\\'success\\'><IMG src=\\'images/loading\\' width=\\'50\\'/><br/>Please wait, the image is being processed ...</span>';
+	xmlhttp.open('GET','cgi-bin/ImageProcessing.pl?imagename=$GENERATED_DIR/Processing_$imagename',true);
+	xmlhttp.send();
+
+}
+</script>
+<div id='executeResponse'>
+	<A onclick='executeImageProcessing()'> <IMG src='images/kreski/gnome-settings' /><br/>Click in this icon to start the recognition process</A>
+</div>
+";
+EndSection();
+
+print "<div id='executeResponse2'></div> ";
+
+print "<div id='videoResponse' style='visibility:hidden'>";
+
+BeginSection("2. Image rendering", "sect_2_div");
+
+print "
+<div id='videoResponse2'>
+                        <A onclick='executeVideoGenerator(\"True\",\"False\")'><IMG src='images/kreski/gnome-settings' /><br/>
+				Click in this icon to start rendering the image
+			</A>
+</div>
+";
+
+EndSection();
+
+BeginSection("3. Video rendering", "sect_3_div");
+
+print "
+<div id='videoResponse3'>
+                        <A onclick='executeVideoGenerator(\"True\",\"True\")'><IMG src='images/kreski/gnome-settings' /><br/>
+				Click in this icon to start rendering the video
+			</A>
+
+</div>
+";
+
+EndSection();
+
+print "</div>";
+
+EndPage();
+

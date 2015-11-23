@@ -1,0 +1,307 @@
+Parameter 1: /home/dwilches/pyl/ImageProcessing/Execution/Log/Processing_SS2.Test1.png
+Parameter 2: /home/dwilches/public_html/sbi/output/ImageProcessing.log
+--== STARTING PROCESS ==--
+Current working directory is: /home/dwilches/pyl/ImageProcessing/bin
+Now the working directory is: /home/dwilches/pyl/ImageProcessing/Execution
+Using image: /home/dwilches/pyl/ImageProcessing/Execution/Log/Processing_SS2.Test1.png
+
+Loading vocabulary file ...
+DONE.
+Preprocessing image ...
+... scaling
+... inverting
+... equalizing
+... thresholding
+... filtering noise
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+
+# Type: Noise
+# Image: Label1.png
+# Label: 1
+# Bounds: (412.00,419.00,19.00,27.00)
+
+
+# Type: Noise
+# Image: Label2.png
+# Label: 2
+# Bounds: (428.00,440.00,31.00,39.00)
+
+6(0.526718carro) 13(0.8316SBRectangle) 8(0.948balon) 8(0.983779balon) 
+Actor: Label3==balon.png
+
+# Type: Noise
+# Image: Label4.png
+# Label: 4
+# Bounds: (373.00,375.00,45.00,45.00)
+
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (374.00,376.00,49.00,52.00)
+
+-1(0.725932) -1(0.4416) -1(0.32) 5(0.905986mujer) 
+
+# Type: Noise
+# Image: Label7.png
+# Label: 7
+# Bounds: (445.00,459.00,53.00,57.00)
+
+
+# Type: Noise
+# Image: Label8.png
+# Label: 8
+# Bounds: (410.00,413.00,59.00,65.00)
+
+
+# Type: Noise
+# Image: Label9.png
+# Label: 9
+# Bounds: (399.00,403.00,65.00,70.00)
+
+
+# Type: Noise
+# Image: Label10.png
+# Label: 10
+# Bounds: (447.00,458.00,77.00,86.00)
+
+-1(0.68315) -1(0.2344) 6(0.836carro) 6(0.937216carro) 
+Actor: Label11==carro.png
+
+# Type: Noise
+# Image: Label12.png
+# Label: 12
+# Bounds: (405.00,410.00,101.00,103.00)
+
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (430.00,433.00,101.00,112.00)
+
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (392.00,392.00,102.00,103.00)
+
+
+# Type: Noise
+# Image: Label15.png
+# Label: 15
+# Bounds: (370.00,373.00,106.00,108.00)
+
+
+# Type: Noise
+# Image: Label16.png
+# Label: 16
+# Bounds: (393.00,398.00,118.00,126.00)
+
+-1(0.635179) 13(0.824SBRectangle) 12(0.804sol) 12(0.933746sol) 
+Actor: Label17==sol.png
+-1(0.731861) 10(0.8376casa) 10(0.936casa) 10(0.98183casa) 
+Actor: Label18==casa.png
+-1(0.705426) 15(0.854SBCamera) -1(0.32) 8(0.883488balon) 
+-1(0.681223) 10(0.8368casa) -1(0.212) 12(0.953624sol) 
+-1(0.731809) -1(0.2316) -1(0.32) 1(0.889709hombre) 
+-1(0.704918) -1(0.2852) -1(0.244) 8(0.928827balon) 
+-1(0.610497) -1(0.2088) -1(0.292) 8(0.934696balon) 
+
+# Type: Noise
+# Image: Label24.png
+# Label: 24
+# Bounds: (335.00,337.00,257.00,260.00)
+
+-1(0.677746) -1(0.2688) 12(0.864sol) 12(0.961272sol) 
+Actor: Label25==sol.png
+-1(0.684736) -1(0.2884) 12(0.804sol) 12(0.949957sol) 
+Actor: Label26==sol.png
+
+# Type: Noise
+# Image: Label27.png
+# Label: 27
+# Bounds: (385.00,387.00,277.00,288.00)
+
+
+# Type: Noise
+# Image: Label28.png
+# Label: 28
+# Bounds: (409.00,416.00,286.00,288.00)
+
+
+# Type: Noise
+# Image: Label29.png
+# Label: 29
+# Bounds: (403.00,404.00,287.00,289.00)
+
+
+# Type: Noise
+# Image: Label30.png
+# Label: 30
+# Bounds: (388.00,395.00,288.00,292.00)
+
+
+# Type: Noise
+# Image: Label31.png
+# Label: 31
+# Bounds: (203.00,212.00,362.00,366.00)
+
+
+# Type: Noise
+# Image: Label32.png
+# Label: 32
+# Bounds: (183.00,183.00,365.00,367.00)
+
+
+# Type: Noise
+# Image: Label33.png
+# Label: 33
+# Bounds: (196.00,208.00,368.00,378.00)
+
+
+# Type: Noise
+# Image: Label34.png
+# Label: 34
+# Bounds: (185.00,192.00,370.00,380.00)
+
+-1(0.588972) -1(0.2092) 0(0.872hombre) 0(0.973609hombre) 
+Actor: Label35==hombre.png
+-1(0.597403) -1(0.3016) 8(0.872balon) 8(0.969784balon) 
+Actor: Label36==balon.png
+-1(0.708543) -1(0.2372) 1(0.852hombre) 1(0.945327hombre) 
+Actor: Label37==hombre.png
+-1(0.715116) -1(0.2684) 4(0.804hombre) 4(0.942413hombre) 
+Actor: Label38==hombre.png
+-1(0.718919) -1(0.31) -1(0.244) 5(0.92127mujer) 
+-1(0.61236) -1(0.2112) -1(0.208) 8(0.958343balon) 
+-1(0.707097) -1(0.3) -1(0.256) 4(0.929561hombre) 
+
+# Type: Noise
+# Image: Label42.png
+# Label: 42
+# Bounds: (59.00,69.00,442.00,446.00)
+
+-1(0.706522) -1(0.2648) -1(0.244) 5(0.913602mujer) 
+-1(0.696594) -1(0.2664) 8(0.8balon) 8(0.925635balon) 
+Actor: Label44==balon.png
+
+# Type: Noise
+# Image: Label45.png
+# Label: 45
+# Bounds: (29.00,35.00,450.00,453.00)
+
+
+# Type: Noise
+# Image: Label46.png
+# Label: 46
+# Bounds: (57.00,59.00,450.00,452.00)
+
+-1(0.615836) 15(0.8196SBCamera) 7(0.804carro) 6(0.934927carro) 
+
+# Type: Noise
+# Image: Label48.png
+# Label: 48
+# Bounds: (45.00,50.00,453.00,455.00)
+
+
+# Type: Noise
+# Image: Label49.png
+# Label: 49
+# Bounds: (32.00,43.00,454.00,468.00)
+
+
+# Type: Noise
+# Image: Label50.png
+# Label: 50
+# Bounds: (53.00,56.00,455.00,457.00)
+
+
+# Type: Noise
+# Image: Label51.png
+# Label: 51
+# Bounds: (45.00,53.00,457.00,463.00)
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 3
+# Asset: balon
+# Image: Label3==balon.png
+# Bounds: (376.00,442.00,40.00,98.00)
+# Animation: 
+
+# Type: Actor
+# Label: 11
+# Asset: carro
+# Image: Label11==carro.png
+# Bounds: (397.00,418.00,80.00,87.00)
+# Animation: 
+
+# Type: Actor
+# Label: 17
+# Asset: sol
+# Image: Label17==sol.png
+# Bounds: (42.00,152.00,205.00,263.00)
+# Animation: 
+
+# Type: Actor
+# Label: 18
+# Asset: casa
+# Image: Label18==casa.png
+# Bounds: (373.00,430.00,213.00,286.00)
+# Animation: 
+
+# Type: Actor
+# Label: 25
+# Asset: sol
+# Image: Label25==sol.png
+# Bounds: (302.00,317.00,260.00,273.00)
+# Animation: 
+
+# Type: Actor
+# Label: 26
+# Asset: sol
+# Image: Label26==sol.png
+# Bounds: (322.00,338.00,260.00,270.00)
+# Animation: 
+
+# Type: Actor
+# Label: 35
+# Asset: hombre
+# Image: Label35==hombre.png
+# Bounds: (26.00,64.00,372.00,444.00)
+# Animation: 
+
+# Type: Actor
+# Label: 36
+# Asset: balon
+# Image: Label36==balon.png
+# Bounds: (219.00,257.00,379.00,415.00)
+# Animation: 
+
+# Type: Actor
+# Label: 37
+# Asset: hombre
+# Image: Label37==hombre.png
+# Bounds: (187.00,206.00,382.00,389.00)
+# Animation: 
+
+# Type: Actor
+# Label: 38
+# Asset: hombre
+# Image: Label38==hombre.png
+# Bounds: (154.00,167.00,391.00,407.00)
+# Animation: 
+
+# Type: Actor
+# Label: 44
+# Asset: balon
+# Image: Label44==balon.png
+# Bounds: (56.00,72.00,449.00,461.00)
+# Animation: 
+
+Execution time: 107.97 seconds.

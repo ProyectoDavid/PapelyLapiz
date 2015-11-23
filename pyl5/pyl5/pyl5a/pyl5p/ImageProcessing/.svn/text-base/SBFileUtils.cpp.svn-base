@@ -1,0 +1,69 @@
+#include "SBFileUtils.h"
+
+
+
+
+ImageType::Pointer SBFileUtils::ReadImage(string filename)
+{
+	ReaderType::Pointer reader = ReaderType::New();
+	reader->SetFileName(filename);
+	reader->Update();
+	
+	return reader->GetOutput();
+}
+
+
+
+void SBFileUtils::WriteImage(ImageType::Pointer image, std::string filename)
+{
+	WriterType::Pointer writer = WriterType::New();
+	writer->SetFileName(filename);
+	writer->SetInput(image);
+	writer->Update();
+}
+
+
+
+void SBFileUtils::SplitPath(const string& pathAndFilename, string& path, string& filename) {
+
+	string fullPath(pathAndFilename);
+	replace(fullPath.begin(),fullPath.end(),'\\','/');
+	string::size_type lastSlashPos=fullPath.find_last_of('/');
+	
+	if (lastSlashPos==std::string::npos)
+	{
+		path="";
+		filename=fullPath;
+	}
+	else
+	{
+		path=fullPath.substr(0,lastSlashPos);
+		filename=fullPath.substr(lastSlashPos+1,fullPath.size()-lastSlashPos-1);
+	}
+}
+
+/*
+ typedef  itk::PNGImageIO TIFFIOType;
+ 
+ TIFFIOType::Pointer tiffIO = TIFFIOType::New();
+ //tiffIO->SetPixelType(itk::ImageIOBase::RGBA);
+ 
+ XImageType::Pointer imgdss;
+ XReaderType::Pointer reader = XReaderType::New();
+ reader->SetFileName(inputFilename);
+ //reader->SetImageIO(tiffIO);
+ reader->Update();
+ imgdss = reader->GetOutput();
+ 
+ 
+ XWriterType::Pointer writer = XWriterType::New();
+ writer->SetFileName("Log/000.png");
+ writer->SetInput(imgdss);
+ 
+ 
+ 
+ tiffIO->SetPixelType(itk::ImageIOBase::RGB);
+ writer->SetImageIO(tiffIO);
+ 
+ writer->Update();
+		*/

@@ -1,0 +1,189 @@
+Parameter 1: Processing_edited_10_edited.png
+Parameter 2: /var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Thu Oct 17 11:24:43 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_edited_10_edited.png
+Parameter 2 is: /var/www/pyl5/www/output/images/393aa2c34e8c1d6a4007615575b1a5ab
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/393aa2c34e8c1d6a4007615575b1a5ab
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 11
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.393498,0.214652,0.395740,0.215164)
+
+# Verificando el label 6
+
+# Type: Noise
+# Image: Label6.png
+# Label: 6
+# Bounds: (0.385650,0.216701,0.389013,0.217213)
+
+# Verificando el label 7
+# Verificando el label 8
+# Verificando el label 9
+# Verificando el label 10
+
+##Etapa de busqueda de RECTANGULOS##
+
+4(0.152439Bird) 2(0.8964Chinchilla) 3(0.9Butterfly) 3(0.971223Butterfly) 
+1(0.0882353Squirrel) 2(0.9372Chinchilla) 5(0.773284FlyingSquirrel) 8(0.92734SBRectangle) 
+5(0.11465FlyingSquirrel) 5(0.8972FlyingSquirrel) 5(0.921898FlyingSquirrel) 5(0.974133FlyingSquirrel) 
+4(0.234043Bird) 2(0.8932Chinchilla) 4(0.888197Bird) 4(0.970316Bird) 
+4(0.12749Bird) 2(0.8608Chinchilla) 6(0.910557Apple) 6(0.968854Apple) 
+4(0.168675Bird) 2(0.9248Chinchilla) 2(0.871938Chinchilla) 2(0.95779Chinchilla) 
+0(0.178862Rabbit) 2(0.8668Chinchilla) 1(0.88Squirrel) 1(0.97071Squirrel) 
+4(0.145907Bird) 2(0.848Chinchilla) 7(0.913977SBCamera) 7(0.965058SBCamera) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+Lets see if Label3.png is an arrow...nope.
+Lets see if Label4.png is an arrow...0
+nope.
+Lets see if Label7.png is an arrow...nope.
+Lets see if Label8.png is an arrow...Label8.png looked like an arrow, but its head was too big: (140,26,21)
+nope.
+Lets see if Label9.png is an arrow...nope.
+Lets see if Label10.png is an arrow...0
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+4(0.152439Bird) 2(0.8964Chinchilla) 3(0.9Butterfly) 3(0.971223Butterfly) 
+Actor: Label1==Butterfly.png
+1(0.0882353Squirrel) 2(0.9372Chinchilla) 5(0.773284FlyingSquirrel) 3(0.917374Butterfly) 
+5(0.11465FlyingSquirrel) 5(0.8972FlyingSquirrel) 5(0.921898FlyingSquirrel) 5(0.974133FlyingSquirrel) 
+Actor: Label3==FlyingSquirrel.png
+4(0.234043Bird) 2(0.8932Chinchilla) 4(0.888197Bird) 4(0.970316Bird) 
+Actor: Label4==Bird.png
+4(0.12749Bird) 2(0.8608Chinchilla) 6(0.910557Apple) 6(0.968854Apple) 
+Actor: Label7==Apple.png
+4(0.168675Bird) 2(0.9248Chinchilla) 2(0.871938Chinchilla) 2(0.95779Chinchilla) 
+Actor: Label8==Chinchilla.png
+0(0.178862Rabbit) 2(0.8668Chinchilla) 1(0.88Squirrel) 1(0.97071Squirrel) 
+Actor: Label9==Squirrel.png
+4(0.145907Bird) 2(0.848Chinchilla) 7(0.913977SBCamera) 7(0.965058SBCamera) 
+Actor: Label10==SBCamera.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:7
+
+# Type: NotRecognized
+# Image: Label2.png
+# Label: 2
+# Bounds: (0.300448,0.024590,0.848655,0.231045)
+
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Butterfly
+# Image: Label1==Butterfly.png
+# Bounds: (0.025785,0.004611,0.251121,0.095799)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: FlyingSquirrel
+# Image: Label3==FlyingSquirrel.png
+# Bounds: (0.409193,0.129611,0.586323,0.206967)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Bird
+# Image: Label4==Bird.png
+# Bounds: (0.397982,0.202357,0.439462,0.214139)
+# Animation: 
+
+# Type: Actor
+# Label: 7
+# Asset: Apple
+# Image: Label7==Apple.png
+# Bounds: (0.090807,0.217725,0.205157,0.301742)
+# Animation: 
+
+# Type: Actor
+# Label: 8
+# Asset: Chinchilla
+# Image: Label8==Chinchilla.png
+# Bounds: (0.226457,0.218750,0.381166,0.276127)
+# Animation: 
+
+# Type: Actor
+# Label: 9
+# Asset: Squirrel
+# Image: Label9==Squirrel.png
+# Bounds: (0.767937,0.258709,0.929372,0.316598)
+# Animation: 
+
+# Type: Actor
+# Label: 10
+# Asset: SBCamera
+# Image: Label10==SBCamera.png
+# Bounds: (0.302691,0.909836,0.484305,0.992828)
+# Animation: 
+
+Execution time: 19.19 seconds.
+
+Thu Oct 17 11:26:02 COT 2013

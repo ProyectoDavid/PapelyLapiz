@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/imagine/pyl/!svn/ver/76/ImageProcessing
+END
+SBPointTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBPointTracker.h
+END
+SBFilterUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/imagine/pyl/!svn/ver/2/ImageProcessing/SBFilterUtils.h
+END
+SBWordManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBWordManager.h
+END
+itkImageToVTKImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/imagine/pyl/!svn/ver/1/ImageProcessing/itkImageToVTKImageFilter.h
+END
+SBGeometryUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/imagine/pyl/!svn/ver/42/ImageProcessing/SBGeometryUtils.cpp
+END
+SBNeighborUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/imagine/pyl/!svn/ver/2/ImageProcessing/SBNeighborUtils.cpp
+END
+SBThinning.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBThinning.cpp
+END
+SBWord.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBWord.h
+END
+ShapeComparisonAlgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/imagine/pyl/!svn/ver/7/ImageProcessing/ShapeComparisonAlgs.h
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinyxml.h
+END
+SBTrainingBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBTrainingBuilder.h
+END
+tinystr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinystr.cpp
+END
+tinyxmlerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinyxmlerror.cpp
+END
+SBFeatureComparison.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBFeatureComparison.h
+END
+tinyxmlparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinyxmlparser.cpp
+END
+SBAngleQuantization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/imagine/pyl/!svn/ver/6/ImageProcessing/SBAngleQuantization.cpp
+END
+SBNoiseReduction.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBNoiseReduction.h
+END
+SBArrow.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBArrow.h
+END
+SBFileUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/imagine/pyl/!svn/ver/2/ImageProcessing/SBFileUtils.cpp
+END
+SBFeatureExtraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBFeatureExtraction.h
+END
+SBCompositionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/imagine/pyl/!svn/ver/5/ImageProcessing/SBCompositionManager.h
+END
+SBPointTracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBPointTracker.cpp
+END
+SBShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/imagine/pyl/!svn/ver/5/ImageProcessing/SBShape.h
+END
+SBFilterUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/imagine/pyl/!svn/ver/25/ImageProcessing/SBFilterUtils.cpp
+END
+SBWordManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/imagine/pyl/!svn/ver/42/ImageProcessing/SBWordManager.cpp
+END
+SBImageUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/imagine/pyl/!svn/ver/4/ImageProcessing/SBImageUtils.h
+END
+SBComposition.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBComposition.h
+END
+SBWord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBWord.cpp
+END
+ShapeComparisonAlgs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/imagine/pyl/!svn/ver/24/ImageProcessing/ShapeComparisonAlgs.cpp
+END
+SBActor.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/imagine/pyl/!svn/ver/15/ImageProcessing/SBActor.h
+END
+tinyxml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinyxml.cpp
+END
+cmake_install.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/imagine/pyl/!svn/ver/21/ImageProcessing/cmake_install.cmake
+END
+SBDefinitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/imagine/pyl/!svn/ver/24/ImageProcessing/SBDefinitions.h
+END
+SBGeometryUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBGeometryUtils.h
+END
+Code.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/imagine/pyl/!svn/ver/1/ImageProcessing/Code.txt
+END
+SBTrainingBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/imagine/pyl/!svn/ver/24/ImageProcessing/SBTrainingBuilder.cpp
+END
+SBNeighborUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBNeighborUtils.h
+END
+SBThinning.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBThinning.h
+END
+SBFeatureComparison.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBFeatureComparison.cpp
+END
+SBNoiseReduction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBNoiseReduction.cpp
+END
+SBArrow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/imagine/pyl/!svn/ver/1/ImageProcessing/SBArrow.cpp
+END
+SBFeatureExtraction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/imagine/pyl/!svn/ver/43/ImageProcessing/SBFeatureExtraction.cpp
+END
+tinystr.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/imagine/pyl/!svn/ver/1/ImageProcessing/tinystr.h
+END
+SBCompositionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/imagine/pyl/!svn/ver/6/ImageProcessing/SBCompositionManager.cpp
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/imagine/pyl/!svn/ver/63/ImageProcessing/Main.cpp
+END
+SBShape.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/imagine/pyl/!svn/ver/6/ImageProcessing/SBShape.cpp
+END
+SBAngleQuantization.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/imagine/pyl/!svn/ver/5/ImageProcessing/SBAngleQuantization.h
+END
+SBImageUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/imagine/pyl/!svn/ver/7/ImageProcessing/SBImageUtils.cpp
+END
+SBComposition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/imagine/pyl/!svn/ver/7/ImageProcessing/SBComposition.cpp
+END
+SBFileUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/imagine/pyl/!svn/ver/2/ImageProcessing/SBFileUtils.h
+END
+itkImageToVTKImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/imagine/pyl/!svn/ver/1/ImageProcessing/itkImageToVTKImageFilter.txx
+END
+SBActor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/imagine/pyl/!svn/ver/15/ImageProcessing/SBActor.cpp
+END

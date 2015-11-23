@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Squirrel" animation="FLAP" facing="" scaleOffset="1">
+                <position x="0.441275" z="0.372517" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

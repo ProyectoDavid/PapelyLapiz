@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/walk001.wav.mp3" />
+        <point x="0.761867" y="0.321536" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/walk001.wav.mp3" />
+        <point x="0.0553797" y="0.239458" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/walk001.wav.mp3" />
+        <point x="0.940137" y="0.433986" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/walk001.wav.mp3" />
+        <point x="0.685654" y="0.566767" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/walk001.wav.mp3" />
+        <point x="0.436973" y="0.783635" z="0" />
+    </actor>
+    <actor asset="Squirrel">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/squirrel.wav.mp3" />
+        <point x="0.310918" y="0.0406627" z="0" />
+    </actor>
+    <actor asset="Squirrel">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/squirrel.wav.mp3" />
+        <point x="0.389241" y="0.631526" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/chinchilla.wav.mp3" />
+        <point x="0.594673" y="0.208835" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/chinchilla.wav.mp3" />
+        <point x="0.541403" y="0.428464" z="0" />
+    </actor>
+    <actor asset="Chinchilla">
+        <sound value="/var/www/pyl5/www/output/images/001308fe4f0e8b6a9a18a903cf50f27b/chinchilla.wav.mp3" />
+        <point x="0.871572" y="0.75" z="0" />
+    </actor>
+</score>

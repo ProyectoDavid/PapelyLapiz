@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+$ROOT_PATH = "Main_Path_Apache";
+$TEMP_PATH = "/tmp";
+
+$WEB_ROOT_PATH = "$ROOT_PATH/www";
+$CGI_ROOT_PATH = "$WEB_ROOT_PATH/cgi-bin";
+
+$IMAGE_PROCESSING_LOG = "ImageProcessing.log";
+$SCENE_DESCRIPTION_FILE = "script.xml";
+$SCORE_DESCRIPTION_FILE = "score.xml";
+
+$VIDEO_GENERATOR_LOG  = "VideoGenerator.log";
+$IMAGE_PROCESSING_BASE = "$ROOT_PATH/ImageProcessing";
+$VIDEO_GENERATOR_OUTPUT = "$WEB_ROOT_PATH/output";

@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+#include "Director.h"
+
+int main (int argc, const char * argv[]) {
+    // insert code here...
+    printf("Hello, SBI!\n");
+	
+	Director director(argv[1], argv[2], argv[3], argv[4], argv[5]);
+	director.compose();
+	
+    return 0;
+}

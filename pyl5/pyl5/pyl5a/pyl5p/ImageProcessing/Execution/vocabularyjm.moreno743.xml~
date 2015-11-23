@@ -1,0 +1,157 @@
+<objects>
+  <object shape="Training/SS2/Hombre.png" asset="hombre" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Mujer.png" asset="mujer" facing="front" scaleOffset="0.1">
+	<actions>
+      <action text="WALK" animation="Walk">
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Carro.png" asset="carro" facing="front" scaleOffset="0.2">
+	<actions>
+      <action text="WALK" animation="Walk">
+      </action>
+    </actions>
+  </object>
+  <object shape="Training/SS2/Balon.png" asset="balon" facing="back" scaleOffset="0.3">
+  </object>
+
+	<object shape="Training/SS4/Pajaro.png" asset="Pajaro" facing="back" scaleOffset="0.3" sound="Pajaro" typeofsound="voice" delay="5">
+	</object>
+
+	<object shape="Training/SS4/Conejo.png" asset="Conejo" facing="back" scaleOffset="0.3" sound="Conejo" typeofsound="voice" delay="5">
+		<actions>
+			<action text="WALK" animation="WALK">
+				<events>
+					<event name="Orejas" framestart="12" delay="2">
+					</event>
+				</events>
+			</action>
+		</actions>
+	</object>
+	
+	<object shape="Training/SS4/Ardilla.png" asset="Ardilla" facing="back" scaleOffset="0.3" sound="Ardilla" typeofsound="voice" delay="5">
+	</object>
+
+	<object shape="Training/SS3/FlyingSquirrel.png" asset="Voladora Ardilla" facing="back" scaleOffset="0.3" sound="Voladora Ardilla" typeofsound="voice" delay="5">
+	</object>
+
+	<object shape="Training/SS3/Chinchilla.png" asset="Chinchilla" facing="back" scaleOffset="0.3" sound="Chinchilla" typeofsound="voice" delay="5">
+	</object>
+	
+  <object shape="Training/SS2/Casa.png" asset="casa" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Luna.png" asset="luna" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Sol.png" asset="sol" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+
+<!--
+        Este es un objeto qe representa un escenario con un sonido de fondo. Un arbol se ilustra como un bosque en el video.
+-->
+  <object type="scene" shape="Training/SS3/arbol.png" asset="Arbol" facing="" scaleOffset="" framestart="2" sound="scenario01" typeofsound="ambient" delay="4">
+  </object>
+
+  <object type="scene" shape="Training/SS3/mar.png" asset="Mar" facing="" scaleOffset="" framestart="2" sound="scenario02" typeofsound="ambient" delay="5">
+  </object>
+
+<!--
+        Este es un objeto que representa una emocion.
+-->
+  <object shape="Training/SS3/happy.png" asset="Happy" facing="" scaleOffset="" emotion="happy">
+  </object>
+
+<!--
+	Objeto scene
+-->
+	<scene material="GroundMat" ambientSound="jazz"/>
+<!--
+	Libreria de sonidos.
+	Los sonidos tienen asociados diferentes formas de escucharse,
+	cada una de acuerdo a un escenario o material que haga que se escuche.
+-->
+	<soundlibrary>	
+
+<!--
+        FOLEY
+-->
+		<sound name="Aletear">
+			<material key="GroundMat" value="/var/www/pyl3/ImageProcessing/SoundFilm/bird001.wav" />
+		</sound>
+		<sound name="Caminar">
+			<material key="GroundMat" value="/var/www/pyl3/ImageProcessing/SoundFilm/walk001.wav" />
+		</sound>
+		<sound name="Orejas">
+			<material key="GroundMat" value="/var/www/pyl3/ImageProcessing/SoundFilm/bounce.wav" />
+		</sound>
+<!--
+        Voice
+-->
+		<sound name="Pajaro" value="/var/www/pyl3/ImageProcessing/SoundFilm/walk007.wav" />
+		<sound name="Ave002" value="/var/www/pyl3/ImageProcessing/SoundFilm/bird002.wav" />
+		<sound name="Ardilla" value="/var/www/pyl3/ImageProcessing/SoundFilm/squirrel.wav" />
+		<sound name="Conejo" value="/var/www/pyl3/ImageProcessing/SoundFilm/rabbit.wav" />
+		<sound name="Voladora Ardilla" value="/var/www/pyl3/ImageProcessing/SoundFilm/fsquirrel.wav" />
+		<sound name="Chinchilla" value="/var/www/pyl3/ImageProcessing/SoundFilm/chinchilla.wav" />
+
+<!--
+        Ambient
+-->
+		<sound name="jazz" value="/var/www/pyl2/VideoGenerator/sound/MilkyWay01.mp3" />
+		<sound name="scenario01" value="/var/www/pyl3/ImageProcessing/SoundFilm/forest.wav" />
+		<sound name="scenario02" value="/var/www/pyl3/ImageProcessing/SoundFilm/sea002.wav" />
+
+<!--
+        Emotion
+-->
+		<sound name="happy" value="/var/www/pyl2/VideoGenerator/sound/happy.mp3" />
+		<sound name="sad" value="/var/www/pyl2/VideoGenerator/sound/sad.mp3" />
+		<sound name="afraid" value="/var/www/pyl2/VideoGenerator/sound/afraid.mp3" />
+		<sound name="angry" value="/var/www/pyl2/VideoGenerator/sound/angry.mp3" />
+	
+	</soundlibrary>
+
+<!--
+	Libreria de eventos.
+	Los eventos tienen asociados sonidos que se escuchan al ocurrir el evento
+-->
+	<eventlibrary>
+		<event name="Aletear">
+			<sound name="Aletear"/>
+		</event>
+		<event name="Caminar">
+			<sound name="Caminar"/>
+		</event>
+		<event name="Orejas">
+			<sound name="Orejas"/>
+		</event>
+		<event name="step03">
+			<sound name="soundStep01"/>
+		</event>
+		<event name="step04">
+			<sound name="soundStep01"/>
+		</event>	
+	</eventlibrary>
+
+<!-- 
+	Libreria de emociones
+-->
+	<emotionlibrary>
+			<event name="happy">
+					<sound name="happy"/>
+			</event>
+			<event name="sad">
+					<sound name="sad"/>
+			</event>
+			<event name="afraid">
+					<sound name="afraid"/>
+			</event>
+			<event name="angry">
+					<sound name="angry"/>
+			</event>
+	 </emotionlibrary>
+
+</objects>

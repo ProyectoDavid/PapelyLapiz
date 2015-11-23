@@ -1,0 +1,26 @@
+#include "SBComposition.h"
+
+
+SBComposition::SBComposition(void)
+{
+}
+
+
+SBComposition::~SBComposition(void)
+{
+	for(uint i=0; i<actors.size(); i++)
+	{
+		delete actors[i];
+	}
+	actors.clear();
+}
+
+vector<SBActor*> SBComposition::GetActors()
+{
+	return actors;
+}
+
+void SBComposition::AddActor(SBActor* actor)
+{
+	actors.push_back(actor);
+}

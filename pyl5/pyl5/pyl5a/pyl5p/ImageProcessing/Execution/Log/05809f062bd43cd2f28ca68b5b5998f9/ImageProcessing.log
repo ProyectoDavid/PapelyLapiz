@@ -1,0 +1,237 @@
+Parameter 1: Processing_img001.jpg
+Parameter 2: ../../www/output/images/05809f062bd43cd2f28ca68b5b5998f9
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Thu Apr 10 06:59:18 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_img001.jpg
+Parameter 2 is: ../../www/output/images/05809f062bd43cd2f28ca68b5b5998f9
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/05809f062bd43cd2f28ca68b5b5998f9
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 19
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.662424,0.683529,0.662727,0.683529)
+
+# Verificando el label 6
+# Verificando el label 7
+
+# Type: Noise
+# Image: Label7.png
+# Label: 7
+# Bounds: (0.455455,0.730980,0.455758,0.730980)
+
+# Verificando el label 8
+# Verificando el label 9
+
+# Type: Noise
+# Image: Label9.png
+# Label: 9
+# Bounds: (0.450606,0.731765,0.453636,0.732549)
+
+# Verificando el label 10
+
+# Type: Noise
+# Image: Label10.png
+# Label: 10
+# Bounds: (0.448485,0.732549,0.448485,0.732549)
+
+# Verificando el label 11
+
+# Type: Noise
+# Image: Label11.png
+# Label: 11
+# Bounds: (0.426061,0.732941,0.426364,0.733333)
+
+# Verificando el label 12
+
+# Type: Noise
+# Image: Label12.png
+# Label: 12
+# Bounds: (0.430000,0.732941,0.430000,0.732941)
+
+# Verificando el label 13
+
+# Type: Noise
+# Image: Label13.png
+# Label: 13
+# Bounds: (0.434545,0.732941,0.434848,0.732941)
+
+# Verificando el label 14
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (0.445455,0.732941,0.446970,0.732941)
+
+# Verificando el label 15
+
+# Type: Noise
+# Image: Label15.png
+# Label: 15
+# Bounds: (0.438788,0.733333,0.439697,0.733725)
+
+# Verificando el label 16
+
+# Type: Noise
+# Image: Label16.png
+# Label: 16
+# Bounds: (0.441818,0.733333,0.443333,0.733333)
+
+# Verificando el label 17
+# Verificando el label 18
+
+# Type: Noise
+# Image: Label18.png
+# Label: 18
+# Bounds: (0.269394,0.814902,0.269394,0.814902)
+
+
+##Etapa de busqueda de RECTANGULOS##
+
+6(0.176991Apple) 2(0.912Chinchilla) 6(0.892297Apple) 6(0.96015Apple) 
+4(0.164948Bird) 2(0.916Chinchilla) 4(0.863985Bird) 4(0.954302Bird) 
+0(0.118812Rabbit) 2(0.9144Chinchilla) 2(0.832369Chinchilla) 7(0.956116SBCamera) 
+0(0.159574Rabbit) 2(0.9148Chinchilla) 0(0.907805Rabbit) 0(0.971148Rabbit) 
+3(0.158537Butterfly) 2(0.9196Chinchilla) 5(0.780683FlyingSquirrel) 3(0.949472Butterfly) 
+0(0.136106Rabbit) 2(0.7856Chinchilla) 2(0.865836Chinchilla) 3(0.973262Butterfly) 
+0(0.187654Rabbit) 8(0.8084SBRectangle) 3(0.825071Butterfly) 0(0.958016Rabbit) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...0
+nope.
+Lets see if Label3.png is an arrow...nope.
+Lets see if Label4.png is an arrow...nope.
+Lets see if Label6.png is an arrow...0
+nope.
+Lets see if Label8.png is an arrow...0
+nope.
+Lets see if Label17.png is an arrow...yep.
+# Type: Arrow
+# Image: Label17.png
+# Label: 17
+# Bounds: (0.271515,0.797647,0.278485,0.816471)
+------------------------------------------------
+## Total FLECHAS Encontradas: 1
+
+# Etapa de busqueda de ACTORES #
+
+6(0.176991Apple) 2(0.912Chinchilla) 6(0.892297Apple) 6(0.96015Apple) 
+Actor: Label1==Apple.png
+4(0.164948Bird) 2(0.916Chinchilla) 4(0.863985Bird) 4(0.954302Bird) 
+Actor: Label2==Bird.png
+0(0.118812Rabbit) 2(0.9144Chinchilla) 2(0.832369Chinchilla) 7(0.956116SBCamera) 
+Actor: Label3==Chinchilla.png
+0(0.159574Rabbit) 2(0.9148Chinchilla) 0(0.907805Rabbit) 0(0.971148Rabbit) 
+Actor: Label4==Rabbit.png
+3(0.158537Butterfly) 2(0.9196Chinchilla) 5(0.780683FlyingSquirrel) 3(0.949472Butterfly) 
+Actor: Label6==Butterfly.png
+0(0.136106Rabbit) 2(0.7856Chinchilla) 2(0.865836Chinchilla) 3(0.973262Butterfly) 
+Actor: Label8==Chinchilla.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:6
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Apple
+# Image: Label1==Apple.png
+# Bounds: (0.442727,0.280784,0.536061,0.453333)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Bird
+# Image: Label2==Bird.png
+# Bounds: (0.492424,0.302745,0.524848,0.336863)
+# Animation: 
+
+# Type: Actor
+# Label: 3
+# Asset: Chinchilla
+# Image: Label3==Chinchilla.png
+# Bounds: (0.454545,0.545882,0.505152,0.730588)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Rabbit
+# Image: Label4==Rabbit.png
+# Bounds: (0.151818,0.609412,0.268182,0.820784)
+# Animation: 
+
+# Type: Actor
+# Label: 6
+# Asset: Butterfly
+# Image: Label6==Butterfly.png
+# Bounds: (0.236970,0.716863,0.272121,0.796471)
+# Animation: 
+
+# Type: Actor
+# Label: 8
+# Asset: Chinchilla
+# Image: Label8==Chinchilla.png
+# Bounds: (0.288485,0.731765,0.424545,0.736078)
+# Animation: 
+
+Execution time: 35.42 seconds.
+
+Thu Apr 10 06:59:48 COT 2014

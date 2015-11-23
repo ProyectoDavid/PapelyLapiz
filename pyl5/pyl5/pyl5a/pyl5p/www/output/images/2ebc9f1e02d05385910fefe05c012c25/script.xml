@@ -1,0 +1,18 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Rabbit" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.0356529" z="0.055798" />
+            </actor>
+            <actor asset="Chinchilla" animation="-default-" facing="" scaleOffset="1">
+                <position x="0.582474" z="0.306733" />
+            </actor>
+            <actor asset="Butterfly" animation="FL-Y" facing="" scaleOffset="1">
+                <position x="0.179338" z="0.437968" />
+            </actor>
+            <actor asset="Squirrel" animation="wAn,¤&lt;" facing="" scaleOffset="1">
+                <position x="0.521478" z="0.769327" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

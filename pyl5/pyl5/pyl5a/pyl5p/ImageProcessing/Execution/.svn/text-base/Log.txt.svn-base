@@ -1,0 +1,332 @@
+
+Loading vocabulary file ...
+DONE.
+Preprocessing image ...
+... scaling
+... inverting
+... equalizing
+... thresholding
+... filtering noise
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+0(0.543689medievalChurch.mesh) 7(0.8668SBCamera) 0(0.968medievalChurch.mesh) 0(0.993786medievalChurch.mesh) 
+Actor: Label1==medievalChurch.mesh.png
+
+# Type: Noise
+# Image: Label2.png
+# Label: 2
+# Bounds: (39.00,40.00,0.00,2.00)
+
+
+# Type: Noise
+# Image: Label3.png
+# Label: 3
+# Bounds: (492.00,493.00,16.00,16.00)
+
+
+# Type: Noise
+# Image: Label4.png
+# Label: 4
+# Bounds: (277.00,279.00,26.00,28.00)
+
+2(0.516874desertTruck.mesh) 2(0.8344desertTruck.mesh) 2(0.936desertTruck.mesh) 2(0.985808desertTruck.mesh) 
+Actor: Label5==desertTruck.mesh.png
+-1(0.662675) -1(0.202) 1(0.9elvenHouse.mesh) 1(0.95982elvenHouse.mesh) 
+Actor: Label6==elvenHouse.mesh.png
+-1(0.716069) -1(0.2844) 6(0.9SBSquare) 6(0.95415SBSquare) 
+Actor: Label7==SBSquare.png
+-1(0.680168) -1(0.2768) 0(0.856medievalChurch.mesh) 6(0.946383SBSquare) 
+-1(0.653061) -1(0.2028) 1(0.9elvenHouse.mesh) 1(0.974063elvenHouse.mesh) 
+Actor: Label9==elvenHouse.mesh.png
+
+# Type: Noise
+# Image: Label10.png
+# Label: 10
+# Bounds: (278.00,279.00,67.00,69.00)
+
+-1(0.719424) 7(0.8532SBCamera) -1(0.4) 2(0.835899desertTruck.mesh) 
+
+# Type: Noise
+# Image: Label12.png
+# Label: 12
+# Bounds: (728.00,729.00,94.00,96.00)
+
+-1(0.630643) -1(0.2512) 4(0.836robot.mesh) 4(0.964596robot.mesh) 
+Actor: Label13==robot.mesh.png
+
+# Type: Noise
+# Image: Label14.png
+# Label: 14
+# Bounds: (348.00,350.00,141.00,142.00)
+
+-1(0.746732) -1(0.2648) -1(0.256) 1(0.901324elvenHouse.mesh) 
+-1(0.69378) 3(0.8236ninja.mesh) -1(0.484) 2(0.903876desertTruck.mesh) 
+-1(0.605327) 3(0.8348ninja.mesh) 3(0.9ninja.mesh) 3(0.973947ninja.mesh) 
+Actor: Label17==ninja.mesh.png
+-1(0.586687) -1(0.2184) 6(0.9SBSquare) 6(0.976176SBSquare) 
+Actor: Label18==SBSquare.png
+-1(0.704918) 7(0.8544SBCamera) -1(0.484) -1(0.201557) 
+
+# Type: Noise
+# Image: Label20.png
+# Label: 20
+# Bounds: (493.00,506.00,179.00,191.00)
+
+
+# Type: Noise
+# Image: Label21.png
+# Label: 21
+# Bounds: (522.00,533.00,179.00,191.00)
+
+
+# Type: Noise
+# Image: Label22.png
+# Label: 22
+# Bounds: (509.00,518.00,180.00,192.00)
+
+-1(0.734739) -1(0.3404) -1(0.26) 4(0.918879robot.mesh) 
+-1(0.725086) -1(0.2784) 6(0.8SBSquare) 6(0.945911SBSquare) 
+Actor: Label24==SBSquare.png
+
+# Type: Noise
+# Image: Label25.png
+# Label: 25
+# Bounds: (146.00,160.00,205.00,219.00)
+
+-1(0.814346) -1(0.3092) -1(0.324) 1(0.862686elvenHouse.mesh) 
+
+# Type: Noise
+# Image: Label27.png
+# Label: 27
+# Bounds: (132.00,143.00,207.00,219.00)
+
+-1(0.756501) -1(0.3248) -1(0.324) 4(0.90279robot.mesh) 
+
+# Type: Noise
+# Image: Label29.png
+# Label: 29
+# Bounds: (632.00,634.00,211.00,212.00)
+
+
+# Type: Noise
+# Image: Label30.png
+# Label: 30
+# Bounds: (331.00,333.00,221.00,223.00)
+
+-1(0.661479) -1(0.2732) 6(0.856SBSquare) 6(0.9538SBSquare) 
+Actor: Label31==SBSquare.png
+4(0.508554robot.mesh) 4(0.8296robot.mesh) 4(0.936robot.mesh) 4(0.986781robot.mesh) 
+Actor: Label32==robot.mesh.png
+-1(0.618487) -1(0.2296) 2(0.884desertTruck.mesh) 2(0.970437desertTruck.mesh) 
+Actor: Label33==desertTruck.mesh.png
+-1(0.797153) -1(0.3548) -1(0.4) 3(0.801269ninja.mesh) 
+-1(0.595862) -1(0.2292) -1(0.324) 6(0.918069SBSquare) 
+-1(0.846927) -1(0.3644) -1(0.4) 4(0.829933robot.mesh) 
+-1(0.836691) -1(0.3876) -1(0.4) -1(0.200201) 
+
+# Type: Noise
+# Image: Label38.png
+# Label: 38
+# Bounds: (592.00,604.00,312.00,326.00)
+
+
+# Type: Noise
+# Image: Label39.png
+# Label: 39
+# Bounds: (546.00,558.00,314.00,327.00)
+
+
+# Type: Noise
+# Image: Label40.png
+# Label: 40
+# Bounds: (797.00,799.00,321.00,322.00)
+
+-1(0.571429) 7(0.8792SBCamera) 6(0.804SBSquare) 0(0.921607medievalChurch.mesh) 
+-1(0.780612) -1(0.2568) -1(0.576) 6(0.80398SBSquare) 
+-1(0.686441) 7(0.8176SBCamera) 0(0.856medievalChurch.mesh) 0(0.904407medievalChurch.mesh) 
+Actor: Label43==medievalChurch.mesh.png
+
+# Type: Noise
+# Image: Label44.png
+# Label: 44
+# Bounds: (308.00,309.00,337.00,339.00)
+
+-1(0.813107) -1(0.2256) -1(0.4) 2(0.828544desertTruck.mesh) 
+
+# Type: Noise
+# Image: Label46.png
+# Label: 46
+# Bounds: (390.00,391.00,358.00,360.00)
+
+
+# Type: Noise
+# Image: Label47.png
+# Label: 47
+# Bounds: (524.00,526.00,360.00,361.00)
+
+-1(0.680723) -1(0.2024) 3(0.864ninja.mesh) 3(0.960723ninja.mesh) 
+Actor: Label48==ninja.mesh.png
+-1(0.557121) -1(0.2028) 6(0.9SBSquare) 6(0.979264SBSquare) 
+Actor: Label49==SBSquare.png
+
+# Type: Noise
+# Image: Label50.png
+# Label: 50
+# Bounds: (423.00,433.00,426.00,440.00)
+
+
+# Type: Noise
+# Image: Label51.png
+# Label: 51
+# Bounds: (466.00,477.00,426.00,437.00)
+
+
+# Type: Noise
+# Image: Label52.png
+# Label: 52
+# Bounds: (437.00,448.00,427.00,438.00)
+
+
+# Type: Noise
+# Image: Label53.png
+# Label: 53
+# Bounds: (451.00,464.00,427.00,438.00)
+
+-1(0.787462) -1(0.3168) -1(0.324) 6(0.884664SBSquare) 
+
+# Type: Noise
+# Image: Label55.png
+# Label: 55
+# Bounds: (288.00,290.00,575.00,576.00)
+
+
+# Type: Noise
+# Image: Label56.png
+# Label: 56
+# Bounds: (580.00,582.00,581.00,581.00)
+
+Tesseract Open Source OCR Engine
+Image has 16 bits per pixel and size (87,44)
+check_legal_image_size:Error:Only 1,2,4,5,6,8 bpp are supported:16
+Tesseract Open Source OCR Engine
+Image has 16 bits per pixel and size (93,49)
+check_legal_image_size:Error:Only 1,2,4,5,6,8 bpp are supported:16
+a
+Label8.pngz 0
+Label8.pngx 0
+Label8.png 0
+Label11.pngz 1
+Label11.pngx 1
+Label11.png 1
+Label15.pngz 2
+Label15.pngx 2
+Label15.png 2
+Label16.pngz 3
+Label16.pngx 3
+Label16.png 3
+Label19.pngz 4
+Label19.pngx 4
+Label19.png 4
+Label34.pngz 5
+Label34.pngx 5
+Label34.png 5
+Label35.pngz 6
+Label35.pngx 6
+Label35.png 6
+a
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: medievalChurch.mesh
+# Image: Label1==medievalChurch.mesh.png
+# Bounds: (0.00,49.00,0.00,581.00)
+# Animation: 
+
+# Type: Actor
+# Label: 5
+# Asset: desertTruck.mesh
+# Image: Label5==desertTruck.mesh.png
+# Bounds: (408.00,487.00,47.00,85.00)
+# Animation: 
+
+# Type: Actor
+# Label: 6
+# Asset: elvenHouse.mesh
+# Image: Label6==elvenHouse.mesh.png
+# Bounds: (544.00,585.00,47.00,81.00)
+# Animation: 
+
+# Type: Actor
+# Label: 7
+# Asset: SBSquare
+# Image: Label7==SBSquare.png
+# Bounds: (310.00,354.00,51.00,87.00)
+# Animation: 
+
+# Type: Actor
+# Label: 9
+# Asset: elvenHouse.mesh
+# Image: Label9==elvenHouse.mesh.png
+# Bounds: (211.00,253.00,54.00,89.00)
+# Animation: 
+
+# Type: Actor
+# Label: 13
+# Asset: robot.mesh
+# Image: Label13==robot.mesh.png
+# Bounds: (453.00,479.00,126.00,165.00)
+# Animation: Walk
+
+# Type: Actor
+# Label: 17
+# Asset: ninja.mesh
+# Image: Label17==ninja.mesh.png
+# Bounds: (96.00,151.00,167.00,191.00)
+# Animation: Walk
+
+# Type: Actor
+# Label: 31
+# Asset: SBSquare
+# Image: Label31==SBSquare.png
+# Bounds: (177.00,215.00,260.00,288.00)
+# Animation: 
+
+# Type: Actor
+# Label: 32
+# Asset: robot.mesh
+# Image: Label32==robot.mesh.png
+# Bounds: (529.00,558.00,262.00,305.00)
+# Animation: 
+
+# Type: Actor
+# Label: 33
+# Asset: desertTruck.mesh
+# Image: Label33==desertTruck.mesh.png
+# Bounds: (290.00,366.00,272.00,304.00)
+# Animation: 
+
+# Type: Actor
+# Label: 43
+# Asset: medievalChurch.mesh
+# Image: Label43==medievalChurch.mesh.png
+# Bounds: (333.00,419.00,336.00,408.00)
+# Animation: 
+
+# Type: Actor
+# Label: 48
+# Asset: ninja.mesh
+# Image: Label48==ninja.mesh.png
+# Bounds: (420.00,462.00,394.00,414.00)
+# Animation: 
+
+# Type: Actor
+# Label: 49
+# Asset: SBSquare
+# Image: Label49==SBSquare.png
+# Bounds: (417.00,483.00,416.00,446.00)
+# Animation: 
+

@@ -1,0 +1,173 @@
+Parameter 1: True
+Parameter 2: False
+Parameter 3: ../../www/output/images/9c67ca295446a649e28b39b436460e71
+Parameter 4: ../../www/output
+Parameter 5: script.xml
+Parameter 6: VideoGenerator.log
+Parameter 7: ../../../..
+Parameter 8: ../../www/output/images/9c67ca295446a649e28b39b436460e71/score.xml
+Sun Oct 26 15:10:20 COT 2014
+
+AL lib: pulseaudio.c:612: Context did not connect: Access denied
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4184:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4663:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa.c:512: Could not open playback device 'default': No such file or directory
+AL lib: oss.c:169: Could not open /dev/dsp: No such file or directory
+found bundled python: /opt/blender/2.62/python
+read blend: /var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/www/output/images/9c67ca295446a649e28b39b436460e71/../../../../VideoGenerator/smellingfield.blend
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend', '//../envs/plants.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend', '//../envs/trees_birch.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend', '//../envs/flowers.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend', '//../envs/trees_oak.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/tree_apple.blend', '//../envs/tree_apple.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/tree_apple.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/tree_apple.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/rocks.blend', '//../envs/rocks.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/rocks.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/rocks.blend'
+
+Info: read library:  '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/mushrooms.blend', '//../envs/mushrooms.blend'
+
+Unable to open "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/mushrooms.blend": No such file or directory.
+Error: Can't find lib '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object:'grassplant_green' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Object:'grassplant_green.002' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat1' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'wheat2' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_med' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_mix' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_quarter2' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'grasspatch_small' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.003' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.002' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.012' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.013' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'Plane.014' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Mesh:'grass_tall' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Material:'grass' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/plants.blend'
+
+Error: LIB ERROR: Group:'birch_001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_002' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_003' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Group:'birch_004' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_birch.blend'
+
+Error: LIB ERROR: Object:'field_flower_blue' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_pink' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Object:'field_flower_purple' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'flowers_star1' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gidio' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'taddeo' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'yellowtaddeo' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'gollum' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'smeagol' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp.001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purp' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Mesh:'field_flower_purple' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/flowers.blend'
+
+Error: LIB ERROR: Group:'oak_001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_002' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'oak_veryhighres_leave' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/trees_oak.blend'
+
+Error: LIB ERROR: Group:'apple_tree' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'apple_tree_trunk' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/tree_apple.blend'
+
+Error: LIB ERROR: Group:'rock_big_field' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'rock_big_field.001' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/rocks.blend'
+
+Error: LIB ERROR: Group:'shrooms_rodents' unread libblock missing from '/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/envs/mushrooms.blend'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Error: LIB ERROR: Object lost from scene:'Scene'
+
+Object grass_tall.005 lost data.
+Object grasspatch_med lost data.
+Object grasspatch_mix lost data.
+Object grasspatch_quarter lost data.
+Object grasspatch_small lost data.
+Warning: Warning in console
+Parsing: ../../../../www/output/images/9c67ca295446a649e28b39b436460e71/script.xml
+              ##### INICIO #####              
+2014-10-26 20:10:21
+Traceback (most recent call last):
+  File "/var/www/papelylapiz.virtual.uniandes.edu.co/pyl5/www/output/images/9c67ca295446a649e28b39b436460e71/../../../../VideoGenerator/VideoGenerator.py", line 540, in <module>
+    textOffsets = ( (bb_max[0] + bb_min[0] ) / 2 , bb_max[1] , 2.5)
+TypeError: 'NoneType' object is not subscriptable
+
+Blender quit
+
+Sun Oct 26 15:10:23 COT 2014

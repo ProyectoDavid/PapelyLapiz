@@ -1,0 +1,190 @@
+/*
+#
+#Papel y Lapiz - Software para la creacion de pequeños cortos.
+#Copyright (C) 2015  Universidad de Los Andes - Proyecto DAVID.   
+#This program is free software; you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by 
+#the Free Software Foundation; either version 2 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License along
+#with this program; if not, write to the Free Software Foundation,
+#Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+#
+*/
+
+#include "SBFilterUtils.h"
+
+
+
+ImageType::Pointer SBFilterUtils::RescaleImage(ImageType::Pointer image, int outputMin, int outputMax)
+{
+	RescaleFilterType::Pointer rescaleFilter = RescaleFilterType::New();
+	rescaleFilter->SetInput(image);
+	rescaleFilter->SetOutputMinimum(outputMin);
+	rescaleFilter->SetOutputMaximum(outputMax);
+	rescaleFilter->Update();
+	
+	return rescaleFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::InvertImage(ImageType::Pointer image) {
+
+	InverterType::Pointer invertFilter = InverterType::New();
+	invertFilter->SetMaximum(MAX_GRAY_VALUE);
+	invertFilter->SetInput(image);
+	invertFilter->Update();
+	
+	return invertFilter->GetOutput();
+ }
+
+int SBFilterUtils::GetGlobalMean(ImageType::Pointer image)
+{
+	SampleType::Pointer sample = SampleType::New();
+	sample->SetImage(image);
+	MeanAlgorithmType::Pointer meanAlgorithm = MeanAlgorithmType::New();
+	meanAlgorithm->SetInputSample(sample);
+	meanAlgorithm->Update();
+	
+	return meanAlgorithm->GetOutput()->mean();
+}
+
+ImageType::Pointer SBFilterUtils::ThresholdImage(ImageType::Pointer image, int lowerThreshold, int upperThreshold, int insideValue, int outsideValue)
+{
+	BinaryThresholdFilterType::Pointer thresholdFilter = BinaryThresholdFilterType::New();
+	thresholdFilter->SetInput(image);
+	thresholdFilter->SetLowerThreshold(lowerThreshold);
+	thresholdFilter->SetUpperThreshold(upperThreshold);
+	thresholdFilter->SetOutsideValue(outsideValue);
+	thresholdFilter->SetInsideValue(insideValue);
+	thresholdFilter->Update();
+	
+	return thresholdFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::GaussianSmoothImage(ImageType::Pointer image, float variance) {
+	
+	GaussianFilterType::Pointer gaussianFilter = GaussianFilterType::New();
+	gaussianFilter->SetInput(image);
+	gaussianFilter->SetVariance(variance);
+	gaussianFilter->Update();
+
+	CastFilterType::Pointer castFilter = CastFilterType::New();
+	castFilter->SetInput(gaussianFilter->GetOutput());
+	castFilter->Update();
+
+	return castFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::ThinImage(ImageType::Pointer image) {
+
+	ThinningType::Pointer thinningFilter = ThinningType::New();
+	thinningFilter->SetInput(image);
+	thinningFilter->Update();
+	return thinningFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::GetConnectedComponents(ImageType::Pointer image, bool fullyConnected) {
+	
+	ConnectedComponentImageFilterType::Pointer connectedComponentFilter= ConnectedComponentImageFilterType::New ();
+	connectedComponentFilter->SetInput(image);
+	if(fullyConnected)
+		connectedComponentFilter->FullyConnectedOn();
+	connectedComponentFilter->Update();
+	return connectedComponentFilter->GetOutput();
+}
+
+
+ImageType::Pointer SBFilterUtils::RegionGrowing(ImageType::Pointer image, ImageType::IndexType seed, bool fullConnectivity, int lowerThreshold, int upperThreshold, int replaceValue) {
+	
+	ConnectedFilterType::Pointer connectedThreshold = ConnectedFilterType::New();
+	connectedThreshold->SetInput(image);
+	connectedThreshold->SetSeed(seed);
+	connectedThreshold->SetLower(lowerThreshold);
+	connectedThreshold->SetUpper(upperThreshold);
+	connectedThreshold->SetReplaceValue(replaceValue);
+	if(fullConnectivity)
+		connectedThreshold->SetConnectivity(ConnectedFilterType::FullConnectivity);
+	connectedThreshold->Update();
+
+	return connectedThreshold->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::Xor(ImageType::Pointer image1, ImageType::Pointer image2)
+{
+	XorFilterType::Pointer xorFilter = XorFilterType::New();
+	xorFilter->SetInput1(image1);
+	xorFilter->SetInput2(image2);
+	xorFilter->Update();
+	return xorFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::MeanSmoothImage(ImageType::Pointer image, unsigned int kernelRadius)
+{
+	MeanFilterType::InputSizeType radius;
+	radius.Fill(kernelRadius);
+	MeanFilterType::Pointer meanFilter = MeanFilterType::New();
+	meanFilter->SetRadius(radius);
+	meanFilter->SetInput(image);
+	meanFilter->Update();
+	return meanFilter->GetOutput();
+}
+
+ImageCalculatorFilterType::Pointer SBFilterUtils::GetMaxMinGrayValue(ImageType::Pointer image)
+{
+	ImageCalculatorFilterType::Pointer imageCalculatorFilter = ImageCalculatorFilterType::New ();
+	imageCalculatorFilter->SetImage(image);
+	imageCalculatorFilter->Compute();
+	return imageCalculatorFilter;
+}
+
+//DWM:
+int SBFilterUtils::GetOtsuThreshold(ImageType::Pointer image)
+{
+	ScalarImageToHistogramGeneratorType::Pointer
+	scalarImageToHistogramGenerator = ScalarImageToHistogramGeneratorType::New();
+	scalarImageToHistogramGenerator->SetNumberOfBins(10);
+	scalarImageToHistogramGenerator->SetInput(image);
+	scalarImageToHistogramGenerator->Compute();
+	
+	OtsuCalculatorType::Pointer otsuCalculator;
+	otsuCalculator = OtsuCalculatorType::New();
+	otsuCalculator->SetNumberOfThresholds(1);
+	otsuCalculator->SetInputHistogram(scalarImageToHistogramGenerator->GetOutput());
+	otsuCalculator->Update();
+	const OtsuCalculatorType::OutputType &threshold = otsuCalculator->GetOutput();
+	
+	if (threshold.empty())
+	{
+		std::cout << "For some reason Otsu didn't calculate a threshold ... default to 128" << std::endl;
+		return MAX_GRAY_VALUE/2;
+	}
+	
+	return threshold[0];
+}
+
+ImageType::Pointer SBFilterUtils::PerformHistogramEqualization(ImageType::Pointer image)
+{
+	itk::AdaptiveHistogramEqualizationImageFilter<ImageType>::Pointer equalizationFilter;
+	equalizationFilter = itk::AdaptiveHistogramEqualizationImageFilter<ImageType>::New();
+	equalizationFilter->SetInput(image);
+	//equalizationFilter->SetAlpha(0.3);
+	//equalizationFilter->SetBeta(0.3);
+	equalizationFilter->Update();
+	
+	return equalizationFilter->GetOutput();
+}
+
+ImageType::Pointer SBFilterUtils::PerformMeanFilter(ImageType::Pointer image)
+{
+	MeanFilterType::Pointer meanFilter = MeanFilterType::New();
+	meanFilter->SetInput(image);
+	meanFilter->Update();
+	
+	return meanFilter->GetOutput();
+}

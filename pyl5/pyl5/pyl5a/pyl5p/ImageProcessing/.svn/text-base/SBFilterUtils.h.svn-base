@@ -1,0 +1,39 @@
+#pragma once
+#include "SBDefinitions.h"
+
+class SBFilterUtils
+{
+public:
+	SBFilterUtils(void);
+	~SBFilterUtils(void);
+
+	static ImageType::Pointer RescaleImage(ImageType::Pointer image, int outputMin, int outputMax);
+
+	static ImageType::Pointer InvertImage(ImageType::Pointer image);
+
+	static int GetGlobalMean(ImageType::Pointer image);
+
+	static ImageType::Pointer ThresholdImage(ImageType::Pointer image, int lowerThreshold, int upperThreshold, int insideValue, int outsideValue);
+
+	static ImageType::Pointer GaussianSmoothImage(ImageType::Pointer image, float variance);
+
+	static ImageType::Pointer ThinImage(ImageType::Pointer image);
+
+	static ImageType::Pointer GetConnectedComponents(ImageType::Pointer image, bool fullyConnected);
+
+	static ImageType::Pointer RegionGrowing(ImageType::Pointer image, ImageType::IndexType seed, bool fullConnectivity, int lowerThreshold, int upperThreshold, int replaceValue);
+
+	static ImageType::Pointer Xor(ImageType::Pointer image1, ImageType::Pointer image2);
+
+	static ImageType::Pointer MeanSmoothImage(ImageType::Pointer image, unsigned int radius);
+
+	static ImageCalculatorFilterType::Pointer GetMaxMinGrayValue(ImageType::Pointer image);
+	
+	//DWM:
+	static int GetOtsuThreshold(ImageType::Pointer);
+
+	static ImageType::Pointer PerformHistogramEqualization(ImageType::Pointer);
+	
+	static ImageType::Pointer PerformMeanFilter(ImageType::Pointer);
+};
+

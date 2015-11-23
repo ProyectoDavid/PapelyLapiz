@@ -1,0 +1,34 @@
+#include "SBWordManager.h"
+
+
+SBWordManager::SBWordManager(void)
+{
+}
+
+
+SBWordManager::~SBWordManager(void)
+{
+	for(uint i=0; i<words.size(); i++)
+		delete words[i];
+	words.clear();
+	
+}
+
+SBWord* SBWordManager::GetWord(int containerLabel) {
+
+	
+	for(uint i=0; i<words.size(); i++) {
+		if(words[i]->GetContainerLabel()==containerLabel)
+			return words[i];
+	}
+	return NULL;
+}
+
+void SBWordManager::AddWord(SBWord* sbWord) {
+	
+	words.push_back(sbWord);
+}
+
+vector<SBWord*> SBWordManager::GetWords() {
+	return words;
+}

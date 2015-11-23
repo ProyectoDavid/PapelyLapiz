@@ -1,0 +1,21 @@
+
+import xml.sax.handler
+
+class CompXmlHandler (xml.sax.handler.ContentHandler):
+    def __init__(self):
+        self.data = {}
+        self.currentElementText = ""
+
+    def startElement(self, name, attrs):
+        self.currentElementName = name
+        self.currentElementAttrs = attrs
+        self.currentElementText = ""
+
+    def characters(self, data):
+        self.currentElementText += data
+
+    def endElement(self, name):
+        self.data[name] = self.currentElementText
+	self.currentElementText = ""
+
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#cat Log.txt
+
+{
+
+echo Parameter 1: "$1"
+echo Parameter 2: "$2"
+
+cd /home/dwilches/pyl/ImageProcessing/bin
+./ImageProcessing "$1"
+
+} > $2 2>&1
+

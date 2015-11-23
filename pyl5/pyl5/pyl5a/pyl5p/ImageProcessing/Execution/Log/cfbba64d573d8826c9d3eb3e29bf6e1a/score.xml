@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<score>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/cfbba64d573d8826c9d3eb3e29bf6e1a/walk001.wav.mp3" />
+        <point x="0.792969" y="0.209375" z="0" />
+    </actor>
+    <actor asset="Rabbit">
+        <sound value="../../www/output/images/cfbba64d573d8826c9d3eb3e29bf6e1a/walk001.wav.mp3" />
+        <point x="0.255469" y="0.229167" z="0" />
+        <foley>
+            <foley value="../../www/output/images/cfbba64d573d8826c9d3eb3e29bf6e1a/bounce.wav.mp3" frame="1" />
+        </foley>
+    </actor>
+    <actor asset="Bird">
+        <sound value="../../www/output/images/cfbba64d573d8826c9d3eb3e29bf6e1a/bird001.wav.mp3" />
+        <point x="0.322656" y="0.560417" z="0" />
+    </actor>
+    <actor asset="FlyingSquirrel">
+        <sound value="../../www/output/images/cfbba64d573d8826c9d3eb3e29bf6e1a/fsquirrel.wav.mp3" />
+        <point x="0.565625" y="0.240625" z="0" />
+    </actor>
+</score>

@@ -1,0 +1,102 @@
+Parameter 1: Processing_Untitled.png
+Parameter 2: ../../www/output/images/3bbd22068e9157308e4ca0683f9ff8df
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: ../../ImageProcessing/bin
+Wed Jul  2 21:05:08 COT 2014
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_Untitled.png
+Parameter 2 is: ../../www/output/images/3bbd22068e9157308e4ca0683f9ff8df
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/3bbd22068e9157308e4ca0683f9ff8df
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 3
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+
+##Etapa de busqueda de RECTANGULOS##
+
+0(0.151767Rabbit) 3(0.7848Butterfly) 0(0.90566Rabbit) 0(0.978112Rabbit) 
+0(0.204771Rabbit) 3(0.768Butterfly) 0(0.90566Rabbit) 0(0.981006Rabbit) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 0
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 0
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label2.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+0(0.151767Rabbit) 3(0.7848Butterfly) 0(0.90566Rabbit) 0(0.978112Rabbit) 
+Actor: Label1==Rabbit.png
+0(0.204771Rabbit) 3(0.768Butterfly) 0(0.90566Rabbit) 0(0.981006Rabbit) 
+Actor: Label2==Rabbit.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:2
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Rabbit
+# Image: Label1==Rabbit.png
+# Bounds: (0.305664,0.207031,0.363281,0.320312)
+# Animation: 
+
+# Type: Actor
+# Label: 2
+# Asset: Rabbit
+# Image: Label2==Rabbit.png
+# Bounds: (0.183594,0.209635,0.239258,0.319010)
+# Animation: 
+
+Execution time: 2.12 seconds.
+
+Wed Jul  2 21:05:10 COT 2014

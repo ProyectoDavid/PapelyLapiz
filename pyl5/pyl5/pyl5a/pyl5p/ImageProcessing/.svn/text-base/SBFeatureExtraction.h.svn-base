@@ -1,0 +1,18 @@
+#pragma once
+#include "SBShape.h"
+
+
+class SBFeatureExtraction
+{
+
+	SBShape *sbShape;
+
+public:
+	SBFeatureExtraction(void);
+	~SBFeatureExtraction(void);
+
+	void SetSBShape(SBShape *sbShape);
+
+	void ComputeFeature(int k, int step);
+};
+

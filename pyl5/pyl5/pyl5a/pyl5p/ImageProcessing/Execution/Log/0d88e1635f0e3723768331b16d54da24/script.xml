@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="Chinchilla" animation="CLAQ" facing="" scaleOffset="1">
+                <position x="0.497967" z="0.360161" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

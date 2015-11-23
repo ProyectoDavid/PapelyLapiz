@@ -1,0 +1,18 @@
+#pragma once
+#include "SBDefinitions.h"
+using namespace std;
+
+class SBFileUtils
+{
+public:
+	SBFileUtils(void);
+	~SBFileUtils(void);
+
+	static ImageType::Pointer ReadImage(string filename);
+
+	static void WriteImage(ImageType::Pointer image, std::string fileName);
+
+	static void SplitPath(const string& pathAndFilename, string& path, string& filename);
+};
+
+

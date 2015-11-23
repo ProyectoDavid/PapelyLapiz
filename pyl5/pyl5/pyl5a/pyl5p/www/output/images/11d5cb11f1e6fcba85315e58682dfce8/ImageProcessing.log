@@ -1,0 +1,102 @@
+Parameter 1: Processing_FSquirrelRun.png
+Parameter 2: /var/www/pyl5/www/output/images/11d5cb11f1e6fcba85315e58682dfce8
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Fri May 31 22:05:54 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_FSquirrelRun.png
+Parameter 2 is: /var/www/pyl5/www/output/images/11d5cb11f1e6fcba85315e58682dfce8
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/11d5cb11f1e6fcba85315e58682dfce8
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 8
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+
+# Type: Noise
+# Image: Label2.png
+# Label: 2
+# Bounds: (0.201672,0.364626,0.204807,0.367347)
+
+# Verificando el label 3
+
+# Type: Noise
+# Image: Label3.png
+# Label: 3
+# Bounds: (0.207941,0.370068,0.210031,0.372789)
+
+# Verificando el label 4
+# Verificando el label 5
+# Verificando el label 6
+# Verificando el label 7
+
+##Etapa de busqueda de RECTANGULOS##
+
+1(0.0794702Squirrel) 3(0.8968Chinchilla) 7(0.910557FlyingSquirrel) 0(0.955998Rabbit) 
+0(0.193133Rabbit) 8(0.8192SBRectangle) 8(0.95SBRectangle) 8(0.98715SBRectangle) 
+Actor: Label4==SBRectangle.png
+4(0.13597Butterfly) 4(0.6992Butterfly) 4(0.915147Butterfly) 4(0.982577Butterfly) 
+0(0.207617Rabbit) 4(0.69Butterfly) 0(0.892297Rabbit) 0(0.979328Rabbit) 
+0(0.167092Rabbit) 8(0.6912SBRectangle) 8(0.869616SBRectangle) 8(0.975848SBRectangle) 
+Actor: Label7==SBRectangle.png
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 2
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label5.png esta dentro de Label4==SBRectangle.png
+5 esta dentro de 4
+Label6.png esta dentro de Label4==SBRectangle.png
+6 esta dentro de 4
+Label7==SBRectangle.png esta dentro de Label4==SBRectangle.png
+7 esta dentro de 4
+*Se ha removido falso rectangulo del log: Log/Actors/Label7==SBRectangle.png
+Tesseract Open Source OCR Engine
+# un detectado es: 4
+# un detectado es: 7
+# Type: Text
+# Text: RUN
+# Inside Label: 4
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 1
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...Label1.png looked like an arrow, but its head was too big: (900,958,7)
+nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+1(0.0794702Squirrel) 3(0.8968Chinchilla) 7(0.910557FlyingSquirrel) 0(0.955998Rabbit) 
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:0
+
+# Type: NotRecognized
+# Image: Label1.png
+# Label: 1
+# Bounds: (0.177638,0.070748,0.770115,0.751020)
+
+./ImageProcessing.sh: line 29: 24025 Segmentation fault      ./ImageProcessing "$1" "$2" "$3"
+
+Fri May 31 22:06:12 COT 2013

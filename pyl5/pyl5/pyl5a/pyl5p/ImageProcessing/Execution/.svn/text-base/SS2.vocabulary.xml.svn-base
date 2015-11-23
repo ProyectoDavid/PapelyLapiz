@@ -1,0 +1,13 @@
+<objects>
+  <object shape="Training/SS2/Hombre.png" asset="hombre" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS2/Mujer.png" asset="mujer" facing="front" scaleOffset="0.1"/>
+  <object shape="Training/SS2/Carro.png" asset="carro" facing="front" scaleOffset="0.2"/>
+  <object shape="Training/SS2/Balon.png" asset="balon" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Casa.png" asset="casa" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Luna.png" asset="luna" facing="back" scaleOffset="0.3"/>
+  <object shape="Training/SS2/Sol.png" asset="sol" facing="back" scaleOffset="0.3"/>
+  
+  <object shape="Training/Default/SBRectangle.png" asset="SBRectangle" facing="" scaleOffset=""/>
+  <!--object shape="Training/Default/SBSquare.png" asset="SBSquare" facing="" scaleOffset=""/-->
+  <object shape="Training/Default/SBCamera.png" asset="SBCamera" facing="" scaleOffset=""/>
+</objects>

@@ -1,0 +1,9 @@
+<compositions>
+    <composition>
+        <actors>
+            <actor asset="FlyingSquirrel" animation="POQE" facing="" scaleOffset="1">
+                <position x="0.494709" z="0.327762" />
+            </actor>
+        </actors>
+    </composition>
+</compositions>

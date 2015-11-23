@@ -1,0 +1,162 @@
+Tue Jan 27 00:24:50 COT 2015
+Parameter 1: ../../ImageProcessing/Execution/vocabulary.xml
+Parameter 2: ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/script.xml
+Parameter 3: ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/score.xml
+Parameter 4: ../../ImageProcessing
+Parameter 5: ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/SoundFilm.log
+Parameter 6: ../../SoundFilm/
+Parameter 7: ../../SoundFilm/bin
+
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+Guessed Channel Layout for  Input Stream #0.0 : stereo
+Input #0, wav, from '../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmpgarage.wav':
+  Duration: 00:00:03.91, bitrate: 1411 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+[graph 0 input from stream 0:0 @ 0x9d5f400] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x3
+Output #0, mp3, to '../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/walk001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=      51kB time=00:00:03.24 bitrate= 130.1kbits/s    size=      62kB time=00:00:03.91 bitrate= 129.7kbits/s    
+video:0kB audio:62kB subtitle:0 global headers:0kB muxing overhead 0.716198%
+ffmpeg version N-42091-gf7cba73 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Jul  1 2012 05:10:32 with gcc 4.6.3
+  configuration: --prefix=/root/ffmpeg-static/32bit --arch=x86_32 --extra-cflags='-m32 -I/root/ffmpeg-static/32bit/include -static' --extra-ldflags='-m32 -L/root/ffmpeg-static/32bit/lib -static' --extra-libs='-lxml2 -lexpat -lfreetype' --enable-static --disable-shared --disable-ffserver --disable-doc --enable-bzlib --enable-zlib --enable-postproc --enable-runtime-cpudetect --enable-libx264 --enable-gpl --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-gray --enable-libass --enable-libfreetype --enable-libopenjpeg --enable-libspeex --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-version3 --enable-libvpx
+  libavutil      51. 63.100 / 51. 63.100
+  libavcodec     54. 31.100 / 54. 31.100
+  libavformat    54. 14.100 / 54. 14.100
+  libavdevice    54.  0.100 / 54.  0.100
+  libavfilter     3.  0.100 /  3.  0.100
+  libswscale      2.  1.100 /  2.  1.100
+  libswresample   0. 15.100 /  0. 15.100
+  libpostproc    52.  0.100 / 52.  0.100
+[wav @ 0x99c1660] max_analyze_duration 5000000 reached at 5015510
+Guessed Channel Layout for  Input Stream #0.0 : mono
+Input #0, wav, from '../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmpgarage.wav':
+  Duration: 00:00:13.07, bitrate: 705 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[graph 0 input from stream 0:0 @ 0x99feea0] tb:1/44100 samplefmt:s16 samplerate:44100 chlayout:0x4
+Output #0, mp3, to '../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/bird001.wav.mp3':
+  Metadata:
+    TSSE            : Lavf54.14.100
+    Stream #0:0: Audio: mp3, 44100 Hz, mono, s16, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le -> libmp3lame)
+Press [q] to stop, [?] for help
+size=     123kB time=00:00:07.83 bitrate= 128.9kbits/s    size=     205kB time=00:00:13.08 bitrate= 128.5kbits/s    
+video:0kB audio:205kB subtitle:0 global headers:0kB muxing overhead 0.215428%
+Hello, SBI!
+temporal = ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/
+el script es valido
+el vocabulario es valido
+listo para los objetos
+el objeto que da es Rabbit
+el objeto que da es Rabbit
+listo para los actores
+el actor que da es Rabbit
+el objeto que da es Rabbit
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es RabbitDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/
+copiando ../walk001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_1.wav
+copiando ../walk001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_2.wav
+copiando ../walk001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_3.wav
+copiando ../walk001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_4.wav
+copiando ../walk001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_5.wav
+../ffmpeg -y -i ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmpgarage.wav -ab 128k -ar 44100 ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/walk001.wav.mp3   tu
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::WALK::
+el actor es ::Rabbit::
+la animacion del actor es ::-default-::
+la de la acciones ::JUMP::
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es Squirrel
+el objeto que da es Squirrel
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es Chinchilla
+el objeto que da es Chinchilla
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es Butterfly
+el objeto que da es Butterfly
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el objeto que da es Butterfly
+el actor que da es Bird
+el objeto que da es Bird
+el objeto que da es Bird
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es Bird
+es fondo o voz
+es el por defecto
+el sonido por defecto del actor es BirdDefault
+hola
+you can do it
+you can do it
+you can do it
+temporal string = ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/
+copiando ../bird001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_1.wav
+copiando ../bird001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_2.wav
+copiando ../bird001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_3.wav
+copiando ../bird001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_4.wav
+copiando ../bird001.wav en ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmp_5.wav
+../ffmpeg -y -i ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/tmpgarage.wav -ab 128k -ar 44100 ../../www/output/images/6283cd3505c34c0a899bf5752fa18af5/bird001.wav.mp3   tu
+el actor es ::Bird::
+la animacion del actor es ::-default-::
+la de la acciones ::FLAP::
+el objeto que da es FlyingSquirrel
+el objeto que da es FlyingSquirrel
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es Apple
+el objeto que da es Apple
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es SBCamera
+el objeto que da es SBCamera
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+el objeto que da es SBRectangle
+el objeto que da es SBRectangle
+listo para los actores
+el actor que da es Rabbit
+el actor que da es Butterfly
+el actor que da es Bird
+sayonara, SBI!
+
+Tue Jan 27 00:24:52 COT 2015

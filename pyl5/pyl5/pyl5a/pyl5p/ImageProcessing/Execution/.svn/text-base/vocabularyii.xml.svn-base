@@ -1,0 +1,48 @@
+﻿<objects>
+  <object shape="Training/ninja.png" asset="ninja.mesh" facing="back" scaleOffset="0.3">
+    <actions>
+      
+<!-- 
+	Accion con eventos. 
+	Una acción tiene varios eventos que pueden ocurrir en frames diferentes.
+-->
+      <action text="WALK" animation="Walk" ambientsound="nekoplays">
+      	<events>
+			<event name="step">
+				<frame number="5"/>
+				<frame number="10"/>
+			</event>
+		</events>
+      </action>
+      
+    </actions>
+  </object>
+
+<!-- 
+	Objeto scene
+-->
+	<scene material="GroundMat" ambientSound="jazz"/>
+<!-- 
+	Libreria de sonidos.
+	Los sonidos tienen asociados diferentes formas de escucharse,
+	cada una de acuerdo a un escenario o material que haga que se escuche.
+-->
+	<soundlibrary>
+		<sound name="soundStep">
+			<material key="pavement" value="/Users/barcodepandora/Documents/VideoGenerator/bounce.mp3" />
+		</sound>
+		<ambientSound name="jazz" value="/Users/barcodepandora/Documents/VideoGenerator/jazz.mp3" />
+	</soundlibrary> 
+	
+<!-- 
+	Libreria de eventos. 
+	Los eventos tienen asociados sonidos que se escuchan al ocurrir el evento
+-->
+	<eventlibrary>
+		<event name="step">
+			<sound name="soundStep"/>
+		</event>
+	</eventlibrary>
+</objects>
+
+

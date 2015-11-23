@@ -1,0 +1,231 @@
+#!/usr/bin/perl
+
+use XML::DOM;
+
+require 'paths.pl';
+
+$FILES_PER_ROW = 3;
+@actors = ();
+@noises = ();
+
+sub GetVocabularyFilename()
+{
+	$IMAGE_PROCESSING_BASE . '/Execution/vocabulary.xml';
+}
+
+sub ExecuteImageProcessing
+{
+	unlink("$WEB_ROOT_PATH/output/images/$SCENE_DESCRIPTION_FILE");
+	unlink("$WEB_ROOT_PATH/output/images/$IMAGE_PROCESSING_LOG");
+	print `./ImageProcessing.sh '$_[0]' '$WEB_ROOT_PATH/output/images/$_[1]' '$SCENE_DESCRIPTION_FILE' '$IMAGE_PROCESSING_LOG' '$ROOT_PATH/ImageProcessing/bin'`;
+}
+
+sub ExecuteVideoGenerator
+{
+	unlink($VIDEO_GENERATOR_LOG);
+	if ($_[1] eq 'False')
+	{
+		`rm $WEB_ROOT_PATH/output/images/$_[2]/output.png`;
+	}
+	else
+	{
+		`rm $WEB_ROOT_PATH/output/images/$_[2]/output.ogg`;
+	}
+	print `./VideoGenerator.sh $_[0] $_[1] '$WEB_ROOT_PATH/output/images/$_[2]' '$VIDEO_GENERATOR_OUTPUT' '$IMAGE_PROCESSING_BASE/Execution/$SCENE_DESCRIPTION_FILE' '$VIDEO_GENERATOR_LOG' '$ROOT_PATH' '$IMAGE_PROCESSING_BASE/Execution/$SCORE_DESCRIPTION_FILE'`;
+}
+
+sub GetImageProcessingLog
+{
+	($foldername) = @_;
+
+	my $BLOCK_DELIM = '';
+
+	$components = {};
+
+	open LOG_FILE, "$WEB_ROOT_PATH/output/images/$foldername/$IMAGE_PROCESSING_LOG";
+
+	while(<LOG_FILE>)
+	{
+		chomp;
+
+		# Las líneas en blanco me indican que debo poner una imagen en el HTML (posiblemente).
+		# Si no es una línea en blanco, tratar de entenderla
+		if ($_ ne $BLOCK_DELIM)
+		{
+			# Solo me interesan estos componentes:
+			next unless /^# (\w*): (.*)$/;
+
+			$components->{$1} = $2;
+
+			if ($1 eq 'Bounds')
+			{
+				if ($2 =~ /\(([\d\.]+),([\d\.]+),([\d\.]+),([\d\.]+)\)/)
+				{
+					$components->{X} = $1;
+					$components->{Y} = $2;
+					$components->{W} = $3;
+					$components->{H} = $4;
+				}
+			}
+
+			next;
+		}
+
+		# Si llega aqui es una linea en blanco
+		push @actors, $components if $components->{Type} eq 'Actor';
+		push @actors, $components if $components->{Type} eq 'Arrow';
+		push @noises, $components if $components->{Type} eq 'Noise';
+		push @noises, $components if $components->{Type} eq 'NotRecognized';
+
+		$components = {};
+	}
+}
+
+sub PrintActors
+{
+	($foldername) = @_;
+
+	my $file_number = 0;
+	print "<TABLE width='100%' align='center' border='0'>\n";
+	foreach $actor (@actors)
+	{
+		# Just pretty ... :
+		#{
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "<TR>\n";
+		}
+		#}
+
+		# The real thing:
+		print " <TD valign='top'>".
+			"<A onClick='mostrarRecuadro($actor->{X},$actor->{Y},$actor->{W},$actor->{H})' ".
+			"onMouseOver=\"cambiarCursor('pointer')\" onMouseOut=\"cambiarCursor('default')\">";
+		if ($actor->{Type} eq 'Actor')
+		{
+			print "<IMG SRC='output/images/$foldername/Log/Actors/$actor->{Image}' BORDER='1' WIDTH='50'/><BR/>";
+		}
+		else
+		{
+			print "<IMG SRC='output/images/$foldername/Log/Arrows/$actor->{Image}' BORDER='1' WIDTH='50'/><BR/>";
+		}
+		print "</A></TD><TD>";
+
+		print "<b>Object:</b><br/>$actor->{Type}<br/>"
+			if $actor->{'Type'} ne 'Actor';
+		print "<b>Object:</b><br/>$actor->{Asset}<br/>"
+			if $actor->{'Type'} eq 'Actor';
+
+		print "<b>Animation:</b><br/>$actor->{Animation}<br/>"
+			if $actor->{'Animation'} ne '';
+
+		print "<BR/></TD>\n";
+
+		# Just pretty ... :
+		#{
+		$file_number++;
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "</TR>\n";
+		}
+		#}
+	}
+
+	print "</TABLE>";
+
+}
+
+sub PrintNoise()
+{
+	($foldername) = @_;
+
+	my $file_number = 0;
+	print "<TABLE width='100%' align='center'>\n";
+	foreach $noise (@noises)
+	{
+		# Just pretty ... :
+		#{
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "<TR>\n";
+		}
+		#}
+
+		# The real thing:
+		print " <TD valign='top'>".
+			"<A onClick='mostrarRecuadro($noise->{X},$noise->{Y},$noise->{W},$noise->{H})' ".
+			"onMouseOver=\"cambiarCursor('pointer')\" onMouseOut=\"cambiarCursor('default')\">";
+		if ($noise->{Type} eq 'Noise')
+		{
+			print "<IMG SRC='output/images/$foldername/Log/Noise/$noise->{Image}' BORDER=1>";
+			print "</A><BR/>";
+			print "Considered noise</BR>";
+		}
+		else
+		{
+			print "<IMG SRC='output/images/$foldername/Log/NotRecognized/$noise->{Image}' BORDER=1>";
+			print "</A><BR/>";
+			print "Unidentified object</BR>";
+		}
+
+		print "<BR/></TD>\n";
+
+		# Just pretty ... :
+		#{
+		$file_number++;
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "</TR>\n";
+		}
+		#}
+	}
+	print "</TABLE>";
+}
+
+sub PrintSymbolSet()
+{
+	my $vocabulary_filename = GetVocabularyFilename();
+
+	my $parser = new XML::DOM::Parser;
+	my $doc = $parser->parsefile ($vocabulary_filename);
+
+	my $nodes = $doc->getElementsByTagName ("object");
+	my $n = $nodes->getLength;
+
+	my $file_number = 0;
+	print "<TABLE WIDTH='100%' align='center' border='0'>";
+	for (my $i = 0; $i < $n; $i++)
+	{
+		# Just pretty ... :
+		#{
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "<TR>\n";
+		}
+		#}
+
+		my $node = $nodes->item ($i);
+		my $href = $node->getAttribute ("shape");
+		my $name = $node->getAttribute ("asset");
+		print "<TD><IMG SRC='output/$href' /><BR/><B>Asset:</B> $name</TD>";
+
+		# Just pretty ... :
+		#{
+		$file_number++;
+		if (($file_number % $FILES_PER_ROW) == 0)
+		{
+			print "</TR>\n";
+		}
+		#}
+	}
+	print "</TABLE>";
+
+}
+
+sub ExecuteSoundFilm
+{
+	print `./SoundFilm.sh '$IMAGE_PROCESSING_BASE/Execution/vocabulary.xml' '$IMAGE_PROCESSING_BASE/Execution/script.xml' '$IMAGE_PROCESSING_BASE/Execution/score.xml' '$IMAGE_PROCESSING_BASE'`;
+}
+
+return 1;
+

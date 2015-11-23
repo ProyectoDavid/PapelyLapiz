@@ -1,0 +1,146 @@
+Parameter 1: Processing_edited_10_edited.png
+Parameter 2: /var/www/pyl5/www/output/images/bb7716073bf1982ea67bb500f02f1f85
+Parameter 3: script.xml
+Parameter 4: ImageProcessing.log
+Parameter 5: /var/www/pyl5/ImageProcessing/bin
+Thu Oct 17 11:02:37 COT 2013
+
+Parameter 0 is: ./ImageProcessing
+Parameter 1 is: Processing_edited_10_edited.png
+Parameter 2 is: /var/www/pyl5/www/output/images/bb7716073bf1982ea67bb500f02f1f85
+Parameter 3 is: script.xml
+--== STARTING PROCESS ==--
+Current working directory is: /var/www/pyl5/ImageProcessing/bin
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution
+Loading vocabulary file ...
+DONE.
+Now the working directory is: /var/www/pyl5/ImageProcessing/Execution/Log/bb7716073bf1982ea67bb500f02f1f85
+Directory doesn't exist: No such file or directory
+Creating directory: Log/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Features/
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Labels/
+Directory doesn't exist: No such file or directory
+Creating directory: Training
+Directory doesn't exist: No such file or directory
+Creating directory: Training/Default
+Directory doesn't exist: No such file or directory
+Creating directory: Log/LabelsResized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Noise
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Actors
+Directory doesn't exist: No such file or directory
+Creating directory: Log/NotRecognized
+Directory doesn't exist: No such file or directory
+Creating directory: Log/Arrows
+
+Preprocessing image ...
+... scaling
+... filtering noise
+... inverting
+... thresholding
+DONE.
+Getting connected components ...
+DONE.
+LABELS QUE HE OBTENIDO: 8
+# Verificando el label 0
+# Verificando el label 1
+# Verificando el label 2
+# Verificando el label 3
+# Verificando el label 4
+# Verificando el label 5
+
+# Type: Noise
+# Image: Label5.png
+# Label: 5
+# Bounds: (0.496637,0.286296,0.496637,0.286974)
+
+# Verificando el label 6
+# Verificando el label 7
+
+##Etapa de busqueda de RECTANGULOS##
+
+4(0.142241Bird) 2(0.8708Chinchilla) 3(0.893699Butterfly) 3(0.971385Butterfly) 
+8(0.119048SBRectangle) 2(0.934Chinchilla) 5(0.773284FlyingSquirrel) 8(0.929636SBRectangle) 
+Actor: Label2==SBRectangle.png
+7(0.129808SBCamera) 5(0.8808FlyingSquirrel) 5(0.921898FlyingSquirrel) 5(0.976292FlyingSquirrel) 
+4(0.180556Bird) 1(0.9252Squirrel) 2(0.865464Chinchilla) 2(0.954063Chinchilla) 
+4(0.124601Bird) 2(0.8376Chinchilla) 6(0.907805Apple) 6(0.970722Apple) 
+0(0.173633Rabbit) 2(0.844Chinchilla) 1(0.88Squirrel) 1(0.971584Squirrel) 
+----------------------------------------------------------------------------------------
+## RECTANGULOS Encontrados: 1
+
+##Etapa de Busqueda de PALABRAS Dentro de los Rectangulos##
+
+Label3.png esta dentro de Label2==SBRectangle.png
+3 esta dentro de 2
+Tesseract Open Source OCR Engine
+# un detectado es: 2
+# Type: Text
+# Text: Q5
+# Inside Label: 2
+--------------------------------------------------
+## Total FALSOS RECTANGULOS: 0
+## Total PALABRAS Encontradas: 1
+
+
+##Etapa de busqueda de FLECHAS##
+
+Lets see if Label1.png is an arrow...nope.
+Lets see if Label4.png is an arrow...Label4.png looked like an arrow, but its head was too big: (193,26,20)
+nope.
+Lets see if Label6.png is an arrow...nope.
+Lets see if Label7.png is an arrow...nope.
+------------------------------------------------
+## Total FLECHAS Encontradas: 0
+
+# Etapa de busqueda de ACTORES #
+
+4(0.142241Bird) 2(0.8708Chinchilla) 3(0.893699Butterfly) 3(0.971385Butterfly) 
+Actor: Label1==Butterfly.png
+4(0.180556Bird) 1(0.9252Squirrel) 2(0.865464Chinchilla) 2(0.954063Chinchilla) 
+Actor: Label4==Chinchilla.png
+4(0.124601Bird) 2(0.8376Chinchilla) 6(0.907805Apple) 6(0.970722Apple) 
+Actor: Label6==Apple.png
+0(0.173633Rabbit) 2(0.844Chinchilla) 1(0.88Squirrel) 1(0.971584Squirrel) 
+Actor: Label7==Squirrel.png
+
+----------------------------------------------------------------------------------------
+## Numero de ACTORES Encontrados:4
+
+
+Composition: 0
+
+# Type: Actor
+# Label: 1
+# Asset: Butterfly
+# Image: Label1==Butterfly.png
+# Bounds: (0.024664,0.006106,0.252242,0.126866)
+# Animation: 
+
+# Type: Actor
+# Label: 4
+# Asset: Chinchilla
+# Image: Label4==Chinchilla.png
+# Bounds: (0.225336,0.267300,0.440583,0.365672)
+# Animation: Q5
+
+# Type: Actor
+# Label: 6
+# Asset: Apple
+# Image: Label6==Apple.png
+# Bounds: (0.090807,0.288331,0.206278,0.400271)
+# Animation: 
+
+# Type: Actor
+# Label: 7
+# Asset: Squirrel
+# Image: Label7==Squirrel.png
+# Bounds: (0.766816,0.342605,0.930493,0.419267)
+# Animation: 
+
+Execution time: 11.53 seconds.
+
+Thu Oct 17 11:03:25 COT 2013
