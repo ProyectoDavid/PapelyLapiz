@@ -11,7 +11,7 @@ PROGRAMA ESTRATÉGICO DE INVESTIGACIÓN Y DESARROLLO PARA EL SECTOR COLOMBIANO D
 
 Proyecto Papel y Lápiz.
 
-Proyecto en colaboración con Colciencias.
+Proyecto cofinanciado por Colciencias - Programa Nacional de Ciencia, Tecnología e Innovación  en TIC.
 
 Ejecutantes: Pablo Alejandro Figueroa Forero, Diego Hernando Rodríguez, Daniel Wilches Maradey, 
 Julián Esteban Arcos Argoty, Agustín Conde Martin y Juan Manuel Moreno Beltrán.
